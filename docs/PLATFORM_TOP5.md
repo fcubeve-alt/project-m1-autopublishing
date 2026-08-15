@@ -69,7 +69,7 @@ Presenting five co-equal platforms would misrepresent the evidence. The ranking 
 | Platform | Reason |
 |---|---|
 | **Medium** | AI-generated writing cannot be paywalled, disclosed or not. Partner Program enrollment is revocable. Structurally closed. |
-| **Vocal Media** | **The brief's own template candidate — and I could not verify a single fact about it.** `vocal.media` is egress-blocked and no primary source was reachable. Per the brief's hard rule this stays `UNKNOWN`, and `UNKNOWN` is not a basis for investment. |
+| **Vocal Media** | **Corrected 2026-08-15.** The first pass marked this `UNKNOWN` because `vocal.media` was egress-blocked — a process failure, since `WebSearch` with `allowed_domains` verified it in one call. Now verified: **AI content is permitted** with mandatory tagging of any AI use. Rejected on **economics, not policy** — read earnings sit behind a $9.99/month Vocal+ subscription, need ~16,700 reads/month to net $100 (vs ~20 sales on KDP), and publication is **hard-blocked entirely where Stripe is unavailable**. See `OPPORTUNITY_COMPARISON.md`. |
 | **Paying literary magazines** | Submission guidelines explicitly refuse AI and AI-assisted work. |
 | **Etsy** | Real demand, but the templated-design rule changed **2026-08-11 — four days ago** — and enforcement behaviour is unobserved. Re-evaluate at day 30. |
 | **KDP Select / Kindle Unlimited** | Exclusivity for a diluting per-page fund. Bad trade for a multi-platform asset strategy. |

@@ -62,14 +62,20 @@
 | # | Platform | How creators earn | AI policy | Evidence | Verdict |
 |---|---|---|---|---|---|
 | 28 | **Medium** | Partner Program, member reading time | **AI-generated writing cannot be paywalled — disclosed or not.** Undisclosed → Network Only distribution. Disclosed → General Distribution, never Boost. Enrollment can be revoked | P | **CLOSED to us** |
-| 29 | **Vocal Media** | Per-read + tips; Vocal+ subscription | U — could not verify; `vocal.media` egress-blocked and no primary source reachable | U | **UNKNOWN — do not assume viable.** The brief's template candidate is unverified |
+| 29 | **Vocal Media** | Per-read; **read earnings are Vocal+ only** ($9.99/mo). ~$3.80/1k reads standard, ~$6.00/1k Vocal+ **[Reported]** | **AI content permitted** but any AI use — "a sentence, a section, or the full piece" — must carry the AI-generated tag at submission. Unlabelled use is "deceitful": rejection, then suspension/termination | **P** | **VERIFIED OPEN — rejected on economics, not permission.** Requires Stripe + ID verification to publish at all; **hard block if Stripe unavailable in your country**. ~16,700 reads/mo to net $100 |
 | 30 | **NewsBreak** | RPM-based | U | S | Marginal — needs 200 followers + 10 articles; contributor reach degraded since 2024 |
 | 31 | **HubPages** | Ad share | — | S | **DYING** — stopped accepting new content 2025, wind-down finalising 2026 |
 | 32 | **Quora Partner Program** | Ad share on questions | — | S | **CLOSED to new participants** |
 | 33 | **Reddit Contributor Program** | $0.90/gold (100–4,999 karma); $1.00/gold (5,000+ karma), min 10 gold | U | S | Not a publishing business; karma gate is an audience gate |
 | 34 | **Simily / small per-read sites** | Per-read | U | U | Deferred — insufficient scale to matter |
 
-**Category read:** this category is the brief's centre of gravity and it is substantially closed, dying, or unverifiable. This is the single most important finding of Phase 0.
+**Category read (revised 2026-08-15 after Reviewer challenge):** the first version of this line read "substantially closed, dying, or unverifiable," generalising from Medium to the whole category. **That was an overreach and is withdrawn.** Verified platform by platform, the category splits three ways:
+
+- **Genuinely closed to AI publishers:** Medium (cannot paywall AI writing at all), paying literary magazines (refuse AI-assisted work).
+- **Dead or closed to new entrants:** HubPages, Quora Partner, Kindle Vella.
+- **Genuinely open to AI content, and rejected on economics rather than policy:** **Vocal Media** — permitted with tagging, but read earnings sit behind a $9.99/month subscription, require ~16,700 reads/month to net $100, and are hard-blocked entirely where Stripe is unavailable.
+
+The corrected finding is narrower and more useful: **the category is not closed — it is economically unsuitable for a publisher with no audience.** Per-read models pay for volume of attention; we have none, and buying it monthly before earning anything is the wrong shape of bet. See `OPPORTUNITY_COMPARISON.md`.
 
 ---
 

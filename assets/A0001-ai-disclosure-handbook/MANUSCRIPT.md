@@ -20,9 +20,65 @@
 
 > **[Official]** — taken from the platform's or regulator's own help centre, policy page or official announcement.
 > **[Reported]** — taken from trade press or practitioner reporting. Directionally reliable, but confirm against the official source before acting.
-> **[Unknown]** — not verified. Where this appears, it means nobody has confirmed the answer, and you should treat the question as genuinely open rather than assume the obvious.
+> **[Unknown]** — not verified. Where this appears, nobody has confirmed the answer, and you should treat the question as genuinely open rather than assume the obvious.
+> **[Interpretation]** — **my reading of what a rule means, not the rule itself.** Not verified by the platform or regulator. Where an interpretation carries real consequences, have a qualified professional confirm it.
 
-You will see **[Unknown]** more than once in this book. That is deliberate. A compliance reference that pretends to certainty it does not have is worse than useless — it is dangerous. Where the answer is not established, this book says so.
+**Three tiers, kept separate throughout.** This book distinguishes:
+
+| Tier | What it is |
+|---|---|
+| **Official Rule** | What the source actually says, quoted or closely paraphrased, cited and dated |
+| **Our Interpretation** | What I think it means — labelled, and never presented as the rule |
+| **Recommended Practice** | What I suggest doing — a suggestion, not an obligation |
+
+That separation matters more than the disclaimer at the top of this page. A "not legal advice" notice does not make a mislabelled claim safe. If you cannot tell which tier a statement belongs to, treat it as interpretation and check the source.
+
+You will see **[Unknown]** and **[Interpretation]** more than once. That is deliberate. A compliance reference that pretends to certainty it does not have is worse than useless — it is dangerous. Where the answer is not established, this book says so.
+
+---
+
+## Start here — three things you have probably been told that are wrong
+
+Before anything else, here is what this book is for. While compiling it, three widely repeated claims turned out to be contradicted by the platforms' own material. If you act on the popular version of any of them, you will make a worse decision than if you had done nothing.
+
+| What you have probably read | What the official source actually says |
+|---|---|
+| "Disclosing AI on YouTube costs you monetisation or reach" | **False.** YouTube states disclosure **does not** limit a video's audience or affect its eligibility to earn money. Creators are avoiding the toggle — and taking real risk — to dodge a penalty that does not exist **[Official]** |
+| "YouTube demonetised AI content in 2026" | **Misreading of a rename.** The "repetitious content" policy became "inauthentic content." Such content was *always* ineligible. The substance did not change **[Official]** |
+| "Using purchased or templated prompts violates Etsy policy" | **Distortion.** Etsy prohibits **selling** AI prompt bundles. That restricts what you may sell, not which prompts you may use **[Official]** |
+
+Three errors in one afternoon of checking, all of them repeated confidently across a large amount of freely available advice. That is the problem this book exists to solve: not that the rules are hard to find, but that **the popular summaries of them are unreliable in exactly the places where being wrong is expensive.**
+
+Every claim in this book is graded — `[Official]`, `[Reported]`, `[Unknown]`, `[Interpretation]` — so you can see at a glance how much weight it carries. Judge the rest of the book by whether that grading holds up.
+
+---
+
+## Your 10-minute compliance pass
+
+If you do nothing else with this book, do this. It is ordered by how much trouble each step saves.
+
+**1. Split your work into components.** Text, cover, interior images, translation, audio. Each can have a different answer on the same platform. Treating a product as one undifferentiated thing is the single most common record-keeping failure.
+
+**2. For each component, decide: generated or assisted?** Remove the AI's output — is there still a work? If yes, it is assisted. If you are left with a prompt and an empty page, it is generated. (Chapter 2 covers the cases where this genuinely blurs.)
+
+**3. Check the platform's trigger — they are not the same question.**
+
+| Platform | What actually triggers the obligation |
+|---|---|
+| Amazon KDP | *How it was made* — generated must be disclosed, assisted need not |
+| Etsy | *Your role* in making it — plus disclosure in the description whenever AI was used |
+| YouTube | *Whether it looks real* — realistic synthetic content only; production assistance is exempt |
+| Royal Road | *Which tier* of assistance — enhancement, assisted, or generated |
+| Medium / Wattpad | Not a disclosure question at all — **a monetisation prohibition** |
+| Ko-fi | *The impression you create* — presenting AI work as human-made is the violation |
+
+**4. Disclose where required — and do not avoid disclosing where it is free.** On Amazon, unnecessary disclosure costs nothing. On YouTube, disclosure costs nothing. The asymmetry is stark: missing disclosure carries account-level risk, and unnecessary disclosure carries almost none.
+
+**5. Write down what you did.** One row per asset, filled in at publication. The template is in Chapter 11. This takes two minutes now and is impossible to reconstruct later.
+
+**6. Diarise 2 December 2026** — the EU AI Act transitional period on marking and detection ends. It is the next scheduled change in this area.
+
+Everything after this point is detail, per platform, with sources. Use it as a reference rather than reading it end to end.
 
 ---
 
@@ -476,7 +532,9 @@ Article 50 splits obligations between **providers** (those who build and place A
 
 **The editorial-responsibility carve-out.** Deployers publishing AI-generated text for the purpose of informing the public on matters of public interest must disclose that the text is AI-generated **unless it has been subject to human review and editorial responsibility.** **[Official]**
 
-That carve-out is significant for publishers, and narrower than it first appears. It requires two things together: genuine human review, and a person taking editorial *responsibility*. An unnamed automated process does not satisfy it. Note also the qualifier that runs through this limb: it concerns text published **to inform the public on matters of public interest.** A product description or a fantasy novel is not obviously that; a news explainer or a policy commentary is.
+**[Interpretation]** That carve-out looks narrower than it first appears. On its face it requires two things together: genuine human review, **and** a person or organisation taking editorial responsibility. My reading is that an unnamed automated review process would not satisfy it — but the Act does not spell out what specific act constitutes "assuming editorial responsibility," and I have found no authoritative statement that any particular internal approval step does so. **Do not assume that a sign-off in your workflow automatically discharges this.** If you intend to rely on this exception, get it confirmed.
+
+**[Interpretation]** Note also the qualifier running through this limb: it concerns text published **for the purpose of informing the public on matters of public interest.** My reading is that a product description or a fantasy novel is not obviously that, while a news explainer or policy commentary is. Where the boundary sits is not settled in the text, and the Commission Guidelines are the place to look rather than this book.
 
 **Chatbots and interactive systems.** Providers must design AI systems intended to interact directly with people so that users are informed they are interacting with an AI. **[Official]**
 
@@ -537,7 +595,9 @@ The most common record-keeping failure is treating a product as one thing. A boo
 
 ### Why the human-review field matters most
 
-Under EU AI Act Article 50, the disclosure exemption for AI text on public-interest matters requires substantive human editorial review **with a person assuming editorial responsibility**. **[Official]** If you ever need to rely on that, you need a record showing who reviewed it, when, and that the review was substantive. A field in a spreadsheet, filled in at the time, is worth far more than a recollection afterwards.
+Under EU AI Act Article 50, the disclosure exception for AI text published to inform the public on matters of public interest applies where the content has been subject to human review and editorial responsibility. **[Official]**
+
+**[Interpretation]** If you ever expect to rely on that exception, a contemporaneous record showing who reviewed the work, when, and what they changed seems far more defensible than a recollection afterwards. I should be clear that this is my inference about what would help, not a documentation standard the Act prescribes — the Act does not specify record-keeping for this exception. **[Recommended Practice]** Keep the record anyway. It costs one spreadsheet column and it is the kind of thing that is impossible to reconstruct later.
 
 ### Format
 

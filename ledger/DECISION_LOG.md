@@ -120,6 +120,58 @@ The manuscript is dense rather than short: 69 `[Official]` claims, 16 `[Reported
 
 ---
 
+## D0010 — 2026-08-15 — Reviewer challenge: three corrections accepted, one conclusion defended
+
+An independent Reviewer challenged Cycle C1. Each point was verified independently rather than accepted or dismissed on authority.
+
+### ACCEPTED — Vocal was mishandled (process failure)
+
+I marked Vocal `UNKNOWN` because `WebFetch` was blocked, then let that `UNKNOWN` function as a 0/10 verdict — while `WebSearch` + `allowed_domains`, which I was **already using successfully on five other platforms**, verified it in one call. I had the tool and did not apply it.
+
+Verification found Vocal **permits AI content** with mandatory tagging. So the Reviewer is right that I mishandled it.
+
+**But the Reviewer's implied conclusion does not follow.** Verified economics: read earnings are Vocal+ only ($9.99/month), ~$6.00 per 1,000 reads, requiring **~16,700 reads/month to net $100** against ~20 sales on KDP — and publication is **hard-blocked where Stripe is unavailable**, an acute risk while the Owner's country is `UNKNOWN`. Vocal is an open door into a room with poor economics for us.
+
+**Outcome:** conclusion stands, reasoning replaced. → Rule **R1**: *evidence unavailable to me ≠ opportunity does not exist*; `UNKNOWN` may never be used as evidence against an option.
+
+### ACCEPTED — I generalised from one platform to a category
+
+I verified Medium and wrote that "the whole category should be deprioritised." One verified platform does not characterise a category. Corrected across `STRATEGIC_REVIEW.md`, `PLATFORM_LONG_LIST.md`, `PLATFORM_TOP5.md` and the matrix. → Folded into **R1**.
+
+### ACCEPTED — no opportunity comparison before committing
+
+I wrote "Research is sufficient to decide" and committed the cycle without quantified comparison. Produced `docs/OPPORTUNITY_COMPARISON.md`. **KDP survives on numbers** — $0 entry, ~20 units to $100, free purchase-intent distribution, graceful degradation under country uncertainty. → Rule **R3**: Opportunity Comparison Gate.
+
+### ACCEPTED — legal interpretation stated as fact
+
+I wrote that the Owner's approval "is the mechanism by which a named person assumes editorial responsibility, so it's load-bearing in law." Article 50 provides the exception; it does **not** say any particular approval step constitutes assuming that responsibility. That was my inference wearing the clothes of law. Withdrawn in the manuscript, `COMPLIANCE_POLICY.md` and `HUMAN_GATES.md`. → Rule **R5**: Official Rule / Interpretation / Recommended Practice kept visually separate, with a fourth evidence grade `[Interpretation]` added to the book.
+
+This one carried the highest stakes: a compliance handbook that misstates law damages the only thing it sells.
+
+### ACCEPTED — buyer intent was never established
+
+The strongest challenge. "Rules recently changed" is *need* evidence and says nothing about willingness to pay. I ran the two together. Purchase intent cannot be established from this environment (no BSR/keyword access; scraping barred by our own policy).
+
+Applying the paid-beats-free test: A0001 passed on **accountability**, was real-but-unprovable on **aggregation cost**, and **failed on artifact and budget context**. That is a marginal paid product.
+
+**Outcome:** A0001 **reclassified from validated opportunity to demand probe**, restructured to lead with the toolkit and to place the corrections table inside Amazon's free "Look Inside" window — moving the proof to where a buyer can verify it before paying. No scaling until it returns a signal. → Rule **R4**.
+
+### PARTIALLY REJECTED — the capability inference
+
+The Reviewer suspected I had inferred rather than tested my network limits. **Correct** — and testing proved my stated claim false: egress is an **allowlist** (GitHub and package registries reachable), not a blanket block.
+
+**But the Reviewer's hypothesis that hosted services might bypass it is disproven:** `api.firecrawl.dev` returns 000. Firecrawl and Agent-Reach were correctly rejected — from a false premise, which is not the same as being right.
+
+The audit surfaced a path I had missed: **GitHub Actions**, available and unused. → Rule **R2**: Capability Recovery Loop; every capability verdict marked TESTED or INFERRED.
+
+### Governance model adopted
+
+Mission → Business Brain → Reviewer challenge → **Brain re-verifies independently** → continue/modify/abandon → Human veto on money, legal, identity, brand, irreversible acts. A Reviewer is an input requiring verification, not an instruction requiring compliance. Capitulating without verification is the same failure as ignoring — both replace evidence with deference.
+
+**All six rules recorded in `OPERATING_RULES.md` v1.0.**
+
+---
+
 ## Editorial memory
 
 *Owner feedback from the Human Editorial Gate is recorded here so the same correction is never needed twice (brief §6). Empty until H2.*

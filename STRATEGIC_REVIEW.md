@@ -29,7 +29,15 @@ The brief centres on creator/writing platforms and names Vocal as the template c
 | NewsBreak | Requires 200 followers + 10 articles to apply; contributor reach degraded since mid-2024 management change | Marginal |
 | Royal Road | AI-generated permitted **but must be tagged**; documented reader backlash against tagged works | Permitted, commercially punishing |
 
-The brief's own rule — "Do not rely on old 'top writing sites' lists" — is exactly right, and applying it honestly invalidates the brief's own centre of gravity. **Vocal is not merely "a template, not mandatory"; the whole category it represents should be deprioritised.**
+The brief's own rule — "Do not rely on old 'top writing sites' lists" — is exactly right, and applying it honestly invalidates much of the brief's centre of gravity.
+
+> **CORRECTION (2026-08-15, after Reviewer challenge).** The original text here read: *"the whole category it represents should be deprioritised."* **That was an overreach and is withdrawn.** I verified Medium and generalised to a category — exactly the error `OPERATING_RULES.md` R1 now forbids.
+>
+> Vocal was subsequently verified properly (`WebSearch` + `allowed_domains` — a tool I was already using on five other platforms and simply failed to apply here). The result: **Vocal permits AI content** with mandatory tagging of any AI use. It is not closed.
+>
+> It is still rejected, but on **economics rather than policy**: read earnings require a $9.99/month Vocal+ subscription, need ~16,700 reads/month to net $100 against ~20 sales on KDP, and publication is **hard-blocked where Stripe is unavailable** — an acute risk while the Owner's country is `UNKNOWN`.
+>
+> The corrected claim is narrower and more defensible: **the per-read category is not closed to AI publishers; it is economically unsuitable for a publisher with no audience.** Per-read models pay for volume of attention, which is precisely what we do not have. My conclusion survived; my reasoning did not, and only the corrected reasoning should be relied on.
 
 ### P2 — The brief optimises for the wrong bottleneck (CRITICAL)
 
@@ -46,7 +54,9 @@ An AI publisher can produce competent prose essentially for free. So can everyon
 
 `Project_M_AI_Development_Environment_Preflight_Skills_Spec_v1.1` recommends Agent-Reach (P0), Firecrawl (P2), Context7 (P0), Playwright (P0), Taskmaster, PraisonAI, LiveKit, OpenMontage.
 
-Verified constraint: **outbound HTTPS to arbitrary hosts is denied by this session's egress policy.** `WebFetch` returned `EGRESS_BLOCKED` for every host attempted, including `kdp.amazon.com`, `help.medium.com`, `royalroad.com`, `vocal.media`, `gumroad.com`, `authorsguild.org`, and even `en.wikipedia.org`. The proxy README instructs that such denials must be reported, not routed around.
+Verified constraint (**corrected 2026-08-15**): egress is an **allowlist**, not a blanket denial. `WebFetch` returned `EGRESS_BLOCKED` for every general web host attempted — `kdp.amazon.com`, `help.medium.com`, `royalroad.com`, `vocal.media`, `gumroad.com`, `authorsguild.org`, `en.wikipedia.org` — but a direct `curl` test showed **GitHub (200/301) and the package registries (200) are fully reachable**, while `api.firecrawl.dev`, `google.com` and the rest return 000.
+
+> **CORRECTION.** The original text asserted that "outbound HTTPS to arbitrary hosts is denied," inferred from eight failures without testing. That was wrong, and it propagated into the preflight document. The tested shape is an allowlist. The rejections below survive the correction — `api.firecrawl.dev` is genuinely unreachable, so hosted crawlers genuinely cannot run — but they now rest on a test rather than an assumption, and the audit surfaced one capability I had missed: **GitHub Actions as a remote execution path with full internet access.** Recorded as available-but-unused in `docs/DEVELOPMENT_ENVIRONMENT_PREFLIGHT.md` §6a.
 
 Therefore:
 - **Firecrawl, Agent-Reach, Context7 → REJECT for now.** They are crawling/fetching layers over a network path that is closed. Installing them would produce an impressive, non-functional stack.

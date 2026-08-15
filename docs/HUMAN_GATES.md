@@ -34,7 +34,9 @@
 
 ## H2 — Editorial approval `[BLOCKING · required by the brief and load-bearing in law]`
 
-**Why it cannot be automated:** brief §6 requires a Human Editorial Gate before substantive publication. Beyond that, **EU AI Act Article 50 relieves the disclosure obligation for AI-generated text on public-interest matters only where there has been substantive human editorial review with a person assuming editorial responsibility.** The Owner's approval is the mechanism by which a named person assumes that responsibility. It is a legal function, not a formality.
+**Why it cannot be automated:** brief §6 requires a Human Editorial Gate before substantive publication. That alone is sufficient reason.
+
+**[Correction]** An earlier version of this document additionally claimed the gate was "load-bearing in law" under EU AI Act Article 50, on the basis that the Owner's approval constitutes a named person assuming editorial responsibility. **That was my own legal interpretation stated as fact, and it is withdrawn.** The Act provides an exception where content has been subject to human review and editorial responsibility; it does not say that a given approval step constitutes assuming it. We do not rely on that exception in any case — we disclose AI generation regardless.
 
 **What the Owner does:** read A0001 and return one of:
 - **APPROVE** → proceed to publication

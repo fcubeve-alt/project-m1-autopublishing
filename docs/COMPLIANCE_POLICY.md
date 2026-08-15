@@ -68,9 +68,11 @@ Because assets concern legal and platform-compliance obligations, a raised stand
 
 ## 6. Human editorial responsibility
 
-Under EU AI Act Art. 50, the disclosure obligation for AI-generated text on public-interest matters is relieved where the content has undergone **substantive human editorial review with a person assuming editorial responsibility.**
+Under EU AI Act Art. 50, the disclosure obligation for AI-generated text published to inform the public on matters of public interest is relieved where the content has been subject to **human review and editorial responsibility.** **[Official]**
 
-This makes the brief's Human Editorial Gate load-bearing in law, not just in process. Accordingly:
+**[Interpretation — NOT VERIFIED]** An earlier version of this policy asserted that the Owner's approval "is the mechanism by which a named person assumes editorial responsibility," making the Human Editorial Gate "load-bearing in law." **That was my own legal inference presented as established fact, and it is withdrawn.** The Act provides the exception; it does not state that any particular internal approval step constitutes assuming editorial responsibility. Whether our gate would qualify is unverified and would need professional confirmation.
+
+The practical consequence is nil, because we do not rely on the exception (see the final bullet). Accordingly:
 
 - No substantive content is published without Owner approval (`APPROVE` / `REVISE` / `REJECT`).
 - The approving person is recorded in `ledger/DECISION_LOG.md` with a date.
