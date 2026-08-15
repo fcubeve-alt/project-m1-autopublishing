@@ -1,0 +1,2 @@
+entry_id,date,platform,asset_id,event_type,units,gross_revenue_usd,platform_fee_usd,net_royalty_usd,payout_received_usd,payout_date,human_minutes,notes
+R0001,2026-08-15,NONE,A0001,cycle_opened,0,0.00,0.00,0.00,0.00,,0,Cycle C1 opened. No revenue yet. M1-A (first attributable sale) and M1-B (cash received) both outstanding.

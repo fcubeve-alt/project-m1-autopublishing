@@ -1,0 +1,5 @@
+entry_id,date,category,description,amount_usd,human_minutes,asset_id,notes
+C0001,2026-08-15,research,Phase 0 platform research via WebSearch,0.00,0,ALL,No paid service used. WebFetch unavailable - egress blocked.
+C0002,2026-08-15,writing,Asset A0001 drafting,0.00,0,A0001,Writer Provider CLAUDE_MANUAL_SUBSCRIPTION - zero marginal cost per brief 14-17.
+C0003,2026-08-15,tooling,Capability installs,0.00,0,ALL,Nothing installed. All Preflight capabilities rejected or deferred - see BUILD_VS_NO_BUILD.md.
+C0004,2026-08-15,publishing,KDP eBook listing,0.00,0,A0001,No listing fee. ISBN not required for Kindle eBooks.

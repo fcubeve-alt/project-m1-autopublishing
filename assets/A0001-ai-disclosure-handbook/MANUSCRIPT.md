@@ -1,0 +1,505 @@
+# The AI Disclosure Handbook
+
+### What Creators and Sellers Must Declare in 2026
+
+**Edition: August 2026** · Compiled 15 August 2026
+
+---
+
+## Important notices
+
+**This book is not legal advice.** It is a compliance reference. It describes rules published by platforms and regulators, with the date each rule took effect and the source it came from. It cannot tell you how a rule applies to your specific business, and it is not a substitute for a qualified professional in your jurisdiction. If you face a concrete legal exposure, get advice from someone who can be accountable for it.
+
+**This book has an expiry date.** Everything here was verified on 15 August 2026. Two of the most important rules in it are **thirteen days old** and **four days old** respectively. Rules in this area are changing faster than books can normally be printed, which is why this is an edition-dated reference and why every claim below is dated. **Before you act on anything in this book, check the primary source cited for it.** Chapter 12 tells you exactly where to look for each platform.
+
+**AI disclosure for this book.** The text of this book was AI-generated and then reviewed and approved by a human editor who takes editorial responsibility for it. This is disclosed to Amazon at upload as AI-generated content, and stated here for you. It would be an odd book about disclosure that did not disclose.
+
+**No affiliation.** Amazon, Etsy, YouTube, Medium, Royal Road and every other service named here are identified for the purpose of describing their published rules. This book is not affiliated with, endorsed by, or connected to any of them.
+
+**A note on sourcing.** Every rule in this book is marked with its evidence grade:
+
+> **[Official]** — taken from the platform's or regulator's own help centre, policy page or official announcement.
+> **[Reported]** — taken from trade press or practitioner reporting. Directionally reliable, but confirm against the official source before acting.
+> **[Unknown]** — not verified. Where this appears, it means nobody has confirmed the answer, and you should treat the question as genuinely open rather than assume the obvious.
+
+You will see **[Unknown]** more than once in this book. That is deliberate. A compliance reference that pretends to certainty it does not have is worse than useless — it is dangerous. Where the answer is not established, this book says so.
+
+---
+
+## Chapter 1 — What changed, and why you are reading this
+
+If you sell digital products, publish books, run a channel, or write for money, and you use generative AI anywhere in that process, the ground moved under you this month.
+
+Two dates matter most.
+
+**2 August 2026.** Article 50 of the EU AI Act became binding law across the European Union. It requires that AI-generated synthetic content be marked and disclosed, and it carries penalties of up to €15 million or 3% of global annual turnover, whichever is higher. **[Official]**
+
+**11 August 2026.** Etsy's rule change took effect: items made using computerised tools from a templated design are no longer permitted unless the design is the seller's own original work. Separately, listings that do not complete Etsy's AI disclosure field are filtered out of search results until the seller fills it in. **[Reported]**
+
+Those two changes landed thirteen and four days before this book was compiled. Around them sits a set of older, quieter rules that most people using AI commercially have never read in full: Amazon's disclosure requirement for Kindle Direct Publishing, Medium's ban on paywalling AI-generated writing, YouTube's January 2026 synthetic media disclosure regime, Royal Road's three-tier tagging system.
+
+Here is the problem this book exists to solve. **These rules do not agree with each other.**
+
+Amazon does not require you to disclose AI-*assisted* work. Etsy requires disclosure for AI-generated images regardless of how much you edited them. Medium will not let you put AI-generated writing behind a paywall at all, disclosed or not. Royal Road will happily host AI-generated fiction as long as you tag it, but requires that your forum posts and replies to readers be written by you. Several paying literary magazines refuse AI-assisted work outright.
+
+If you operate on three of these platforms — which is normal — you are subject to three different definitions of the same word, three different disclosure mechanisms, and three different consequences for getting it wrong. Nobody has written that down in one place with the dates attached. That is what follows.
+
+### Who this book is for
+
+- **Marketplace sellers** — Etsy, Amazon — using AI for images, listings, or product design.
+- **Self-publishers** using AI anywhere in drafting, editing, translation or cover art.
+- **Content creators** on video and written platforms with monetisation at stake.
+- **Small businesses inside the EU**, or selling into it, who now have a statutory obligation they may not know about.
+
+### Who this book is not for
+
+If you are an AI *provider* — building and shipping a generative model or system — your obligations under the EU AI Act are substantially heavier than the deployer obligations covered here, and this book will not be sufficient. Get specialist advice.
+
+### How to use this book
+
+Chapter 2 explains the single distinction that determines most of your obligations. Chapter 3 is a cross-platform table you can read in two minutes. Chapters 4 to 9 go platform by platform. Chapter 10 covers the EU AI Act for non-lawyers. Chapter 11 explains how to keep records that would survive a challenge. Chapter 12 lists what is still unsettled and when to re-check.
+
+If you have five minutes, read Chapter 2 and Chapter 3.
+
+---
+
+## Chapter 2 — The distinction that decides everything
+
+Almost every disclosure rule in this book turns on one question:
+
+> **Did the AI create the content, or did it help you improve content you created?**
+
+The first is usually called **AI-generated**. The second is usually called **AI-assisted**. On several major platforms, the first must be disclosed and the second need not be. Getting this boundary wrong in your own favour is the most common way people end up in violation.
+
+### How Amazon draws the line
+
+Amazon's Kindle Direct Publishing guidelines define it directly. **[Official]**
+
+**AI-generated** is content — text, images or translations — created by an AI-based tool. This includes cover and interior images and artwork.
+
+**AI-assisted** is where you created the content yourself and used AI tools to edit, refine, error-check or otherwise improve it. Amazon also counts brainstorming as assistance: if you used an AI tool to generate ideas but ultimately created the text or images yourself, that is AI-assisted, not AI-generated.
+
+Amazon requires you to disclose AI-generated content. It does not require you to disclose AI-assisted content.
+
+### How Medium draws the line
+
+Medium permits what it calls AI-assistive technology without disclosure — outlining tools, fact-checking, grammar tools — on the reasoning that assistance helps an author express their own ideas more clearly, including authors writing in a second language. **[Official]**
+
+But Medium's treatment of AI-*generated* writing is much harsher than Amazon's, and it is not a disclosure rule at all. See Chapter 7.
+
+### How Royal Road draws the line — three tiers, not two
+
+Royal Road is the only major platform surveyed here that uses three categories rather than two. **[Official]**
+
+**AI-enhancement** — spell-checkers and similar assistive tools, explicitly including Grammarly-class software. No tag required, no restriction.
+
+**AI-assisted** — the author used an AI tool for editing or proofreading; the story reflects the author's own creativity and structure, but may carry the AI's voice and tone. Royal Road specifically notes that if you use this kind of enhancement *excessively* — as a personal proof-reader for every sentence — you should tag the work as AI-assisted.
+
+**AI-generated** — the story was generated using an AI tool; the author prompted and directed the process and edited the result. Tag required.
+
+That middle category is worth pausing on, because it catches people. On Amazon, running your own draft through an AI editor is assistance and needs no disclosure. On Royal Road, doing that *to every sentence* crosses into taggable territory. Same activity, different platforms, different answer.
+
+### The practical test
+
+When you are unsure which side of the line you are on, ask:
+
+> **If I removed the AI's output entirely, would there still be a work?**
+
+If yes — you wrote it, the AI polished it — you are almost certainly in assisted territory. If no — remove the AI output and you have a prompt and an empty page — you are in generated territory, whatever the editing effort afterwards.
+
+### Where the boundary genuinely blurs
+
+Three cases where the honest answer is that the line is unclear:
+
+**Heavy iterative co-writing.** You outline, the AI drafts, you rewrite substantially, the AI revises again, several rounds. No platform surveyed defines a percentage threshold. **[Unknown]**
+
+**AI translation of your own human-written work.** Amazon lists translations as AI-generated content requiring disclosure. **[Official]** Royal Road handles it differently: if AI translates your fiction, the novel must be read and proofread by someone who knows the language, and no tag is required if a human does that — but if no human reads, proofreads and edits the translation, it must be tagged AI-assisted. **[Official]**
+
+**AI-generated structure with human prose.** You had the AI produce the outline and chapter architecture, then wrote every word yourself. Amazon's brainstorming carve-out appears to cover this. **[Official, applied by inference]** No platform addresses it explicitly. **[Unknown]**
+
+**The rule to follow when in doubt: disclose.** On every platform surveyed, the penalty for unnecessary disclosure is lower than the penalty for missing disclosure. On Amazon, unnecessary disclosure costs you nothing at all — Amazon does not penalise disclosed AI content that meets its quality standards. Failure to disclose when required is a policy violation carrying account-level risk. That asymmetry should decide your borderline cases for you.
+
+---
+
+## Chapter 3 — The cross-platform decision table
+
+Verified 15 August 2026. Confirm against the primary source before acting.
+
+| Platform | AI-generated content permitted? | Disclosure required? | Where you disclose | Penalty for getting it wrong |
+|---|---|---|---|---|
+| **Amazon KDP** | Yes | **Yes** — text, images, translations | Upload form, at publish and at each update | Policy violation; book removal; account-level restrictions for a pattern of undisclosed AI **[Reported]** |
+| **Etsy** | Yes, with limits | **Yes** — per listing | Listing disclosure field + "Designed by" in Item Details + description | Listing filtered from search until completed **[Reported]** |
+| **YouTube** | Yes | **Yes** — synthetic media | Creator Studio disclosure | Monetisation loss for mass-produced/templated uploads under the inauthentic content policy **[Reported]** |
+| **Medium** | Yes to publish, **no to monetise** | Yes, and it does not help you | In the first two paragraphs | Undisclosed → Network Only distribution. Disclosed → no Boost. **Either way: cannot be paywalled** **[Official]** |
+| **Royal Road** | Yes | **Yes** — tag | Story tag | Content actionable if untagged **[Official]** |
+| **Paying literary magazines** (Clarkesworld and peers) | **No** | N/A | N/A | Submission refused; authors have been banned **[Official]** |
+| **EU (all platforms, if in scope)** | Yes | **Yes** — statutory, on top of any platform rule | Marking + user-facing disclosure | Up to **€15M or 3% of global turnover** **[Official]** |
+
+### The three things people most often get wrong
+
+**1. Assuming platform compliance equals legal compliance.** Ticking Amazon's disclosure box does not discharge an EU AI Act obligation. They are separate regimes with separate consequences. If you are in scope for both, you must satisfy both.
+
+**2. Assuming disclosure unlocks monetisation.** On Medium it does not. AI-generated writing cannot be paywalled whether you disclose it or not. **[Official]** Disclosure changes your distribution tier, not your eligibility to earn.
+
+**3. Assuming one platform's definition travels.** It does not. "AI-assisted" means something meaningfully different on Amazon and on Royal Road, and both differ from the EU's framing. Check the definition on each platform you use.
+
+---
+
+## Chapter 4 — Amazon Kindle Direct Publishing
+
+### What you must disclose
+
+Amazon requires you to inform it of AI-generated content when publishing a new book, and again when you edit and republish an existing one. The requirement covers text, images and translations created by an AI-based tool, including cover and interior images and artwork. **[Official]**
+
+You are not required to disclose AI-assisted content, defined as content you created yourself and then used AI tools to edit, refine, error-check or improve — and content where you used AI to brainstorm and generate ideas but ultimately created the text or images yourself. **[Official]**
+
+The disclosure is made to Amazon at upload. It is not required to appear in the book itself. **[Official]**
+
+### The republication trap
+
+The obligation attaches to updates, not just first publication. If you published before you started using AI, and you later run a new edition through an AI tool for anything that counts as generation, that update carries a fresh disclosure obligation. **[Official]** Books published years ago and quietly refreshed with AI are precisely the case people forget.
+
+### Your responsibility does not end at disclosure
+
+Amazon is explicit that authors are responsible for verifying that all AI-generated and AI-assisted content complies with its content guidelines, including all applicable intellectual property rights. **[Official]**
+
+This matters more than it may appear. Disclosing that an image was AI-generated does not transfer to Amazon any responsibility for whether that image infringes someone's copyright, trademark or publicity rights. The disclosure is informational. The liability stays with you.
+
+### Photorealistic AI people — the requirement almost nobody knows
+
+If your product images or A+ content contain photorealistic AI-generated people, you must tag those images with specific metadata: use an IPTC-compatible metadata editor to add the keyword `contains-synthetic-performer` to the `dc:subject` (XMP) field of the image file, **before** adding it to your listing or A+ content. **[Official]**
+
+This is a technical step in the image file itself, not a checkbox in a form. Most people using AI covers with human figures on them have never done it.
+
+The simplest way to avoid the requirement entirely is not to use photorealistic AI-generated people on your covers. Typographic and abstract covers carry no such obligation.
+
+### Quality, volume and enforcement
+
+Beyond disclosure, Amazon applies quality standards, and disclosure does not exempt you from them. Reporting indicates that Amazon may remove books that do not meet quality standards even when AI use was properly disclosed, and that publishers showing a pattern of undisclosed AI content or consistently low-quality AI books face account-wide publishing restrictions rather than just individual title removal. **[Reported]**
+
+A daily cap of three new title uploads per standard account, introduced in late 2024, is reported to remain in force. **[Reported]**
+
+Low-content books are reported to remain permitted, with stricter treatment of duplicates, mass-generated uploads, misleading metadata and low-effort work. **[Reported]**
+
+**How to read this section.** The disclosure rules above are official and precise. The enforcement picture is trade reporting, and enforcement behaviour is the part most likely to have moved since this was compiled. Treat the disclosure rules as firm and the enforcement details as directional.
+
+### The KDP checklist
+
+- [ ] Determine, honestly, whether your text is AI-generated or AI-assisted (Chapter 2).
+- [ ] Assess text, interior images, cover art and translations **separately** — they can have different answers.
+- [ ] Disclose AI-generated content at upload.
+- [ ] Re-disclose on every substantive update.
+- [ ] Confirm you hold the rights to everything, AI-produced or not.
+- [ ] If using photorealistic AI people in images: add the `contains-synthetic-performer` IPTC keyword before upload — or avoid them.
+- [ ] Keep a record of which tools produced which components (Chapter 11).
+
+---
+
+## Chapter 5 — Etsy
+
+Etsy is the platform where the rules changed most recently, and where the enforcement mechanism is the most immediate.
+
+### The disclosure requirement
+
+Etsy requires AI disclosure on listings, and the mechanism has teeth: listings that do not complete the disclosure field are **filtered from search results** until the seller completes it. **[Reported]**
+
+Unlike Amazon, where an undisclosed listing simply sits in violation until someone notices, Etsy's consequence is automatic and commercial. Your listing does not get removed — it gets made invisible. Sellers have reported traffic collapse without an enforcement notice, because there is no notice; there is only the filter.
+
+Reported practice for compliance: select "Designed by" in the Item Details dropdown, and include a clear statement in the listing description that the work was created with AI tools. **[Reported]**
+
+### The 11 August 2026 change
+
+From 11 August 2026, items made using computerised tools and a templated design are no longer allowed unless the design is the seller's own original work. Items produced using computerised tools must be based on the seller's original design. **[Reported]**
+
+Additionally, sellers are required to create their own original prompts — using purchased or templated prompts is reported to violate the policy. **[Reported]**
+
+That last point is unusual and worth stating plainly, because it is the kind of rule that catches people who believe they are being careful. **If you bought a prompt pack, or used a shared prompt template, the resulting work may be non-compliant even if you disclose it correctly.** The originality requirement attaches to the prompt, not only to the output.
+
+### What is genuinely unclear here
+
+This is the newest rule in this book, in force for four days at the time of compilation.
+
+- How Etsy will assess whether a design is the seller's "original work" at scale. **[Unknown]**
+- How "purchased or templated prompts" will be detected or evidenced. **[Unknown]**
+- Whether existing listings created before 11 August 2026 are treated differently from new ones. **[Unknown]**
+
+Anyone telling you confidently how Etsy will enforce this is guessing. Four days is not enough time for enforcement patterns to be observable. **Check Etsy's own Seller Handbook and policy pages before making decisions that depend on the answer.**
+
+### The Etsy checklist
+
+- [ ] Complete the AI disclosure field on **every** listing — an incomplete field means invisible in search.
+- [ ] Set Item Details to "Designed by" where AI tools were used.
+- [ ] State AI involvement in the listing description.
+- [ ] Confirm your designs are your own original work, not templated.
+- [ ] Confirm your prompts are your own, not purchased or shared templates.
+- [ ] Audit listings created before 11 August 2026 against the new originality standard.
+- [ ] Avoid protected brands, characters, logos, and artist-name prompting.
+
+---
+
+## Chapter 6 — YouTube
+
+YouTube updated its AI content policy in January 2026, introducing mandatory disclosure for synthetically generated media. **[Reported]**
+
+The monetisation position is reported as follows: AI-generated video remains monetisable where a human adds genuine value, but under the inauthentic content policy, mass-produced and templated uploads lose monetisation. **[Reported]**
+
+The distinction being drawn is not *whether AI was used* but *whether the output is mass-produced*. A creator using AI as a production tool on a differentiated channel is treated differently from a channel uploading templated variations at volume. This is the same underlying logic Amazon applies to books and Etsy now applies to designs — three platforms independently converging on "AI is fine, industrialised sameness is not."
+
+**Evidence caveat.** The YouTube material in this chapter rests on trade reporting; the official policy pages were not directly accessible during compilation. Before relying on it, confirm against YouTube's own Help Centre and the monetisation policies in Creator Studio. **[Reported]**
+
+### The YouTube checklist
+
+- [ ] Disclose synthetically generated media in Creator Studio.
+- [ ] Assess honestly whether your output would be characterised as mass-produced or templated.
+- [ ] Confirm current requirements directly in YouTube Help — this chapter is the least well-sourced in the book.
+
+---
+
+## Chapter 7 — Medium and written-content platforms
+
+Medium deserves its own chapter because it is the clearest example of a rule that disclosure does not solve.
+
+### The rule
+
+AI-generated writing — **disclosed as such or not** — is not allowed to be paywalled as part of Medium's Partner Program. Accounts with fully AI-generated writing behind the paywall may have those stories removed from the paywall, and may have their Partner Program enrollment revoked. **[Official]**
+
+Read that twice if you write on Medium. Disclosure is not a route to compliance here. It is not a monetisation rule you can satisfy — it is a prohibition.
+
+### What disclosure does change
+
+Disclosure changes your distribution tier: **[Official]**
+
+- **Undisclosed** AI-generated writing receives **Network Only** distribution — your direct followers and subscribers, and no wider.
+- **Disclosed** AI-generated writing is eligible for **General Distribution**, which is algorithm-driven, but is **not eligible for Boost**.
+
+So disclosure improves your reach and cannot restore your ability to paywall. Non-disclosure gets you the worst of both: minimal distribution and a policy violation.
+
+Medium's suggested disclosure format is a simple sentence within the first two paragraphs, for example: *"This story was written with the assistance of an AI writing program."* **[Official]**
+
+### What remains permitted
+
+Medium explicitly permits responsible use of AI-assistive technology, on the reasoning that assistance helps an author express their ideas more clearly — including writing in a second language. AI outlining, fact-checking and grammar tools are acceptable and do not require disclosure. **[Official]**
+
+### Paying literary magazines
+
+If you write short fiction, understand that a significant part of the professional short-fiction market is closed to AI work entirely.
+
+Clarkesworld, one of the field's major markets, states in its submission guidelines that it does not accept AI or AI-assisted works. **[Official]** The magazine closed submissions entirely in early 2023 after receiving a flood of AI-generated stories — more than fifty before noon on a single Monday — and banned the submitting authors. **[Reported]**
+
+Note the scope: **AI-assisted**, not merely AI-generated. The carve-out you rely on at Amazon does not exist here. If you used AI meaningfully in producing a story, these markets are not open to you, and submitting anyway risks a permanent ban that will follow your name.
+
+### The written-content checklist
+
+- [ ] On Medium: do not paywall AI-generated writing. There is no compliant way to do it.
+- [ ] Disclose in the first two paragraphs if AI-generated — it improves distribution and is required.
+- [ ] Assistive tools (grammar, outlining, fact-checking) need no disclosure.
+- [ ] For literary submissions: read each market's guidelines. Many refuse AI-*assisted* work, a stricter bar than most platforms.
+
+---
+
+## Chapter 8 — Serial fiction: Royal Road
+
+Royal Road publishes one of the clearest AI policies of any platform surveyed, and it is more permissive than most — with an important condition attached.
+
+### The three tiers
+
+Covered in Chapter 2: **AI-enhancement** (untagged), **AI-assisted** (tagged), **AI-generated** (tagged). **[Official]**
+
+### The conditions
+
+**Tag accurately.** Authors should tag AI-assisted or AI-generated content with the appropriate tag. **[Official]**
+
+**Quality must be maintained.** AI-generated content must be moderated and refined by the author to ensure quality, continuity and readability. **[Official]**
+
+**Chapter pages only.** This is the condition people miss. AI-assisted and AI-generated content is permitted **only within chapter pages**. Royal Road does not want user interactions — comments, reviews, forum posts, private messages — to lose the human voice. **[Official]**
+
+In practice: you may publish an AI-generated story, and you must reply to your readers yourself. The platform's stated principle is that if you did not write the content, Royal Road is not the place for it — a principle it applies to community interaction more strictly than to fiction.
+
+**No exception for artwork.** Royal Road grants no exceptions for AI-generated artwork. **[Official]**
+
+**Translations.** If AI translates fiction, the novel must be read and proofread by someone who knows the language. No tag is required if a human does that; if no human reads, proofreads and edits the translation, it must be tagged AI-assisted. **[Official]**
+
+### The commercial reality, stated honestly
+
+A compliance book should tell you when compliance and commercial success diverge.
+
+Royal Road's forums carry substantial and sustained reader objection to AI-tagged work. The tag is not merely an administrative marker; on this platform it is read by the audience as a quality signal, and often a negative one.
+
+This means you can be fully compliant — correctly tagged, quality maintained, community interaction genuinely yours — and still find the work poorly received *because* it is tagged. That is not a rule you can plan around. It is the audience exercising a preference, and it is worth knowing before you invest months in a serial.
+
+### The Royal Road checklist
+
+- [ ] Determine your tier honestly — remember that excessive line-by-line AI proofreading counts as AI-assisted.
+- [ ] Apply the correct tag.
+- [ ] Write all comments, reviews, forum posts and messages yourself.
+- [ ] Do not use AI artwork.
+- [ ] Have a human proofread AI translations, or tag them.
+- [ ] Go in with clear eyes about audience reception.
+
+---
+
+## Chapter 9 — Direct sales
+
+If you sell from your own storefront — Gumroad, Payhip, Ko-fi, your own site — the platform-rules layer largely disappears. The legal layer does not.
+
+**No platform disclosure rule applies** in the way it does on a marketplace, because there is no marketplace intermediary imposing one. Check your chosen provider's own terms, which may impose requirements of their own. **[Unknown — varies by provider and was not verified for this edition]**
+
+**Consumer protection law still applies.** Misdescribing what a buyer receives is a consumer-protection problem regardless of whether AI was involved. If AI involvement would matter to a reasonable buyer's decision, saying so is both prudent and, in some jurisdictions, likely required.
+
+**The EU AI Act still applies** if you are established in the EU or your content reaches EU users in a way that brings you into scope. Chapter 10.
+
+**Payment processors have their own terms.** Stripe, PayPal and others impose content and business-category restrictions independent of any AI question.
+
+The general point: leaving a marketplace removes the marketplace's rules. It does not remove the law.
+
+---
+
+## Chapter 10 — The EU AI Act, Article 50, for people who are not lawyers
+
+This chapter is a plain-language summary of a statute. It is not legal advice, and the Act is long and technical. If you have real exposure, get advice.
+
+### What it is and when it started
+
+Article 50 of the EU AI Act sets out transparency obligations. **Since 2 August 2026 it has been binding law across the European Union.** **[Official]**
+
+### What it requires
+
+**Marking of synthetic content.** Providers of AI systems generating synthetic audio, image, video or text must ensure outputs are marked in a **machine-readable** format and are **detectable as artificially generated or manipulated**. Limited exceptions apply — for example standard editing and non-substantial alterations. **[Official]**
+
+**Disclosure of deepfakes and certain AI text.** Deployers must disclose that content was artificially generated or manipulated, in the case of deepfakes and AI-generated text published on matters of public interest. **[Official]**
+
+**The editorial-responsibility carve-out.** The disclosure obligation for AI-generated text on public-interest matters does not apply where the content has undergone **substantive human editorial review and a person assumes editorial responsibility** for it. **[Official]**
+
+That carve-out is significant for publishers, and it is narrower than it first appears. It requires two things together: a *substantive* review, not a glance, and an identified person taking *responsibility*. An unnamed process does not satisfy it.
+
+**Chatbots and interactive systems.** Providers of chatbots, virtual assistants and other systems intended to interact with people must design them so users are informed they are interacting with an AI. **[Official]**
+
+### Timing details that matter
+
+**No retroactive labelling.** Content generated and published before 2 August 2026 does not need to be retroactively labelled. **[Official]**
+
+**Transitional period to 2 December 2026.** A limited transitional period applies to the marking-and-detection obligation for generative AI systems already on the market. **[Official]** Diarise this date. It is the next scheduled change in this area and the reason this book will need a second edition.
+
+### Penalties
+
+Violations can trigger fines of up to **€15 million or 3% of global annual turnover, whichever is higher.** **[Official]**
+
+### Does it apply to you?
+
+Honestly: **[Unknown]** without knowing your specific circumstances. Scope depends on where you are established, whether your content reaches EU users, whether you are a provider or a deployer, and what kind of content you produce. Those are exactly the questions that need a professional rather than a handbook.
+
+What this book can tell you is that if you are established in the EU, or you sell meaningfully into the EU, you should not assume you are outside scope simply because you are a small operator. The Act does not have a hobbyist exemption that removes Article 50 transparency duties for small commercial actors, and the penalty ceiling is expressed as a percentage of turnover precisely so that it scales.
+
+**If you take one action from this chapter:** find out whether you are in scope, from someone qualified to tell you. That is a cheaper question to answer now than after an enforcement contact.
+
+---
+
+## Chapter 11 — Building a disclosure record that survives a challenge
+
+Disclosure is a claim about how something was made. A claim you cannot evidence is worth very little if it is ever questioned. Amazon's own framing has reportedly shifted toward accurate disclosure with records kept, rather than a one-time declaration. **[Reported]**
+
+You do not need a system. You need a file.
+
+### The minimum viable record
+
+For each asset you publish, record:
+
+| Field | Why it matters |
+|---|---|
+| Asset name and identifier | Ties the record to the listing |
+| Date created / published / last updated | Update obligations attach to dates |
+| **Component-by-component AI status** — text, cover, interior images, translation | These have different answers and different rules |
+| Tool and version used for each | Establishes what actually happened |
+| Nature of use — generated, assisted, enhancement | The distinction that decides the obligation |
+| Human editorial review: who, when, what they changed | Directly supports the EU Art. 50 carve-out |
+| Where disclosure was made, and its exact wording | Proves you did it |
+| Rights basis for third-party material | Disclosure does not transfer IP liability |
+| Prompt provenance — your own or acquired | Etsy's originality rule attaches to prompts |
+
+### Why component-by-component matters
+
+The most common record-keeping failure is treating a product as one thing. A book is not one thing. Its text may be AI-assisted, its cover AI-generated, and its Spanish edition AI-translated — and those three facts carry three different obligations on the same platform.
+
+### Why the human-review field matters most
+
+Under EU AI Act Article 50, the disclosure exemption for AI text on public-interest matters requires substantive human editorial review **with a person assuming editorial responsibility**. **[Official]** If you ever need to rely on that, you need a record showing who reviewed it, when, and that the review was substantive. A field in a spreadsheet, filled in at the time, is worth far more than a recollection afterwards.
+
+### Format
+
+A spreadsheet is sufficient. One row per asset, the columns above. The value is entirely in filling it in at the time of publication, not reconstructing it later.
+
+---
+
+## Chapter 12 — What is unsettled, and how to re-check
+
+The most useful thing a book like this can do is be honest about its own limits.
+
+### Known open questions
+
+| Question | Status |
+|---|---|
+| How Etsy will enforce the 11 August 2026 originality rule at scale | **[Unknown]** — four days old at compilation |
+| How "purchased or templated prompts" will be detected or evidenced | **[Unknown]** |
+| Whether Etsy listings predating 11 August 2026 are treated differently | **[Unknown]** |
+| Where the boundary sits in heavy human/AI iterative co-writing | **[Unknown]** — no platform defines a threshold |
+| Whether AI-generated structure with fully human prose requires disclosure | **[Unknown]** — Amazon's brainstorming carve-out appears to cover it, but no platform addresses it explicitly |
+| Current AI policies of Wattpad, Tapas, Inkitt, Dreame, Webnovel for author-side AI use | **[Unknown]** — not verified for this edition |
+| Direct-sale platform terms (Gumroad, Payhip, Ko-fi) on AI content | **[Unknown]** — not verified for this edition |
+| Precise scope of EU AI Act application to individual small operators | **[Unknown]** — requires professional advice on individual facts |
+
+### The next scheduled change
+
+**2 December 2026** — the EU AI Act transitional period for the marking-and-detection obligation on generative AI systems already on the market ends. **[Official]** This is the single most predictable upcoming change in this area.
+
+### How to re-check, by platform
+
+Go to the source. Trade coverage of these rules is frequently wrong on exactly the details that matter — particularly the generated/assisted distinction, which is misreported constantly.
+
+| What you need | Where to look |
+|---|---|
+| Amazon KDP | KDP Help — Content Guidelines |
+| Etsy | Etsy Seller Handbook and the Creativity Standards / prohibited items policy |
+| YouTube | YouTube Help — AI disclosure and monetisation policies; Creator Studio |
+| Medium | Medium Help Center — AI content policy; Partner Program Terms |
+| Royal Road | Royal Road's official AI-text policy blog post and Knowledge Base |
+| EU AI Act | The European Commission's digital-strategy pages and the official text of Article 50 |
+| Literary markets | Each magazine's own submission guidelines, every time |
+
+### A recommended cadence
+
+- **Before each publication** — check the disclosure requirement for that specific platform. It takes two minutes and it is the moment the obligation attaches.
+- **Quarterly** — re-read the policy pages for platforms you use regularly.
+- **On any policy-change announcement** — read the primary source, not the commentary.
+
+### On this book's own shelf life
+
+This edition was compiled on 15 August 2026. Chapter 5 was four days old when written and Chapter 10 thirteen days old. Some of it will be out of date within months — that is the nature of the subject, not a defect in the reporting.
+
+That is precisely why every claim here carries a date and a source. **The dates are the most valuable thing in this book.** They tell you what to trust, what to re-check, and how stale a given statement has become by the time you read it. A compliance guide without dates is not a guide; it is a snapshot someone forgot to timestamp.
+
+---
+
+## Chapter 13 — Sources
+
+All sources consulted 15 August 2026.
+
+**Official platform and regulator sources**
+- Medium Help Center — Artificial Intelligence (AI) content policy; Medium Partner Program Terms
+- Amazon Kindle Direct Publishing — Content Guidelines; eBook Royalties; Payment Thresholds; Tax Information
+- Royal Road — official AI-text policy blog post; Knowledge Base
+- Clarkesworld Magazine — Submission Guidelines
+- European Commission — digital strategy guidance on transparency obligations for AI-generated content; EU AI Act Article 50
+
+**Reported / secondary sources**
+- Trade and practitioner reporting on Etsy's August 2026 policy changes and AI disclosure requirements
+- Trade reporting on YouTube's January 2026 AI content and monetisation policy
+- Trade reporting on Amazon KDP enforcement patterns, upload caps and low-content policy
+- Legal-sector commentary on EU AI Act Article 50 commencement (2 August 2026) and the transitional period to 2 December 2026
+
+**Note on method.** Sources were gathered through search-engine retrieval scoped to official domains where possible. Where only secondary reporting was available, claims are marked **[Reported]** and the reader is directed to verify against the primary source. Where nothing reliable was found, the claim is marked **[Unknown]** rather than filled in. No claim in this book was written from memory.
+
+---
+
+*End of Edition: August 2026.*
+
+*Rules change. Check the source. The dates in this book are there to help you know when to stop trusting it.*
