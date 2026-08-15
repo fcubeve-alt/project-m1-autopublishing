@@ -28,7 +28,7 @@ Any candidate must survive these before its upside matters:
 
 | # | Candidate | Family | State | Verdict basis |
 |---|---|---|---|---|
-| **P1** | **KDP — profession-specific compliance workbook** | Marketplace retail | **VALIDATING** | Strongest shape found. Marketplace supplies traffic; product is a *tool*; buyer expenses it |
+| **P1** | **A0002 — CA AB 723 listing-photo disclosure workbook for real estate agents** | Marketplace retail | **EXPERIMENT** | Niche selected 2026-08-15 on verified statute. Spec: `jobs/JOB-0002.md` |
 | P2 | A0001 — general AI-disclosure handbook, $6.99 ebook | Marketplace retail | **HOLD** *(was EXPERIMENT)* | Fails counterfactual test in current form — see below |
 | P3 | KDP genre fiction | Marketplace retail | SCREENING | Only candidate with *proven* buyer intent; 30–90 days, series expected, AI-flooded genres |
 | P4 | Notion / professional templates | Digital product | SCREENING | Demand observable by niche; but Notion Marketplace is "supplementary, not primary" for discovery, and I cannot build Notion assets without Owner time |
@@ -106,7 +106,24 @@ Two findings here are worth more than the candidate itself, and both transfer di
 | Accountability | ✅ dated, graded, sourced | ✅ inherited unchanged |
 | Budget context | ❌ $6.99 consumer | ✅ professional niche, expensed |
 
-**What is still `UNKNOWN` and gates promotion to EXPERIMENT:** which profession. That requires a defensible pick on (a) verified AI-disclosure exposure, (b) willingness to expense, (c) catalogue thinness. That is the next research step, and it is deliberately bounded.
+### Niche selected 2026-08-15 → promoted to EXPERIMENT
+
+**Real estate agents · California AB 723 (Bus. & Prof. Code §10140.8), effective 1 January 2026.**
+
+Licensed brokers and salespersons — **and anyone acting on their behalf** — must disclose digitally altered listing images and provide a link, URL or QR code to the **original unaltered image**, reasonably conspicuous and on or adjacent to the image. **[Official — bill text]** Failure is reported as a **criminal offence** rather than a board fine **[Reported]**. MLS penalties stack on top at a reported $500–$5,000 plus listing removal **[Reported]**.
+
+**Why it beat the alternatives on the selection criteria:**
+
+| Criterion | Evidence |
+|---|---|
+| Verified exposure | Statute quoted from the bill text, with a precise definition **and** an explicit carve-out |
+| Willingness to expense | Licensed professionals who routinely buy marketing and compliance tools, facing criminal exposure |
+| Catalogue thinness | Law effective January 2026; MLS implementing rules still landing through 2026 |
+| **Artifact-shaped** | The statute distinguishes *changing the representation* (covered) from *common adjustments* (exempt) — colour correction is out, removing a bin is in. Every photo is a judgement against that line. A decision tree solves it; prose does not |
+| **Workflow-shaped** | The QR/URL-to-original requirement is not an information problem at all — agents must host originals, map each altered image to its source, keep links live. A worksheet solves it; a blog post cannot |
+| Legal-risk profile for us | A **specific disclosure mechanic**, not a risk-classification judgement — far safer to write about than EU high-risk obligations |
+
+**Rejected during niche selection: HR / recruitment.** Superficially attractive — EU AI Act high-risk, deep budgets. But verification found **Annex III high-risk obligations moved to 2 December 2027** by the Digital Omnibus provisional agreement of 7 May 2026, not August 2026 as widely assumed **[Reported]**. No urgency, no recency window, and the subject matter would have put me deep into risk-classification judgements — the highest-risk writing territory under R5. Checking this saved the cycle from a bad niche.
 
 ---
 
