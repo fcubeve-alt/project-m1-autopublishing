@@ -99,7 +99,19 @@ Deliberately weighted toward **specific, recent, high-intent phrases** rather th
 
 ---
 
-## Cover brief
+## Cover — PRODUCED ✅
+
+**File:** `cover.png` (1600×2560, Kindle's recommended 1:1.6 ratio)
+**Source:** `make_cover.py` — regenerate after the author name is set
+**Thumbnail check:** `cover_thumbnail_check.png` (160×256). Title and the gold **AUGUST 2026 EDITION** block both remain legible at Amazon search-result size.
+
+**Design rationale.** The cover states the book's actual differentiator rather than asserting authority it has not earned: the evidence-grade key (`[Official]` / `[Reported]` / `[Unknown]`) appears on the front, and the edition date sits in a high-contrast gold block sized to survive thumbnail scaling. A buyer can verify that promise in the free sample before paying — which is the mechanism that makes the accountability claim credible (`A0001_BUYER_INTENT.md` §3b).
+
+**Compliance:** no photorealistic people (avoids Amazon's `contains-synthetic-performer` IPTC requirement entirely), no brand marks or platform logos, no purchased or templated design assets, no artist-name prompting. Typography is DejaVu (free/open licence).
+
+**Outstanding:** `AUTHOR NAME` is a placeholder — set `AUTHOR_NAME` and re-run `make_cover.py` once the Owner decides (H2).
+
+### Original brief (retained for reference)
 
 **Design:** original typographic design. No purchased or templated design, no stock layout.
 **Content:** title, subtitle, edition date prominent, author name.
@@ -114,7 +126,8 @@ Deliberately weighted toward **specific, recent, high-intent phrases** rather th
 - [ ] Author name decided
 - [ ] All sources re-verified within 48h of upload *(critical — this is a recency product; a stale claim at launch destroys the premise)*
 - [ ] Compliance pass against `COMPLIANCE_POLICY.md`
-- [ ] Cover produced
+- [x] **Cover produced** — `cover.png`, thumbnail-verified
+- [ ] Author name set in `make_cover.py`, cover regenerated
 - [ ] Manuscript converted to Kindle format
 - [ ] KDP account + tax interview complete (H1)
 - [ ] AI disclosure set correctly at upload

@@ -11,7 +11,10 @@ An AI-operated publishing business. The AI owns research, strategy, platform sel
 | If you want to... | Read |
 |---|---|
 | Understand what changed vs. the original brief | **[`STRATEGIC_REVIEW.md`](STRATEGIC_REVIEW.md)** ← start here |
+| See the decision rules learned so far | **[`OPERATING_RULES.md`](OPERATING_RULES.md)** |
 | Know what the Owner must actually do | [`docs/HUMAN_GATES.md`](docs/HUMAN_GATES.md) |
+| Check why KDP beat the alternatives | [`docs/OPPORTUNITY_COMPARISON.md`](docs/OPPORTUNITY_COMPARISON.md) |
+| See the honest case *against* the first product | [`docs/A0001_BUYER_INTENT.md`](docs/A0001_BUYER_INTENT.md) |
 | See the 30-day test | [`docs/EXPERIMENT_PLAN_30D.md`](docs/EXPERIMENT_PLAN_30D.md) |
 | See the product | [`assets/A0001-ai-disclosure-handbook/`](assets/A0001-ai-disclosure-handbook/) |
 
@@ -57,8 +60,14 @@ assets/                      Content assets
 | Item | State |
 |---|---|
 | Phase 0 deliverables | ✅ Complete |
-| Strategy | ✅ Set — Amazon KDP, wide/non-exclusive, recency-led |
-| Asset A0001 | 🟡 Draft v0.9 — awaiting Human Editorial Gate |
+| Reviewer challenge round 1 | ✅ 5 corrections accepted, 1 conclusion defended with evidence |
+| Operating rules v1.0 | ✅ Six rules recorded from C1 failures |
+| Channel (Amazon KDP, wide/non-exclusive) | ✅ **Decision** — survives quantified comparison |
+| Asset A0001 | 🟡 **Demand probe** — publication-ready, awaiting editorial gate. *Not* a validated opportunity |
+| Cover | ✅ Produced, thumbnail-verified (author name pending) |
 | Owner payout setup (H1) | 🔴 **Blocked — awaiting country of tax residence** |
-| Publication (H3) | ⏳ Day 9 |
-| M1-A first sale | ⏳ Target by day 30 |
+| Publication (H3) | ⏳ Blocked on H1 + H2 |
+| M1-A first sale recorded | ⏳ Target by day 30 |
+| M1-B cash received | ⏳ ~60–90 days after first sale |
+
+**Honest status:** the channel is decided on evidence. The product is a $0 demand probe whose purchase intent is *unproven and unprovable from this environment* — see [`docs/A0001_BUYER_INTENT.md`](docs/A0001_BUYER_INTENT.md). Failure is a valid outcome that falsifies the recency thesis cheaply and redirects Cycle 2 to KDP genre fiction, which has proven buyer intent.
