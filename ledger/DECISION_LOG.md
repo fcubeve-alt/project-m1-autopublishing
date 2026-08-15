@@ -315,6 +315,28 @@ Unresolved `[U]`: Simily (reported ~$0.02/view ≈5× Vocal, but **also reported
 
 ---
 
+## D0016 — 2026-08-15 — Independent Decision Auditor established; M-A reopened for audit only
+
+**Trigger:** Owner instruction to create an auditor genuinely independent of my reasoning, and to reopen M-A **for audit only** — not to restart the mission, and without assuming the existing conclusion is either right or wrong.
+
+**Why this is a real gap and not ceremony.** Negative conclusions carry an asymmetry I had no defence against:
+
+> A false positive gets caught by the market. **A false negative never gets caught at all.**
+
+Wrongly pursuing a bad opportunity produces corrective evidence. Wrongly *closing* a good one produces a business that was never built — and no feedback ever arrives. So the error is permanent and silent, and negative conclusions need a **higher** evidential bar than positive ones. My whole operating loop was tuned to produce cheap negatives efficiently, with nothing checking whether they were *correct*.
+
+**Actions taken:**
+1. **M-A status → `PENDING INDEPENDENT AUDIT`.** Its conclusion may not be relied on downstream until a verdict issues.
+2. **Auditor spawned as a separate agent** with fresh context, an adversarial mandate to hunt falsifying evidence, instructions to research independently rather than re-read my work, and its own unedited output files. I deliberately **did not pre-argue my case** — the brief states the claim neutrally and points at the artifacts, because a brief that rehearses my reasoning produces an echo rather than an audit.
+3. **`audit/AUDIT_CHARTER.md` written**, including a **response protocol pre-committed before the verdict is known** — the same discipline as pre-committed kill criteria. A response chosen after seeing the result is a rationalisation.
+4. **Work continued** on non-duplicative tasks while the audit runs, per R12 — an audit blocks only decisions that depend on the audited conclusion.
+
+**Pre-committed responses, in brief:** PASS → restore CONCLUDED, treat as raised confidence rather than vindication · PASS WITH CAVEATS → caveats written into the closeout itself and onto the watchlist · INSUFFICIENT EVIDENCE → **conclusion withdrawn, not softened**; auditor's list becomes the backlog; I do not argue · REJECT → mission reopens, closeout marked withdrawn but retained, and every downstream artifact re-examined — specifically the M-C and M-P charters and the "economics predicted policy" heuristic in R9, which is exactly the kind of elegant generalisation that could have survived because it is satisfying rather than true.
+
+→ Rule **R14**: negative conclusions require independent audit; independence means fresh context and adversarial mandate, not a more careful re-read; pre-commit the response to every verdict; the auditor can be wrong too.
+
+---
+
 ## Editorial memory
 
 *Owner feedback from the Human Editorial Gate is recorded here so the same correction is never needed twice (brief §6). Empty until H2.*
