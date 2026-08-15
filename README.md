@@ -59,32 +59,28 @@ assets/                      Content assets (preserved, not active)
 
 ## Current status
 
-**Mission M-A: CONCLUDED 2026-08-15 — negative finding, recorded as a success.**
+**Two missions concluded 2026-08-15. Both negative. Both cheap. That is the system working.**
 
-The question was whether AI-written content can earn on third-party platforms that pay creators **directly from their own audience** (the Vocal Media pattern). The answer, on evidence, is **no** — not in 2026, not at scale, not without an existing audience.
+| Mission | Question | Outcome | Cost |
+|---|---|---|---|
+| **M-A** | Can AI writing earn on platforms that pay creators from their own audience? *(the Vocal pattern)* | **NO** — 7 verified closed, 3 dead, 2 open but defeated by their own economics | $0 · ~0 Owner hrs · ~30 searches |
+| **M-P** | Will exposed professionals pay for a dated, primary-sourced compliance reference? | **NO** — killed at its own first test | $0 · 0 Owner hrs · **2 searches · 0 words** |
+| **M-C** | Can a no-audience publisher achieve organic marketplace discovery? | **CHARTERED** by M-P's pre-committed trigger | Blocked at H1 |
 
-| | |
-|---|---|
-| Verified **closed** | Medium · AlphaNovel · Wattpad · Publish0x · Reedsy contests · beehiiv · literary magazines |
-| Dead / closed to new entrants | HubPages · Quora Partner · Kindle Vella |
-| Verified **open** | **Two.** Vocal (earnings behind a $9.99/mo subscription; ~16,700 reads/mo to net $100; hard-blocked without Stripe) and Tapas (1,000-subscriber gate) |
-| **Mission cost** | **$0.00 cash · ~0 Owner hours · ~30 searches · no software · nothing irreversible** |
+**M-A's finding is structural:** platforms paying creators from their own audience bear the cost of every marginal item, so zero-marginal-cost supply threatens them and they barred it. Retail marketplaces bear no such cost — the buyer pays per copy. **Economics predicted policy.**
 
-**Why it is structural:** platforms paying creators from their own audience bear the cost of every marginal item, so zero-marginal-cost supply threatens them and they barred it. Retail marketplaces bear no such cost — the buyer pays per copy — which is why that class stayed open. **Economics predicted policy.**
+**M-P's finding is sharper still:** need, budget and reportedly *criminal* exposure were all verified — and the market was still zero, because compliance knowledge arrives via a free regulator, mandatory state-approved education, and employer subsidy. **A need already met institutionally is not a market.**
 
-### Now between missions
-
-No mission is chartered. No production is authorised. Class C (retail marketplaces) was **discovered** during M-A, and discovery is not authorisation — it has a charter document and must compete against five other families in [`missions/M1_OPPORTUNITY_FAMILIES.md`].
-
-**Current recommendation:** charter **M-P** (professional/compliance information products) next — the one family where we have a demonstrated rather than hypothesised edge — with M-C as documented fallback.
+### State
 
 | Item | State |
 |---|---|
-| M-A | ✅ Concluded — negative, cheap, documented |
-| Class A residue | 👁 Watchlist, quarterly, ≤3 searches, next 2026-11-15 |
-| M-C / M-P / M-S / M-T / M-B | 🟡 Candidates — none chartered |
+| M-A / M-P | ✅ Concluded — negative, documented, nothing discarded |
+| M-C | 📋 Chartered · 🔴 blocked at H1 · must re-pass the counterfactual test before production |
+| Class A residue | 👁 Watchlist — quarterly, ≤3 searches, next 2026-11-15 |
+| M-S / M-T / M-B | 🟡 Candidates, unchartered |
 | Assets (A0001 manuscript + cover, AB 723 research) | 📦 Preserved as free inputs, **not** reasons to continue |
-| Owner gate H1 (country of tax residence) | 🔴 Open — binding on any marketplace route, non-urgent until a mission is chartered |
+| **Owner gate H1** | 🔴 **Now binding on everything** — country of tax residence, KDP account, payout rails |
 | Revenue / spend | **$0.00 / $0.00** |
 
-**The operating principle this project now runs on:** the purpose of autonomous research is not to make every mission produce a business. It is to discover the truth cheaply enough that capital can move to better opportunities.
+**The operating principle:** the purpose of autonomous research is not to make every mission produce a business. It is to discover the truth cheaply enough that capital can move to better opportunities. Two families have now been priced for the cost of about thirty searches.

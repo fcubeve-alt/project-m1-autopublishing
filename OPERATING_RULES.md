@@ -260,6 +260,29 @@ When ranking families, distinguish an **artifact** we happen to possess from a *
 
 ---
 
+## R11 — A need already met institutionally is not a market
+
+**The failure this prevents (caught at P-0, before production):** I chartered M-P on the reasoning that professionals with legal exposure and real budgets would pay for a dated, primary-sourced compliance reference. Need: verified. Budget: verified. Exposure: verified — reportedly criminal. And the market was still zero, because compliance knowledge in that profession arrives through a **free authoritative regulator**, **mandatory state-approved continuing education**, and **employer subsidy**.
+
+**High need + high budget + real exposure can still equal no discretionary purchase.**
+
+**The rule — before assuming a professional audience will buy, check who already serves the need:**
+
+| Substitute | Question to ask |
+|---|---|
+| **Free authoritative source** | Does the regulator, standards body or platform publish the answer itself? Nobody outsells the primary source at $0 |
+| **Mandatory licensed education** | Must they already take approved training that covers this? Then your product is additive to something compulsory |
+| **Employer / institutional funding** | Does a brokerage, firm or association supply it? Then the individual is not the buyer, and the institution is not reachable at our scale |
+| **Approval barrier** | Does entering the real channel require accreditation or state approval? That is an administrative gate, not a writing problem, and it will not yield to better prose |
+
+**If any of the four is present, discretionary demand is probably absent** — however acute the pain looks from outside.
+
+**This is R4 (need ≠ purchase intent) sharpened by a specific mechanism.** R4 says need does not imply willingness to pay. R11 names the most common *reason*: somebody else is already paying, or the answer is already free, or the channel is closed to newcomers by rule.
+
+**Generalisation worth carrying:** the more regulated a profession, the more likely its knowledge needs are institutionally served — precisely *because* the stakes are high. High-stakes information tends to be provided, not sold. So "regulated profession with severe penalties" is a **negative** signal for a discretionary information product, not the positive one it appears to be.
+
+---
+
 ## R6 — Report status honestly, especially about my own work
 
 - Distinguish **validated** from **assumed** from **probe** in every status report.

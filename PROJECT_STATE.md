@@ -43,13 +43,16 @@ Build and validate a lawful, compliant, sustainable AI-powered **publishing** bu
 
 ## 4. CURRENT STAGE
 
-**Mission M-A: CONCLUDED 2026-08-15 — negative finding, recorded as a successful outcome.** See `missions/M-A_CLOSEOUT.md`.
+**Two missions concluded today, both negative, both cheap. M-C is chartered and blocked at H1.**
 
-All stages ran to completion: Discovery ✅ → Screening ✅ → Shortlist ✅ → Content-Market Research ✅ → Platform × Content Matrix ✅ → Experiment Selection ✅ → **Concluded before production.**
+| Mission | Outcome | Cost |
+|---|---|---|
+| **M-A** — Class A platforms | **CONCLUDED — negative.** Class A systematically closed to disclosed AI work | $0, ~0 Owner hrs, ~30 searches |
+| **M-P** — professional compliance products | **KILLED at P-0.** Need met institutionally; no distinct reachability | $0, 0 Owner hrs, **2 searches, 0 words** |
+| **M-C** — retail marketplaces | **CHARTERED** by M-P's pre-committed trigger | Blocked at H1 |
 
-**Now between missions.** No mission is chartered. **No production is authorised.** A0001 HOLD · A0002 out-of-scope · JOB-0003 never issued.
-
-Next decision is a **comparison, not momentum**: `missions/M1_OPPORTUNITY_FAMILIES.md`.
+**No production is authorised.** A0001 HOLD · A0002 out-of-scope · no writing job issued.
+M-C must re-pass the counterfactual test at its production commitment point (R7) — winning by default is not the same as being justified.
 
 ## 5. THE CENTRAL FINDING — M-A's delivered answer
 
@@ -85,8 +88,8 @@ Next decision is a **comparison, not momentum**: `missions/M1_OPPORTUNITY_FAMILI
 | ID | Family | Status |
 |---|---|---|
 | **M-A** | Class A — platforms paying creators from their own audience | **CONCLUDED — negative.** Watchlist only |
-| **M-C** | Class C — retail publishing marketplaces | **FALLBACK** — chartered automatically if M-P's P-0 fails |
-| **M-P** | Professional / compliance information products | **CHARTERED 2026-08-15** — first act is the P-0 self-kill test |
+| **M-C** | Class C — retail publishing marketplaces | **CHARTERED 2026-08-15** — per M-P's pre-committed trigger. Blocked at H1 |
+| **M-P** | Professional / compliance information products | **KILLED at P-0, 2026-08-15** — 2 searches, 0 words. Need met institutionally |
 | **M-S** | AI-assisted services (freelance) | CANDIDATE — strongest buyer intent, fails autonomy |
 | **M-T** | Functional templates/tools | CANDIDATE — no distribution |
 | **M-B** | Audience-first | CANDIDATE — right destination, wrong start |
@@ -122,7 +125,8 @@ D0001 per-read category deprioritised · D0002 Vocal `UNKNOWN` (later corrected)
 | 7 | Let a project become the Mission | **R7** |
 | 8 | Widened the scope boundary and called it rigour | **R8** |
 | 9 | Let "easy to start" substitute for "fits the model" | **R9** |
-| 10 | **Nearly stretched a mission into a new family rather than concluding it** | **R10** |
+| 10 | Nearly stretched a mission into a new family rather than concluding it | **R10** |
+| 11 | **Assumed a professional need with budget implied a market** | **R11** |
 
 **Root cause of the original drift (Owner-confirmed):** *incorrect mission abstraction in cycle one* — generalising "Vocal" to "AI writing income" within the first few tool calls. **Not** a memory or context-length failure. Any future post-mortem should check abstraction before blaming context.
 
@@ -130,12 +134,14 @@ D0001 per-read category deprioritised · D0002 Vocal `UNKNOWN` (later corrected)
 
 **M-A asks nothing further.** The mission is closed and requires no Owner action.
 
-1. **Agent:** run **P-0** for M-P — *is there a zero-cost route to put a paid reference in front of a defined professional audience?* This is designed as a **self-kill test**: it runs **before any production**, and if it fails, M-P dies cheaply and M-C is chartered.
-2. **Agent:** if P-0 passes, re-justify the target profession from scratch (the AB 723 hook was selected under a drifted scope and may not choose the niche).
-3. **Owner:** **H1** — country of tax residence, existing KDP account, payout rails. Binding on any marketplace channel.
+**P-0 ran and killed M-P** for 2 searches and 0 words. **M-C is now chartered** per the pre-committed trigger.
+
+1. **Owner — H1 is now the binding gate on everything.** Country of tax residence, existing KDP account, payout rails. M-C cannot test its central question (organic discovery) without publishing, and cannot publish without H1. Up to 7 weeks if a US TIN is needed.
+2. **Agent:** while H1 is open, settle M-C's genre/format from evidence — internally consistent on length, reader promise and format. Stage 4 already caught one contradiction (a Short Read cannot be a cozy mystery).
+3. **Agent:** re-run the counterfactual test at M-C's production commitment point. Its known weakness — catalogue scale — has not gone away just because it won by default.
 4. **Optional 30-second Owner check:** is `simily.co` live and paying? Unverifiable from here (watchlist W3).
 
-**Standing rule:** no production until P-0 passes. Being "already here" carries no weight (R10).
+**Standing rule:** no production until the counterfactual test is re-run at the commitment point (R7).
 
 ## 11. KEY FILES
 
