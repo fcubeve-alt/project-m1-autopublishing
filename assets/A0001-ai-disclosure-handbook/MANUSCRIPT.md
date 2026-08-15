@@ -34,15 +34,17 @@ Two dates matter most.
 
 **2 August 2026.** Article 50 of the EU AI Act became binding law across the European Union. It requires that AI-generated synthetic content be marked and disclosed, and it carries penalties of up to €15 million or 3% of global annual turnover, whichever is higher. **[Official]**
 
-**11 August 2026.** Etsy's rule change took effect: items made using computerised tools from a templated design are no longer permitted unless the design is the seller's own original work. Separately, listings that do not complete Etsy's AI disclosure field are filtered out of search results until the seller fills it in. **[Reported]**
+**11 August 2026.** Etsy is reported to have tightened its rules on items made using computerised tools from templated designs, requiring that the design be the seller's own original work. Separately, listings that do not complete Etsy's AI disclosure field are reported to be filtered out of search results until the seller fills them in. **[Reported]** Etsy's own Creativity Standards — which do permit seller-prompted AI art under defined conditions — are covered in Chapter 5. **[Official]**
 
-Those two changes landed thirteen and four days before this book was compiled. Around them sits a set of older, quieter rules that most people using AI commercially have never read in full: Amazon's disclosure requirement for Kindle Direct Publishing, Medium's ban on paywalling AI-generated writing, YouTube's January 2026 synthetic media disclosure regime, Royal Road's three-tier tagging system.
+Those changes landed within days of this book being compiled. Around them sits a set of older, quieter rules that most people using AI commercially have never read in full: Amazon's disclosure requirement for Kindle Direct Publishing, Medium's ban on paywalling AI-generated writing, YouTube's disclosure regime for realistic synthetic media, Royal Road's three-tier tagging system.
 
-Here is the problem this book exists to solve. **These rules do not agree with each other.**
+Here is the problem this book exists to solve. **These rules do not agree with each other — and the popular summaries of them are frequently wrong.**
 
-Amazon does not require you to disclose AI-*assisted* work. Etsy requires disclosure for AI-generated images regardless of how much you edited them. Medium will not let you put AI-generated writing behind a paywall at all, disclosed or not. Royal Road will happily host AI-generated fiction as long as you tag it, but requires that your forum posts and replies to readers be written by you. Several paying literary magazines refuse AI-assisted work outright.
+Amazon does not require you to disclose AI-*assisted* work. Etsy requires disclosure in the listing description whenever AI was used, and organises everything around the seller's *role* in making the item. YouTube only requires disclosure when the content is *realistic* enough to deceive — and explicitly exempts production assistance. Medium will not let you paywall AI-generated writing at all, disclosed or not. Royal Road will happily host AI-generated fiction if you tag it, but requires that your replies to readers be written by you. Several paying literary magazines refuse AI-assisted work outright.
 
-If you operate on three of these platforms — which is normal — you are subject to three different definitions of the same word, three different disclosure mechanisms, and three different consequences for getting it wrong. Nobody has written that down in one place with the dates attached. That is what follows.
+Four platforms, four different organising concepts: *how it was made* (Amazon), *the seller's role* (Etsy), *whether it looks real* (YouTube), *which tier of assistance* (Royal Road). No definition travels.
+
+Worse, the freely available summaries of these rules contradict each other and, in several cases, contradict the platforms. While compiling this book, at least three widely repeated claims turned out to be wrong when checked against official sources — including the belief that disclosing AI on YouTube costs you monetisation, which YouTube's own material directly denies. Where this book found such a conflict, it says so and cites the source. That is the reason it exists.
 
 ### Who this book is for
 
@@ -128,20 +130,22 @@ Verified 15 August 2026. Confirm against the primary source before acting.
 | Platform | AI-generated content permitted? | Disclosure required? | Where you disclose | Penalty for getting it wrong |
 |---|---|---|---|---|
 | **Amazon KDP** | Yes | **Yes** — text, images, translations | Upload form, at publish and at each update | Policy violation; book removal; account-level restrictions for a pattern of undisclosed AI **[Reported]** |
-| **Etsy** | Yes, with limits | **Yes** — per listing | Listing disclosure field + "Designed by" in Item Details + description | Listing filtered from search until completed **[Reported]** |
-| **YouTube** | Yes | **Yes** — synthetic media | Creator Studio disclosure | Monetisation loss for mass-produced/templated uploads under the inauthentic content policy **[Reported]** |
+| **Etsy** | Yes — "Designed by a seller" expressly covers seller-prompted AI art | **Yes** — in the listing description | Listing description **[Official]** + disclosure field and "Designed by" in Item Details **[Reported]** | Listing filtered from search until completed **[Reported]** |
+| **YouTube** | Yes | **Only for *realistic* synthetic content** — not for animation, special effects, or production assistance | Creator Studio disclosure | Non-disclosure: removal, YPP suspension. **Disclosure itself costs nothing — it does not affect reach or earnings** **[Official]** |
 | **Medium** | Yes to publish, **no to monetise** | Yes, and it does not help you | In the first two paragraphs | Undisclosed → Network Only distribution. Disclosed → no Boost. **Either way: cannot be paywalled** **[Official]** |
 | **Royal Road** | Yes | **Yes** — tag | Story tag | Content actionable if untagged **[Official]** |
 | **Paying literary magazines** (Clarkesworld and peers) | **No** | N/A | N/A | Submission refused; authors have been banned **[Official]** |
 | **EU (all platforms, if in scope)** | Yes | **Yes** — statutory, on top of any platform rule | Marking + user-facing disclosure | Up to **€15M or 3% of global turnover** **[Official]** |
 
-### The three things people most often get wrong
+### The four things people most often get wrong
 
 **1. Assuming platform compliance equals legal compliance.** Ticking Amazon's disclosure box does not discharge an EU AI Act obligation. They are separate regimes with separate consequences. If you are in scope for both, you must satisfy both.
 
 **2. Assuming disclosure unlocks monetisation.** On Medium it does not. AI-generated writing cannot be paywalled whether you disclose it or not. **[Official]** Disclosure changes your distribution tier, not your eligibility to earn.
 
-**3. Assuming one platform's definition travels.** It does not. "AI-assisted" means something meaningfully different on Amazon and on Royal Road, and both differ from the EU's framing. Check the definition on each platform you use.
+**3. Assuming disclosure costs you something.** On YouTube it does not — disclosure has no effect on audience or earnings. **[Official]** Many creators avoid the toggle on the strength of commentary that is simply wrong, and thereby take on real risk to avoid an imaginary one.
+
+**4. Assuming one platform's definition travels.** It does not. "AI-assisted" means something meaningfully different on Amazon and on Royal Road; YouTube's trigger is *realism* rather than AI involvement; Etsy's framework turns on the *seller's role*. Four platforms, four different organising concepts. Check the definition on each platform you use.
 
 ---
 
@@ -199,59 +203,100 @@ Low-content books are reported to remain permitted, with stricter treatment of d
 
 Etsy is the platform where the rules changed most recently, and where the enforcement mechanism is the most immediate.
 
+### The framework: Etsy's Creativity Standards
+
+Etsy has restructured its House Rules around **Etsy's Creativity Standards**, which define categories of items that may be sold based on **the seller's role** in making them. **[Official]**
+
+The four roles: **[Official]**
+
+| Role | What it covers |
+|---|---|
+| **Made by a seller** | Physical items crafted, altered or assembled by the seller |
+| **Designed by a seller** | Original designs, **or seller-prompted AI art**, offered as digital downloads or produced by third parties |
+| **Sourced by a seller** | Items that enable buyer creativity |
+| **Handpicked by a seller** | Vintage items and curated collections |
+
+The category that matters for AI work is **"Designed by a seller,"** and note what it says: it explicitly contemplates **seller-prompted AI art** as a legitimate category. AI-generated work is not banned on Etsy. It is placed in a defined role with conditions attached.
+
 ### The disclosure requirement
 
-Etsy requires AI disclosure on listings, and the mechanism has teeth: listings that do not complete the disclosure field are **filtered from search results** until the seller completes it. **[Reported]**
+**Sellers must disclose within their listing description if an item is created with the use of AI.** **[Official]**
 
-Unlike Amazon, where an undisclosed listing simply sits in violation until someone notices, Etsy's consequence is automatic and commercial. Your listing does not get removed — it gets made invisible. Sellers have reported traffic collapse without an enforcement notice, because there is no notice; there is only the filter.
+Etsy permits AI-generated art where the seller applies their own creative lens and abilities, **in addition to** being transparent about the process. **[Official]** Both halves are required — transparency alone is not sufficient if the seller contributed no creative input, and creative input does not excuse missing disclosure.
 
-Reported practice for compliance: select "Designed by" in the Item Details dropdown, and include a clear statement in the listing description that the work was created with AI tools. **[Reported]**
+Sellers must also provide an accurate representation of how the item was made, by whom, and where it ships from. **[Official]**
 
-### The 11 August 2026 change
+Reported practice for the mechanics: select "Designed by" in the Item Details dropdown, and state AI involvement clearly in the description. Listings that do not complete Etsy's disclosure field are reported to be **filtered from search results** until the seller completes it. **[Reported]**
 
-From 11 August 2026, items made using computerised tools and a templated design are no longer allowed unless the design is the seller's own original work. Items produced using computerised tools must be based on the seller's original design. **[Reported]**
+That filtering consequence, if accurate, is worth understanding: unlike Amazon, where an undisclosed listing sits in violation until someone notices, the consequence here is automatic and commercial. The listing is not removed — it is made invisible, with no enforcement notice, because there is no notice. There is only the filter.
 
-Additionally, sellers are required to create their own original prompts — using purchased or templated prompts is reported to violate the policy. **[Reported]**
+### Prompt bundles — a correction worth reading
 
-That last point is unusual and worth stating plainly, because it is the kind of rule that catches people who believe they are being careful. **If you bought a prompt pack, or used a shared prompt template, the resulting work may be non-compliant even if you disclose it correctly.** The originality requirement attaches to the prompt, not only to the output.
+Widely repeated commentary states that *using* purchased or templated prompts violates Etsy policy. Checked against Etsy's own material, the rule is different: **Etsy prohibits the sale of AI prompt bundles on the platform.** **[Official]**
+
+That is a restriction on what you may **sell**, not on which prompts you may **use**. If you sell prompt packs on Etsy, that is the rule that affects you. If you bought a prompt pack elsewhere and used it to make art you sell, the applicable question is the Creativity Standards one — whether the work reflects your own creative lens — not a prohibition on the prompt's origin.
+
+This is a good illustration of why this book cites sources. The distorted version of this rule is repeated across a great deal of seller-advice content, and acting on it would lead you to the wrong conclusion about your own listings.
 
 ### What is genuinely unclear here
 
-This is the newest rule in this book, in force for four days at the time of compilation.
+- How Etsy assesses whether a seller applied a sufficient "creative lens" at scale. **[Unknown]**
+- The precise scope and enforcement of the reported August 2026 changes concerning templated designs produced with computerised tools. Trade reporting describes an 11 August 2026 effective date; this could not be confirmed against Etsy's own policy pages during compilation. **[Reported, unconfirmed]**
+- Whether listings created before the 2026 changes are treated differently from new ones. **[Unknown]**
 
-- How Etsy will assess whether a design is the seller's "original work" at scale. **[Unknown]**
-- How "purchased or templated prompts" will be detected or evidenced. **[Unknown]**
-- Whether existing listings created before 11 August 2026 are treated differently from new ones. **[Unknown]**
-
-Anyone telling you confidently how Etsy will enforce this is guessing. Four days is not enough time for enforcement patterns to be observable. **Check Etsy's own Seller Handbook and policy pages before making decisions that depend on the answer.**
+**Check Etsy's Creativity Standards and Seller Handbook directly before making decisions that depend on these answers.** This is the newest and least settled area in the book.
 
 ### The Etsy checklist
 
-- [ ] Complete the AI disclosure field on **every** listing — an incomplete field means invisible in search.
+- [ ] Identify which Creativity Standards role your item falls under — for AI work, usually "Designed by a seller."
+- [ ] **Disclose AI use in the listing description.** This is an official requirement, not a best practice.
+- [ ] Complete Etsy's disclosure field — an incomplete field is reported to mean invisible in search.
 - [ ] Set Item Details to "Designed by" where AI tools were used.
-- [ ] State AI involvement in the listing description.
-- [ ] Confirm your designs are your own original work, not templated.
-- [ ] Confirm your prompts are your own, not purchased or shared templates.
-- [ ] Audit listings created before 11 August 2026 against the new originality standard.
+- [ ] Ensure the work reflects your own creative input, not just an unmodified generation.
+- [ ] Describe accurately how the item was made, by whom, and where it ships from.
+- [ ] Do **not** sell AI prompt bundles on Etsy.
 - [ ] Avoid protected brands, characters, logos, and artist-name prompting.
 
 ---
 
 ## Chapter 6 — YouTube
 
-YouTube updated its AI content policy in January 2026, introducing mandatory disclosure for synthetically generated media. **[Reported]**
+**Read this chapter carefully even if you think you know the rule, because the widely repeated version of it is wrong.**
 
-The monetisation position is reported as follows: AI-generated video remains monetisable where a human adds genuine value, but under the inauthentic content policy, mass-produced and templated uploads lose monetisation. **[Reported]**
+Search for YouTube's AI policy and you will find a large volume of commentary claiming that AI-generated video loses monetisation, that disclosure restricts your reach, or that a 2026 policy change demonetised AI content. Checked against YouTube's own material, that picture is substantially incorrect. This chapter states what the official sources actually say.
 
-The distinction being drawn is not *whether AI was used* but *whether the output is mass-produced*. A creator using AI as a production tool on a differentiated channel is treated differently from a channel uploading templated variations at volume. This is the same underlying logic Amazon applies to books and Etsy now applies to designs — three platforms independently converging on "AI is fine, industrialised sameness is not."
+### The disclosure rule, and its threshold
 
-**Evidence caveat.** The YouTube material in this chapter rests on trade reporting; the official policy pages were not directly accessible during compilation. Before relying on it, confirm against YouTube's own Help Centre and the monetisation policies in Creator Studio. **[Reported]**
+YouTube provides a disclosure tool in Creator Studio requiring creators to disclose when **realistic** content is made with altered or synthetic media, including generative AI. "Realistic" means content a viewer could easily mistake for a real person, place, scene or event. **[Official]**
+
+Examples given: an AI-generated video that realistically depicts an event that never happened, or content showing someone saying or doing something they did not actually do. **[Official]**
+
+**What does not require disclosure.** YouTube explicitly does not require disclosure for content that is clearly unrealistic, animated, includes special effects, or **has used generative AI for production assistance.** **[Official]**
+
+That last exclusion is the one most commentary omits, and it is broad. Using AI to help script, edit, generate b-roll ideas, or otherwise assist production does not trigger the disclosure requirement. The requirement targets *realistic depictions that could deceive a viewer* — not AI involvement as such.
+
+### Disclosure does not cost you money or reach
+
+This is the correction that matters most:
+
+> **Disclosing AI content will not limit a video's audience or affect its eligibility to earn money.** **[Official]**
+
+If you have been avoiding the disclosure toggle because you were told it suppresses reach or demonetises the video, that belief is not supported by YouTube's own statements. The risk runs the other way: creators who consistently choose not to disclose when required may face content removal, suspension from the YouTube Partner Program, or other penalties. **[Official]**
+
+### What the "inauthentic content" policy actually is
+
+The other common claim — that a 2026 policy change demonetised AI content — appears to be a misreading of a **renaming**. YouTube renamed its "repetitious content" policy to "inauthentic content." That policy has always made such content ineligible for monetisation under existing rules, because the Partner Program rewards original and authentic content. **[Official]**
+
+So the substance did not change; the label did. Mass-produced, templated, repetitious uploads were never monetisable. That is a rule about *industrialised sameness*, not about AI — and it catches low-effort human content just as readily.
+
+The underlying logic is the same one Amazon applies to books and Etsy applies to designs: AI as a tool is fine; industrialised sameness is not. Three platforms have independently converged on that distinction.
 
 ### The YouTube checklist
 
-- [ ] Disclose synthetically generated media in Creator Studio.
-- [ ] Assess honestly whether your output would be characterised as mass-produced or templated.
-- [ ] Confirm current requirements directly in YouTube Help — this chapter is the least well-sourced in the book.
+- [ ] Ask whether your content is **realistic** enough that a viewer could mistake it for real. If yes and it is synthetic or altered, disclose in Creator Studio.
+- [ ] Do **not** avoid disclosure to protect monetisation — disclosure does not affect earnings or audience.
+- [ ] Clearly unrealistic, animated, special-effects, and production-assistance uses do not require disclosure.
+- [ ] Separately, make sure your output is not repetitious or templated at volume — that is what actually costs monetisation, under the inauthentic content policy.
 
 ---
 
@@ -364,15 +409,28 @@ Article 50 of the EU AI Act sets out transparency obligations. **Since 2 August 
 
 ### What it requires
 
-**Marking of synthetic content.** Providers of AI systems generating synthetic audio, image, video or text must ensure outputs are marked in a **machine-readable** format and are **detectable as artificially generated or manipulated**. Limited exceptions apply — for example standard editing and non-substantial alterations. **[Official]**
+Article 50 splits obligations between **providers** (those who build and place AI systems on the market) and **deployers** (those who use them). Most readers of this book are deployers. The distinction matters, because the heaviest technical obligation falls on providers, not on you.
 
-**Disclosure of deepfakes and certain AI text.** Deployers must disclose that content was artificially generated or manipulated, in the case of deepfakes and AI-generated text published on matters of public interest. **[Official]**
+**Marking of synthetic content — a provider obligation.** Providers of AI systems, including general-purpose AI systems, generating synthetic audio, image, video or text must ensure outputs are marked in a **machine-readable** format and **detectable as artificially generated or manipulated**. Providers must ensure their technical solutions are effective, interoperable, robust and reliable as far as is technically feasible, accounting for the specificities and limitations of content types, implementation costs and the generally acknowledged state of the art. **[Official]** Limited exceptions apply, for example standard editing and non-substantial alterations. **[Official]**
 
-**The editorial-responsibility carve-out.** The disclosure obligation for AI-generated text on public-interest matters does not apply where the content has undergone **substantive human editorial review and a person assumes editorial responsibility** for it. **[Official]**
+**If you use a commercial AI tool, this obligation belongs to the tool's provider, not to you.** You are not required to invent watermarking for output you generated with someone else's system. This is a widely misunderstood point and a source of unnecessary alarm among small operators.
 
-That carve-out is significant for publishers, and it is narrower than it first appears. It requires two things together: a *substantive* review, not a glance, and an identified person taking *responsibility*. An unnamed process does not satisfy it.
+**Disclosure of deepfakes and certain AI text — a deployer obligation.** Deployers must inform people when they are exposed to deepfakes, to AI-generated content on matters of public interest **published without human review or editorial control**, and to emotion recognition or biometric categorisation systems. **[Official]**
 
-**Chatbots and interactive systems.** Providers of chatbots, virtual assistants and other systems intended to interact with people must design them so users are informed they are interacting with an AI. **[Official]**
+**The editorial-responsibility carve-out.** Deployers publishing AI-generated text for the purpose of informing the public on matters of public interest must disclose that the text is AI-generated **unless it has been subject to human review and editorial responsibility.** **[Official]**
+
+That carve-out is significant for publishers, and narrower than it first appears. It requires two things together: genuine human review, and a person taking editorial *responsibility*. An unnamed automated process does not satisfy it. Note also the qualifier that runs through this limb: it concerns text published **to inform the public on matters of public interest.** A product description or a fantasy novel is not obviously that; a news explainer or a policy commentary is.
+
+**Chatbots and interactive systems.** Providers must design AI systems intended to interact directly with people so that users are informed they are interacting with an AI. **[Official]**
+
+### The official interpretive materials
+
+Two things exist to help you, and both are worth knowing about because they are free and authoritative:
+
+- **Commission Guidelines on transparency obligations** for providers and deployers of certain AI systems, published to clarify Article 50's scope and provide legal certainty. **[Official]**
+- **A Code of Practice on Transparency of AI-generated Content**, covering marking and labelling. **[Official]**
+
+If you are trying to work out whether a specific activity is in scope, these are better starting points than any commentary — including this book.
 
 ### Timing details that matter
 
@@ -438,14 +496,25 @@ The most useful thing a book like this can do is be honest about its own limits.
 
 | Question | Status |
 |---|---|
-| How Etsy will enforce the 11 August 2026 originality rule at scale | **[Unknown]** — four days old at compilation |
-| How "purchased or templated prompts" will be detected or evidenced | **[Unknown]** |
-| Whether Etsy listings predating 11 August 2026 are treated differently | **[Unknown]** |
+| Scope and enforcement of the reported August 2026 Etsy changes on templated designs | **[Reported, unconfirmed]** — could not be confirmed against Etsy's own policy pages |
+| How Etsy assesses a sufficient "creative lens" at scale | **[Unknown]** |
+| Whether Etsy listings predating the 2026 changes are treated differently | **[Unknown]** |
 | Where the boundary sits in heavy human/AI iterative co-writing | **[Unknown]** — no platform defines a threshold |
 | Whether AI-generated structure with fully human prose requires disclosure | **[Unknown]** — Amazon's brainstorming carve-out appears to cover it, but no platform addresses it explicitly |
+| Where "matters of public interest" begins and ends under EU AI Act Art. 50 | **[Unknown]** — consult the Commission Guidelines; this is the key scope question for publishers |
 | Current AI policies of Wattpad, Tapas, Inkitt, Dreame, Webnovel for author-side AI use | **[Unknown]** — not verified for this edition |
 | Direct-sale platform terms (Gumroad, Payhip, Ko-fi) on AI content | **[Unknown]** — not verified for this edition |
 | Precise scope of EU AI Act application to individual small operators | **[Unknown]** — requires professional advice on individual facts |
+
+### Corrections made during compilation
+
+Three widely repeated claims were checked against official sources and found to be wrong. They are listed here because you have probably encountered them, and because they demonstrate how unreliable secondary coverage of this subject is:
+
+| Common claim | What the official source says |
+|---|---|
+| "Disclosing AI on YouTube costs you monetisation or reach" | Disclosure **does not** limit a video's audience or affect its eligibility to earn money **[Official]** |
+| "YouTube demonetised AI content in 2026" | The "repetitious content" policy was **renamed** to "inauthentic content." Such content was always ineligible. The substance did not change **[Official]** |
+| "Using purchased or templated prompts violates Etsy policy" | Etsy prohibits **selling** AI prompt bundles. That is a restriction on what you may sell, not on which prompts you may use **[Official]** |
 
 ### The next scheduled change
 
@@ -486,13 +555,15 @@ All sources consulted 15 August 2026.
 **Official platform and regulator sources**
 - Medium Help Center — Artificial Intelligence (AI) content policy; Medium Partner Program Terms
 - Amazon Kindle Direct Publishing — Content Guidelines; eBook Royalties; Payment Thresholds; Tax Information
+- Etsy — Creativity Standards (House Rules); Seller Handbook, "What is Etsy's stance on AI creations?"; Seller Policy
+- YouTube — Help Centre, disclosing use of GenAI content and "How this content was made" disclosures; YouTube Blog, helping creators disclose altered or synthetic content; YouTube channel monetization policies
 - Royal Road — official AI-text policy blog post; Knowledge Base
 - Clarkesworld Magazine — Submission Guidelines
-- European Commission — digital strategy guidance on transparency obligations for AI-generated content; EU AI Act Article 50
+- European Commission (Shaping Europe's Digital Future) — FAQ on transparency obligations under Article 50; Guidelines on transparency obligations for providers and deployers; Code of Practice on Transparency of AI-generated Content
+- EU AI Act, Article 50
 
 **Reported / secondary sources**
-- Trade and practitioner reporting on Etsy's August 2026 policy changes and AI disclosure requirements
-- Trade reporting on YouTube's January 2026 AI content and monetisation policy
+- Trade and practitioner reporting on Etsy's August 2026 policy changes
 - Trade reporting on Amazon KDP enforcement patterns, upload caps and low-content policy
 - Legal-sector commentary on EU AI Act Article 50 commencement (2 August 2026) and the transitional period to 2 December 2026
 

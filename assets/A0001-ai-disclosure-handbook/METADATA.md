@@ -70,23 +70,26 @@ Deliberately weighted toward **specific, recent, high-intent phrases** rather th
 
 ## Book description
 
-> **The rules changed on 2 August. Then again on 11 August. Do you know which ones apply to you?**
+> **Most of what you have read about AI disclosure rules is wrong. Here is what the platforms actually say.**
 >
-> If you use AI in commercial work — selling on Etsy, publishing on Amazon, posting to YouTube, writing for money — you are now subject to disclosure obligations that did not exist a month ago. They do not agree with each other. And the penalties are real: listings filtered from search, monetisation revoked, accounts restricted, and EU fines reaching €15 million or 3% of global turnover.
+> On 2 August 2026, the EU AI Act's transparency obligations became binding law, carrying penalties of up to €15 million or 3% of global turnover. Platform rules shifted around the same date. If you use AI in commercial work — selling on Etsy, publishing on Amazon, posting to YouTube, writing for money — your obligations changed, and the freely available advice about them does not agree with itself.
 >
-> **The AI Disclosure Handbook** is a dated, sourced, plain-language reference to what you must declare and where, across every major platform.
+> While compiling this book, three widely repeated claims turned out to be flatly contradicted by the platforms' own material. One of them — the belief that disclosing AI on YouTube costs you monetisation — is causing creators to take real risk in order to avoid an imaginary one.
+>
+> **The AI Disclosure Handbook** is a dated, sourced, plain-language reference to what you must actually declare, and where.
 >
 > Inside:
 >
-> - The one distinction — AI-**generated** versus AI-**assisted** — that determines most of your obligations, and why it means different things on different platforms
+> - The distinction between AI-**generated** and AI-**assisted** that decides most of your obligations — and why it means different things on different platforms
 > - A cross-platform decision table you can read in two minutes
 > - Platform-by-platform chapters: Amazon KDP, Etsy, YouTube, Medium, Royal Road, and direct sales
-> - The EU AI Act's Article 50 explained for people who are not lawyers — including the editorial-responsibility carve-out and the 2 December 2026 deadline
+> - Why four major platforms organise their rules around four different concepts — how it was made, the seller's role, whether it looks real, and which tier of assistance — so no definition travels
+> - The EU AI Act's Article 50 for non-lawyers: which obligations are yours, which belong to your AI tool's provider, the editorial-responsibility carve-out, and the 2 December 2026 deadline
 > - The Amazon image metadata requirement almost nobody knows about
 > - How to keep a disclosure record that would survive a challenge
-> - An honest list of what is still unsettled, and exactly where to re-check
+> - A documented list of corrections to claims circulating online, each checked against the source
 >
-> **Every claim in this book carries its effective date and its source.** Claims resting on trade reporting rather than official policy are labelled as such. Where the answer is genuinely unknown, this book says so instead of guessing — because a compliance guide that pretends to certainty it does not have is worse than no guide at all.
+> **Every claim carries its effective date and its source**, marked Official, Reported, or Unknown. Where the answer is genuinely unsettled, this book says so instead of guessing — because a compliance guide that pretends to certainty it does not have is worse than no guide at all.
 >
 > This is not legal advice. It is the reference you read before deciding whether you need any.
 >

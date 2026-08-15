@@ -80,6 +80,26 @@ Decisions, rationale, and rejected alternatives. This is the business's memory. 
 
 ---
 
+## D0008 — 2026-08-15 — Critic pass found three factual errors sourced from trade press; product repositioned
+
+**Decision:** re-verify every `[Reported]` claim against official domains before the editorial gate; correct the manuscript; and reposition the product around the corrections found.
+
+**What the re-verification found.** Three claims taken from trade/SEO coverage were contradicted by the platforms' own material:
+
+1. **"Disclosing AI on YouTube costs monetisation or reach."** False. YouTube states disclosure does **not** limit a video's audience or affect eligibility to earn. **[Official]**
+2. **"YouTube demonetised AI content in 2026."** Misreading of a rename — "repetitious content" became "inauthentic content"; such content was always ineligible. Substance unchanged. **[Official]**
+3. **"Using purchased or templated prompts violates Etsy policy."** Distortion. Etsy prohibits **selling** AI prompt bundles — a restriction on what may be sold, not on which prompts may be used. **[Official]**
+
+Also upgraded from `[Reported]` to `[Official]`: YouTube's realism threshold and its production-assistance exemption; Etsy's Creativity Standards four-role framework, which expressly contemplates seller-prompted AI art; and the EU Art. 50 provider/deployer split, plus the existence of Commission Guidelines and a Code of Practice on Transparency of AI-generated Content.
+
+**Why this matters beyond accuracy.** Had the draft shipped as written, the book would have repeated errors it exists to correct — fatal for a compliance reference. More importantly, the errors **are** the product's positioning. The book's value is not "here are the rules"; it is "here is what the rules say, as opposed to what everyone is repeating." The description was rewritten to lead with that, and a corrections table added to Chapter 12.
+
+**Process rule derived (now standing):** no `[Reported]` claim ships in a compliance asset without an attempt to verify it against an official domain first. Trade coverage of platform policy is unreliable on precisely the details that determine obligations.
+
+**Note on strategy validation:** this also confirms decision D0004. The moat is not writing ability — it is primary-source discipline applied to a fast-moving topic. That is a research advantage, and it is defensible.
+
+---
+
 ## Editorial memory
 
 *Owner feedback from the Human Editorial Gate is recorded here so the same correction is never needed twice (brief §6). Empty until H2.*
