@@ -1,8 +1,8 @@
 # M1 Autonomous Publishing Business
 
-An AI-operated publishing business. The AI owns research, strategy, platform selection, content, compliance, measurement and iteration. The Owner supplies only what is genuinely human-bound: identity, payment authority, and editorial approval.
+An AI-operated research and publishing operation. The AI owns research, strategy, opportunity selection, content, compliance, measurement and iteration. The Owner supplies only what is genuinely human-bound: identity, payment authority, and editorial approval.
 
-**Cycle C1 opened:** 2026-08-15 · **Revenue to date:** $0.00 · **Committed cost to date:** $0.00
+**Revenue to date:** $0.00 · **Committed cost to date:** $0.00 · **Missions concluded:** 1
 
 ---
 
@@ -10,49 +10,51 @@ An AI-operated publishing business. The AI owns research, strategy, platform sel
 
 | If you want to... | Read |
 |---|---|
-| Understand what changed vs. the original brief | **[`STRATEGIC_REVIEW.md`](STRATEGIC_REVIEW.md)** ← start here |
-| See the decision rules learned so far | **[`OPERATING_RULES.md`](OPERATING_RULES.md)** |
+| Reconstruct the whole project from scratch | **[`PROJECT_STATE.md`](PROJECT_STATE.md)** ← start here |
+| See the concluded mission and its answer | **[`missions/M-A_CLOSEOUT.md`](missions/M-A_CLOSEOUT.md)** |
+| See where capital should go next | **[`missions/M1_OPPORTUNITY_FAMILIES.md`](missions/M1_OPPORTUNITY_FAMILIES.md)** |
+| See the decision rules learned so far | [`OPERATING_RULES.md`](OPERATING_RULES.md) |
+| See the full platform evidence base | [`docs/PLATFORM_LANDSCAPE_V2.md`](docs/PLATFORM_LANDSCAPE_V2.md) |
+| See every decision and its reasoning | [`ledger/DECISION_LOG.md`](ledger/DECISION_LOG.md) |
 | Know what the Owner must actually do | [`docs/HUMAN_GATES.md`](docs/HUMAN_GATES.md) |
-| Check why KDP beat the alternatives | [`docs/OPPORTUNITY_COMPARISON.md`](docs/OPPORTUNITY_COMPARISON.md) |
-| See the honest case *against* the first product | [`docs/A0001_BUYER_INTENT.md`](docs/A0001_BUYER_INTENT.md) |
-| See the 30-day test | [`docs/EXPERIMENT_PLAN_30D.md`](docs/EXPERIMENT_PLAN_30D.md) |
-| See the product | [`assets/A0001-ai-disclosure-handbook/`](assets/A0001-ai-disclosure-handbook/) |
 
 ## The one-paragraph version
 
-Live research invalidated the brief's core assumption. The creator/per-read platforms it centred on have specifically banned or de-monetised AI-assisted publishing: Medium forbids paywalling AI-generated writing whether disclosed or not, paying literary magazines refuse AI-assisted work, HubPages is winding down, Quora's partner program is closed, Kindle Vella is dead, and Vocal — the brief's own template candidate — could not be verified at all. The route was replaced. The Mission was not.
+This project ran one mission to completion and concluded it with a **negative finding, delivered for $0.00 and roughly zero hours of Owner time.** The question was whether AI-written English content can earn real revenue on third-party platforms that pay creators directly out of their own audience — the Vocal Media pattern. After screening 38 candidates against primary sources, the answer is **no**: that class of platform has, by 2026, largely barred or de-monetised substantially-AI-generated work, and the two venues still open are defeated by their own economics or by an audience gate we cannot pass.
 
-The corrected strategy competes on **recency instead of volume**: publish into topics whose governing rules changed within the last 30 days, where no back catalogue can exist, sold through the one channel that gives an unknown publisher free access to buyers with purchase intent on day one — Amazon's search box, which expressly permits AI-generated content subject to disclosure.
-
-First asset: a cross-platform AI-disclosure compliance handbook, built on the EU AI Act Article 50 obligations that became binding **2026-08-02** and the Etsy rule change effective **2026-08-11**.
+That is the deliverable. A whole opportunity family was priced without spending capital, and the reasoning, evidence and residue are documented so the answer does not have to be rediscovered.
 
 ## Repository map
 
 ```
-STRATEGIC_REVIEW.md          Independent assessment; corrections to the brief
-docs/                        Phase-0 deliverables
-  PLATFORM_LONG_LIST.md        43 platforms, evidence-graded
-  PLATFORM_TOP5.md             Ranked selection + rejections
-  PLATFORM_RULES_MATRIX.csv    Machine-readable rules matrix
-  CONTENT_INTELLIGENCE_REPORT.md  Where demand outruns supply
-  PAYMENT_FEASIBILITY.md       Payout mechanics; no nationality guesswork
+PROJECT_STATE.md             Single source of truth - read this first
+OPERATING_RULES.md           R1-R10, each traced to a specific failure
+missions/
+  M-A_CLOSEOUT.md              Concluded mission: question, answer, evidence, cost
+  M1_OPPORTUNITY_FAMILIES.md   Six candidate families compared
+  M-C_CHARTER.md               Class C candidate (not chartered)
+  WATCHLIST.md                 Class A residue, quarterly, <=3 searches
+docs/                        Evidence base and Phase-0 deliverables
+  PLATFORM_LANDSCAPE_V2.md     38 candidates screened, shortlist
+  PLATFORM_CONTENT_MATRIX.md   Content research, Platform x Content matrix
+  SCOPE_INTEGRITY_CHECK.md     A/B/C monetisation classification
+  OUT_OF_SCOPE_REGISTER.md     Parked findings, zero budget
   COMPLIANCE_POLICY.md         Binding on all assets
-  EXPERIMENT_PLAN_30D.md       The test, and its kill rule
-  HUMAN_GATES.md               The ~2-3 hours of Owner time required
-  BUILD_VS_NO_BUILD.md         Why no software is being built
-  DEVELOPMENT_ENVIRONMENT_PREFLIGHT.md  Environment + capability review
-ledger/                      REVENUE_LEDGER.csv · COST_LEDGER.csv · DECISION_LOG.md
-jobs/                        Portable Writing Jobs (brief §16)
-assets/                      Content assets
+  DEVELOPMENT_ENVIRONMENT_PREFLIGHT.md  Environment + capability audit
+  MODEL_ROUTER_DESIGN.md       Routing architecture (design only)
+ledger/                      REVENUE_LEDGER.csv - COST_LEDGER.csv - DECISION_LOG.md
+jobs/                        Portable Writing Jobs
+assets/                      Content assets (preserved, not active)
 ```
 
 ## Operating principles in force
 
-- **Evidence over memory.** `UNKNOWN` is written as `UNKNOWN`, never filled from model memory.
-- **Realised net profit**, not article count, is the measure.
-- **M1-A** (first sale recorded) and **M1-B** (cash received) are tracked separately — a recorded sale is not realised cash, and reporting it as such would be false.
-- **Prove the loop, then automate it.** No software is being built until revenue justifies it.
-- **The Owner must never be required to invent the next task.**
+- **Research exists to find truth cheaply**, so capital can move to better opportunities — not to make every mission produce a business.
+- **Missions conclude.** A cheap, well-evidenced negative is a successful outcome.
+- **Discovery is not authorisation.** A family found while running one mission must be chartered separately and compete.
+- **Evidence over memory.** `UNKNOWN` is written as `UNKNOWN`, and never counts as evidence *against* an option.
+- **Test, don't infer** — capability limits especially.
+- **Sunk work is never a reason to continue.**
 - No fake identity, no CAPTCHA bypass, no deceptive AI disclosure, no policy evasion. Platforms that forbid what we are get excluded, not worked around.
 
 ## Current status

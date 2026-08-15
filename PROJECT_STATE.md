@@ -85,8 +85,8 @@ Next decision is a **comparison, not momentum**: `missions/M1_OPPORTUNITY_FAMILI
 | ID | Family | Status |
 |---|---|---|
 | **M-A** | Class A — platforms paying creators from their own audience | **CONCLUDED — negative.** Watchlist only |
-| **M-C** | Class C — retail publishing marketplaces | **CANDIDATE** — charter written, **not chartered** |
-| **M-P** | Professional / compliance information products | **CANDIDATE — currently recommended next** |
+| **M-C** | Class C — retail publishing marketplaces | **FALLBACK** — chartered automatically if M-P's P-0 fails |
+| **M-P** | Professional / compliance information products | **CHARTERED 2026-08-15** — first act is the P-0 self-kill test |
 | **M-S** | AI-assisted services (freelance) | CANDIDATE — strongest buyer intent, fails autonomy |
 | **M-T** | Functional templates/tools | CANDIDATE — no distribution |
 | **M-B** | Audience-first | CANDIDATE — right destination, wrong start |
@@ -130,12 +130,12 @@ D0001 per-read category deprioritised · D0002 Vocal `UNKNOWN` (later corrected)
 
 **M-A asks nothing further.** The mission is closed and requires no Owner action.
 
-1. **Agent:** draft an **M-P charter** (professional/compliance information products) with scope and success criteria from scratch, matching `missions/M-C_CHARTER.md` in rigour.
-2. **Agent:** run the counterfactual test across **M-P vs M-C**, then charter exactly one and keep the other as documented fallback.
-3. **Owner (unchanged, non-urgent until a mission is chartered):** **H1** — country of tax residence, existing KDP account, payout rails. Binding on any marketplace route, so worth resolving regardless of which family wins.
-4. **Optional 30-second Owner check:** is `simily.co` live and paying? Unverifiable from this environment (watchlist W3).
+1. **Agent:** run **P-0** for M-P — *is there a zero-cost route to put a paid reference in front of a defined professional audience?* This is designed as a **self-kill test**: it runs **before any production**, and if it fails, M-P dies cheaply and M-C is chartered.
+2. **Agent:** if P-0 passes, re-justify the target profession from scratch (the AB 723 hook was selected under a drifted scope and may not choose the niche).
+3. **Owner:** **H1** — country of tax residence, existing KDP account, payout rails. Binding on any marketplace channel.
+4. **Optional 30-second Owner check:** is `simily.co` live and paying? Unverifiable from here (watchlist W3).
 
-**Standing rule:** no production until a mission is chartered on its own merits. Being "already here" carries no weight (R10).
+**Standing rule:** no production until P-0 passes. Being "already here" carries no weight (R10).
 
 ## 11. KEY FILES
 
