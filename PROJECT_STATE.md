@@ -47,7 +47,7 @@ Build and validate a lawful, compliant, sustainable AI-powered **publishing** bu
 
 | Mission | Outcome | Type | Cost |
 |---|---|---|---|
-| **M-A** — Class A platforms | **CONCLUDED — negative** | Market-bound | $0 · ~0 Owner hrs · ~30 searches |
+| **M-A** — Class A platforms | **⚠️ PENDING INDEPENDENT AUDIT** (was CONCLUDED — negative) | Market-bound *(claim under audit)* | $0 · ~0 Owner hrs · ~30 searches |
 | **M-P** — professional compliance products | **KILLED at P-0** | Market-bound (need met institutionally) | $0 · 0 Owner hrs · 2 searches · 0 words |
 | **M-C** — retail marketplaces | **KILLED** | **CAPABILITY-BOUND** | $0 · 0 Owner hrs · 2 searches · 0 words |
 | **M-B** — audience-first | **SCREENED OUT** | Fails attention constraint | 0 searches |
@@ -82,7 +82,7 @@ Build and validate a lawful, compliant, sustainable AI-powered **publishing** bu
 
 **Nothing is pending on the Owner as an obligation.** W-1 is an offer, not a request — declining is reasonable and costs nothing already spent.
 
-## 5. THE CENTRAL FINDING — M-A's delivered answer
+## 5. THE CENTRAL FINDING — M-A's delivered answer *(⚠️ UNDER AUDIT — see `audit/`)*
 
 **Class A — the exact model this experiment existed to test — is systematically closed to disclosed AI-generated content in 2026.** Seven platforms verified closed, three dead, exactly two verified open (both defeated by our constraints), residue out-of-scope or unverifiable.
 
@@ -115,7 +115,7 @@ Build and validate a lawful, compliant, sustainable AI-powered **publishing** bu
 
 | ID | Family | Status |
 |---|---|---|
-| **M-A** | Class A — platforms paying creators from their own audience | **CONCLUDED — negative.** Watchlist only |
+| **M-A** | Class A — platforms paying creators from their own audience | **⚠️ PENDING INDEPENDENT AUDIT** — conclusion not treated as settled until a verdict is issued |
 | **M-C** | Class C — retail publishing marketplaces | **KILLED 2026-08-15 — CAPABILITY-BOUND.** Market entry point exists; we cannot locate it from here. Reopens on one page of data |
 | **M-P** | Professional / compliance information products | **KILLED at P-0, 2026-08-15** — 2 searches, 0 words. Need met institutionally |
 | **M-S** | AI-assisted services (freelance) | CANDIDATE — strongest buyer intent, fails autonomy |
