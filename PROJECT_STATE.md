@@ -137,9 +137,11 @@ D0001 per-read category deprioritised · D0002 Vocal `UNKNOWN` (later corrected)
 **P-0 ran and killed M-P** for 2 searches and 0 words. **M-C is now chartered** per the pre-committed trigger.
 
 1. **Owner — H1 is now the binding gate on everything.** Country of tax residence, existing KDP account, payout rails. M-C cannot test its central question (organic discovery) without publishing, and cannot publish without H1. Up to 7 weeks if a US TIN is needed.
-2. **Agent:** while H1 is open, settle M-C's genre/format from evidence — internally consistent on length, reader promise and format. Stage 4 already caught one contradiction (a Short Read cannot be a cozy mystery).
-3. **Agent:** re-run the counterfactual test at M-C's production commitment point. Its known weakness — catalogue scale — has not gone away just because it won by default.
-4. **Optional 30-second Owner check:** is `simily.co` live and paying? Unverifiable from here (watchlist W3).
+2. **Agent — done:** `missions/M-C_EXPERIMENT_DESIGN.md` proposes testing M-C's core question (C-0, organic discovery) with a **$0 marginal-cost probe** — listing the existing A0001 — rather than committing a 60–80k novel to learn something about metadata. Strong kill signal, weak go signal, which is the right shape for a first test.
+3. **Agent — deliberately NOT doing:** genre/format selection for a future M-C novel. That work would be performed on an experiment C-0 may kill. Deferred until C-0 returns.
+4. **Agent:** re-run the counterfactual test if C-0 passes. M-C won the charter by default when M-P's trigger fired; winning by default is not justification.
+5. **Owner — H2 question when it arrives:** C-0 proposes listing A0001, which is explicitly *not* our strongest product. Declining is legitimate; the probe then costs more but its logic is unchanged.
+6. **Optional 30-second Owner check:** is `simily.co` live and paying? Unverifiable from here (watchlist W3).
 
 **Standing rule:** no production until the counterfactual test is re-run at the commitment point (R7).
 

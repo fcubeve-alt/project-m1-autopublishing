@@ -2,7 +2,7 @@
 
 An AI-operated research and publishing operation. The AI owns research, strategy, opportunity selection, content, compliance, measurement and iteration. The Owner supplies only what is genuinely human-bound: identity, payment authority, and editorial approval.
 
-**Revenue to date:** $0.00 · **Committed cost to date:** $0.00 · **Missions concluded:** 1
+**Revenue to date:** $0.00 · **Committed cost to date:** $0.00 · **Missions concluded:** 2 (both negative, both cheap)
 
 ---
 
@@ -11,7 +11,7 @@ An AI-operated research and publishing operation. The AI owns research, strategy
 | If you want to... | Read |
 |---|---|
 | Reconstruct the whole project from scratch | **[`PROJECT_STATE.md`](PROJECT_STATE.md)** ← start here |
-| See the concluded mission and its answer | **[`missions/M-A_CLOSEOUT.md`](missions/M-A_CLOSEOUT.md)** |
+| See the concluded missions and their answers | **[`missions/M-A_CLOSEOUT.md`](missions/M-A_CLOSEOUT.md)** · **[`missions/M-P_CLOSEOUT.md`](missions/M-P_CLOSEOUT.md)** |
 | See where capital should go next | **[`missions/M1_OPPORTUNITY_FAMILIES.md`](missions/M1_OPPORTUNITY_FAMILIES.md)** |
 | See the decision rules learned so far | [`OPERATING_RULES.md`](OPERATING_RULES.md) |
 | See the full platform evidence base | [`docs/PLATFORM_LANDSCAPE_V2.md`](docs/PLATFORM_LANDSCAPE_V2.md) |
@@ -20,19 +20,22 @@ An AI-operated research and publishing operation. The AI owns research, strategy
 
 ## The one-paragraph version
 
-This project ran one mission to completion and concluded it with a **negative finding, delivered for $0.00 and roughly zero hours of Owner time.** The question was whether AI-written English content can earn real revenue on third-party platforms that pay creators directly out of their own audience — the Vocal Media pattern. After screening 38 candidates against primary sources, the answer is **no**: that class of platform has, by 2026, largely barred or de-monetised substantially-AI-generated work, and the two venues still open are defeated by their own economics or by an audience gate we cannot pass.
+This project has run two missions to completion and concluded both with **negative findings, delivered for $0.00 and roughly zero hours of Owner time.** The first asked whether AI-written content can earn on platforms that pay creators out of their own audience — the Vocal Media pattern. The second asked whether professionals with legal exposure would pay for a primary-sourced compliance reference. Both answers are **no**, and both are evidenced.
 
-That is the deliverable. A whole opportunity family was priced without spending capital, and the reasoning, evidence and residue are documented so the answer does not have to be rediscovered.
+That is the deliverable. Two opportunity families were priced without spending capital, and the reasoning, evidence and residue are documented so neither answer has to be rediscovered.
 
 ## Repository map
 
 ```
 PROJECT_STATE.md             Single source of truth - read this first
-OPERATING_RULES.md           R1-R10, each traced to a specific failure
+OPERATING_RULES.md           R1-R11, each traced to a specific failure
 missions/
-  M-A_CLOSEOUT.md              Concluded mission: question, answer, evidence, cost
+  M-A_CLOSEOUT.md              Class A concluded: question, answer, evidence, cost
+  M-P_CLOSEOUT.md              Killed at its own first test, for 2 searches
+  M-C_CHARTER.md               Class C - chartered, blocked at H1
+  M-C_EXPERIMENT_DESIGN.md     The cheapest way to test M-C's core question
   M1_OPPORTUNITY_FAMILIES.md   Six candidate families compared
-  M-C_CHARTER.md               Class C candidate (not chartered)
+  CHARTER_DECISION.md          M-P vs M-C counterfactual test
   WATCHLIST.md                 Class A residue, quarterly, <=3 searches
 docs/                        Evidence base and Phase-0 deliverables
   PLATFORM_LANDSCAPE_V2.md     38 candidates screened, shortlist
