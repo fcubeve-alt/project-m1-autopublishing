@@ -202,6 +202,38 @@ Mission → Business Brain → Reviewer challenge → **Brain re-verifies indepe
 
 ---
 
+## D0012 — 2026-08-15 — Scope drift: A0002 paused, horizontal discovery completed properly
+
+**Trigger:** Owner scope correction. This experiment's boundary is *AI-written English content → third-party platforms that already have an audience → reads, revenue share, publication payments, contests, royalties, tips.* Not an unrestricted search for AI income.
+
+**The failure, and how R7 caused it.** R7 correctly stopped me treating a project as the Mission. I then over-applied it: "search wider" felt like rigour, so I searched *outside the boundary* into freelance services, templates and micro-SaaS. Those findings were real and irrelevant to the question I was hired to answer. The widened frame then pulled the **product** out of scope too — from written content to a professional compliance workbook, selected on "which profession has budget."
+
+Two opposite failure modes now both named: **premature commitment** (R7) and **scope drift** (R8). Breadth is a virtue only *inside* the boundary.
+
+**Actions:**
+1. **A0002 PAUSED** and moved to `OUT_OF_SCOPE_REGISTER.md` O4 with all AB 723 research preserved — verified, dated, handed to Money OS as a standalone candidate.
+2. Freelance / templates / micro-SaaS moved to the register (O1–O3). Zero further budget.
+3. **Horizontal discovery completed properly: 38 in-scope candidates** across per-read, newsletter/subscription, serial fiction, retail royalties, and contests/publication payments → `PLATFORM_LANDSCAPE_V2.md`.
+
+**What the properly-scoped screen found — sorting by AI policy made the landscape legible:**
+
+- **VERIFIED CLOSED (7):** Medium · **Reedsy Prompts/Literary Prize** (*"use of generative AI … is not permitted"* **[P]**) · **Publish0x** (*"AI generated content may be removed"* **[P]**) · **Wattpad** (does not monetise AI — no AI text, covers or illustrations) · **beehiiv** (entirely-AI publications without meaningful human input not permitted **[P]**) · literary magazines · dead platforms.
+- **OPEN WITH A PENALTY-BEARING TAG (3):** Vocal (tag; but Vocal+ $9.99/mo, ~16,700 reads/mo to net $100, Stripe hard block) · Royal Road (tag; reader backlash) · **Tapas** (tag mandatory from March 2026; but 1,000-subscriber gate).
+- **OPEN WITH NEUTRAL DISCLOSURE (1 family):** retail royalties — KDP and wide retail. Disclosure is an upload field with no distribution or royalty penalty.
+- **UNKNOWN (9):** Substack (permissive *by omission*, recorded `[U]` — not verified permissive) · GoodNovel/Dreame/MoboReader/AlphaNovel, which additionally carry a **Writer Beware "Bad Contract Alert"** — ghost-writing clauses, no author-initiated exit, GoodNovel reportedly claiming rights to **all future work [R]**. Bad deal independent of AI policy.
+
+**Structural finding:** almost every platform supplying a built-in audience has by 2026 either barred substantially-AI-generated work from monetisation or attached a visible tag to it — and the tag is never free. The systematic exception is retail royalties, where the buyer decides on the product rather than a badge.
+
+**Honest caveat recorded:** this says retail royalties is the *least obstructed* path, not a *good* one. 75% of self-published authors earn under $1,000/year. Least obstructed ≠ profitable, and Stage 4 must not conflate them.
+
+**Shortlist (Stage 3):** KDP wide · Royal Road · D2D wide retail · Tapas · Substack · Vocal (retained for completeness, not recommended) · Ream.
+
+**Compute economics:** 10 searches this stage; stopped when four consecutive searches changed no ranking and three independently confirmed the same pattern. Stage 4 budget set at ~6–10 searches, concentrated on shortlist ranks 1–2.
+
+→ Rule **R8**: state the boundary before searching; finish horizontal discovery inside it; park out-of-scope findings with zero budget; **test the product against the boundary, not just the channel**; only the Owner moves the boundary. Plus explicit compute-economics discipline.
+
+---
+
 ## Editorial memory
 
 *Owner feedback from the Human Editorial Gate is recorded here so the same correction is never needed twice (brief §6). Empty until H2.*

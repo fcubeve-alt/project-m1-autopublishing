@@ -169,6 +169,38 @@ C1 ran these together and it hid the error. A channel can be right while the pro
 
 ---
 
+## R8 — The Mission has a scope boundary. Widening it is drift, not initiative
+
+**The failure this prevents (committed in C1, and R7 made it worse):** R7 correctly told me a project must not become the Mission. I then over-applied it — treating "search wider" as always virtuous — and searched *outside the experiment's boundary* into freelance services, templates and micro-SaaS. Those findings were real and completely irrelevant to the question I was hired to answer. I then let the widened frame pull the product itself out of scope: from *written content on audience-owning platforms* to *a professional compliance workbook*, selected on "which profession has budget."
+
+**Both failures are now named, and they pull in opposite directions:**
+
+| Failure | Looks like | Correction |
+|---|---|---|
+| **Premature commitment** (R7) | First viable candidate becomes the plan | Portfolio, counterfactual test |
+| **Scope drift** (R8) | Searching wider feels like rigour | Boundary is a constraint, not a suggestion |
+
+Breadth is only a virtue **inside the boundary**. Outside it, breadth is expensive distraction wearing the costume of diligence.
+
+### The rule
+
+1. **State the boundary explicitly before searching.** Which family of models, which earning mechanisms, which content types. Write it at the top of the deliverable.
+2. **Expand horizontally *within* it first, and finish that** before considering anything adjacent. Incomplete horizontal discovery is the failure the boundary exists to prevent.
+3. **Out-of-scope findings get parked, not pursued.** Record them in a register so they are not lost, and give them **zero** further research budget.
+4. **Test the product, not just the channel, against the boundary.** A channel can be in scope while the content sold on it is not — which is exactly how A0002 drifted. KDP is in scope as a publishing platform earning royalties on *written work*; a professional compliance workbook is not the same thing.
+5. **Only the Owner may move the boundary.** I may *propose* a change with evidence. I may never enact one by quietly searching past it.
+
+### Compute economics
+
+Search is not free, and an unbounded search is a failure mode with the same cost as no search.
+
+- **Declare a budget per stage** and record actual spend.
+- **Stop when marginal value collapses** — the reliable signal is *independent searches converging on the same finding*, not a fixed count.
+- **Concentrate remaining budget on the candidates an experiment would actually run on**, not on completing a tidy table.
+- Prefer one decisive test over three confirming searches. A single `curl` loop resolved a network question that a page of reasoning had gotten wrong.
+
+---
+
 ## R6 — Report status honestly, especially about my own work
 
 - Distinguish **validated** from **assumed** from **probe** in every status report.

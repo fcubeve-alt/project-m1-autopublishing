@@ -28,13 +28,13 @@ Any candidate must survive these before its upside matters:
 
 | # | Candidate | Family | State | Verdict basis |
 |---|---|---|---|---|
-| **P1** | **A0002 — CA AB 723 listing-photo disclosure workbook for real estate agents** | Marketplace retail | **EXPERIMENT** | Niche selected 2026-08-15 on verified statute. Spec: `jobs/JOB-0002.md` |
+| **P1** | **A0002 — CA AB 723 workbook for real estate agents** | Professional tooling | **PAUSED — OUT OF SCOPE** | Drifted outside the experiment boundary. Research preserved in `OUT_OF_SCOPE_REGISTER.md` O4 |
 | P2 | A0001 — general AI-disclosure handbook, $6.99 ebook | Marketplace retail | **HOLD** *(was EXPERIMENT)* | Fails counterfactual test in current form — see below |
 | P3 | KDP genre fiction | Marketplace retail | SCREENING | Only candidate with *proven* buyer intent; 30–90 days, series expected, AI-flooded genres |
-| P4 | Notion / professional templates | Digital product | SCREENING | Demand observable by niche; but Notion Marketplace is "supplementary, not primary" for discovery, and I cannot build Notion assets without Owner time |
-| P5 | Freelance services (Fiverr / Upwork) | Services | **KILL for this cycle** | Proven buyer intent, but fails the attention constraint decisively |
+| P4 | Notion / professional templates | Digital product | **OUT OF SCOPE** | Moved to register O2 |
+| P5 | Freelance services (Fiverr / Upwork) | Services | **OUT OF SCOPE** | Moved to register O1. Not a substitute for completing this mission |
 | P6 | Vocal Media | Per-read | KILL | Verified open on policy; ~16,700 reads/mo to net $100; $9.99/mo subscription; hard-blocked without Stripe |
-| P7 | Micro-SaaS / API product | Software | KILL for this cycle | 6–12 months to first paying customer; distribution is the acknowledged bottleneck |
+| P7 | Micro-SaaS / API product | Software | **OUT OF SCOPE** | Moved to register O3 |
 | P8 | Substack / beehiiv / Patreon | Subscription | HOLD | Best margins in the survey; monetises an audience, does not create one |
 | P9 | Etsy digital downloads | Marketplace retail | HOLD | Real traffic, but rules changed 2026-08-11 and enforcement is unobserved |
 | P10 | Direct rails (Gumroad / Payhip / Ko-fi) | Direct sale | **INFRASTRUCTURE** | Not an opportunity — a payout rail. Supplies zero demand |
