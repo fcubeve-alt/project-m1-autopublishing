@@ -61,13 +61,16 @@ assets/                      Content assets
 |---|---|
 | Phase 0 deliverables | ✅ Complete |
 | Reviewer challenge round 1 | ✅ 5 corrections accepted, 1 conclusion defended with evidence |
-| Operating rules v1.0 | ✅ Six rules recorded from C1 failures |
-| Channel (Amazon KDP, wide/non-exclusive) | ✅ **Decision** — survives quantified comparison |
-| Asset A0001 | 🟡 **Demand probe** — publication-ready, awaiting editorial gate. *Not* a validated opportunity |
-| Cover | ✅ Produced, thumbnail-verified (author name pending) |
-| Owner payout setup (H1) | 🔴 **Blocked — awaiting country of tax residence** |
-| Publication (H3) | ⏳ Blocked on H1 + H2 |
-| M1-A first sale recorded | ⏳ Target by day 30 |
+| Operating rules v1.1 | ✅ Seven rules, each traced to a specific failure |
+| **Opportunity portfolio** | ✅ **Open** — 10 candidates, states tracked |
+| Channel (Amazon KDP, wide/non-exclusive) | ✅ **Decision** — survives quantified comparison and re-test |
+| **P1 — profession-specific compliance workbook** | 🟢 **VALIDATING** — now leads. Niche selection pending |
+| **A0001 — general handbook, $6.99 ebook** | 🟠 **HOLD** — failed the counterfactual test. No longer plan of record |
+| Cover + manuscript (A0001) | ✅ Complete; research carries forward to P1 at $0 |
+| Owner payout setup (H1) | 🔴 **Blocked — awaiting country of tax residence.** Product-independent; needed for any KDP route |
+| M1-A first sale recorded | ⏳ Pending candidate selection |
 | M1-B cash received | ⏳ ~60–90 days after first sale |
 
-**Honest status:** the channel is decided on evidence. The product is a $0 demand probe whose purchase intent is *unproven and unprovable from this environment* — see [`docs/A0001_BUYER_INTENT.md`](docs/A0001_BUYER_INTENT.md). Failure is a valid outcome that falsifies the recency thesis cheaply and redirects Cycle 2 to KDP genre fiction, which has proven buyer intent.
+**Honest status:** the **channel** is decided on evidence and survived re-testing. The **product** did not. A0001 was demoted from the plan of record after failing the counterfactual test — it is an explanation priced for consumers, when the evidence says buyers pay premium for *tools* in professional niches they can expense. Its research transfers to P1 at zero marginal cost, which is a forward-looking reason, not a sunk-cost one.
+
+See [`docs/OPPORTUNITY_PORTFOLIO.md`](docs/OPPORTUNITY_PORTFOLIO.md) for all candidates and the stopping rule.

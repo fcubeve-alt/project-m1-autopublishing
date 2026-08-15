@@ -128,6 +128,47 @@ A disclaimer does not fix a mislabelled claim. "This is not legal advice" at the
 
 ---
 
+## R7 — A project is not the Mission. Discovery does not end at the first viable candidate
+
+**The failure this prevents (committed in C1, and not caught by R3):** having found KDP viable, I began optimising *KDP's success* as if it were the objective. R3 made me compare alternatives **once**, at selection. It did not stop the deeper error: letting a project quietly become the Mission, so that every subsequent decision asked "how do I make this work?" instead of "is this still the best use of the next unit of resources?"
+
+**The Mission is to discover and operate the strongest realistic AI-enabled income opportunities under our constraints.** KDP, A0001, Vocal, genre fiction, service work — all are *candidates serving* that Mission. None is the Mission. A candidate that silently replaces it has captured the strategy.
+
+### Every opportunity enters as a CANDIDATE
+
+Finding one viable opportunity completes *a search*, not *the search*, and authorises nothing beyond screening.
+
+```
+DISCOVERED → SCREENING → VALIDATING → EXPERIMENT → SCALE / HOLD / KILL
+```
+
+Before **materially** committing time, compute, money or human attention, run a **proportionate** comparison against credible alternatives. Proportionate means scaled to the size of the opportunity space, the quality of available evidence, the expected value of further search, and the cost of delay — **not** a fixed quota like "always find 30." Set the breadth deliberately and record the reasoning.
+
+### The counterfactual test — run at every commitment point
+
+> **If I had invested nothing in this project yet, knowing everything I know today, would this still be the best use of the next unit of time, compute, money and human attention?**
+
+If no: reduce priority, pause, pivot, or kill. **Sunk work is never a reason to continue.** The only legitimate forward-looking defences are:
+
+- the work produces **information that transfers** to whatever comes next, or
+- a **deliberately small experiment** now has higher information value than more research.
+
+Both are claims about *future* value. "We already built it" is not.
+
+### Re-evaluation triggers
+
+Re-run the test when: new negative evidence appears · before any significant additional commitment · after an experiment returns real data · when a new candidate enters SCREENING that plausibly beats the active one.
+
+### Stopping rule — exploration is not free
+
+Analysis paralysis is a failure mode too. **Stop searching when the expected value of additional search falls below the expected value of testing the best current candidate.** That judgement is mine to make autonomously, and the reasoning gets recorded. A portfolio that never reaches EXPERIMENT is as broken as one that commits to the first idea.
+
+### Separate the channel decision from the product decision
+
+C1 ran these together and it hid the error. A channel can be right while the product on it is wrong. Score them independently — that is what let the honest verdict emerge: **KDP survives, A0001's form does not.**
+
+---
+
 ## R6 — Report status honestly, especially about my own work
 
 - Distinguish **validated** from **assumed** from **probe** in every status report.

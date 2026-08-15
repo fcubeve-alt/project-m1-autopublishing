@@ -172,6 +172,36 @@ Mission → Business Brain → Reviewer challenge → **Brain re-verifies indepe
 
 ---
 
+## D0011 — 2026-08-15 — A0001 demoted to HOLD; project had quietly become the Mission
+
+**Trigger:** Owner correction — the Mission is to discover and operate the strongest realistic AI-enabled income opportunities, not to make KDP or A0001 succeed. Discovering one viable opportunity does not complete discovery or authorise deep execution.
+
+**The failure named.** Once KDP screened well, I started optimising *its* success as though it were the objective. `R3` (Opportunity Comparison Gate) made me compare alternatives **once**, at selection — it did not prevent the deeper error of letting a project silently replace the Mission, so that later decisions asked "how do I make this work?" rather than "is this still the best use of the next unit?" That is a distinct failure and now has its own rule.
+
+**Exploration performed.** Four families beyond the incumbent, chosen because each is a *structurally different* answer to the distribution constraint (the dominant variable), not to hit a quota: freelance services, digital templates, micro-SaaS, subscription.
+
+**Findings:**
+
+- **Freelance services — KILL this cycle.** Proven buyer intent, and Fiverr requires no proactive AI disclosure **[Official]**. But new-seller income is near zero for 4–8 weeks, first 90 days are "proof not profit," and it consumes *ongoing* human attention against a 2–3 hour/month budget. It also inverts the Mission's autonomy dimension: the human becomes the product. Reversal condition recorded (Owner attention ≥5h/week).
+- **Templates — SCREENING, but two transferable findings worth more than the candidate:** functional templates outperform aesthetic ones, and profession-specific workflow systems beat generic productivity products. Fails on distribution — Notion Marketplace is "supplementary, not primary," Gumroad supplies zero traffic.
+- **Micro-SaaS — KILL this cycle.** 6–12 months to first paying customer; distribution is the field's acknowledged bottleneck.
+
+**Counterfactual test applied to A0001 — result: NO.** In its current form it fails the artifact test (an explanation, when evidence says buyers pay premium for *tools* — "workbooks earn premium pricing because buyers see them as tools") and the budget-context test ($6.99 consumer impulse, when nonfiction money sits at ~$19.99 paperback and in "professional niches where buyers expense purchases"). Purchase intent remains unproven and unprovable here.
+
+**Decisions:**
+
+1. **A0001 → HOLD.** No longer the plan of record. It will not consume the Owner's single editorial review while a better-shaped candidate exists. Sunk work is not a reason to continue.
+2. **KDP channel decision STANDS** — scored separately from the product, per the new rule. Nothing found this round beats it under the distribution constraint.
+3. **P1 promoted to VALIDATING:** profession-specific functional compliance **workbook** on KDP. Designed to pass all four paid-beats-free grounds where A0001 passes one.
+4. **A0001's research carries forward at zero marginal cost** — 73 `[Official]` claims across 7 platforms + EU AI Act. Transferable information value, which is a forward-looking justification, not a sunk-cost one.
+5. **H1 stays on the critical path** — the tax/payout gate is product-independent and required for any KDP route.
+
+**Stopping rule invoked and recorded.** Halting family-level search: the last two searches produced no candidate surviving the distribution + attention constraints better than marketplace retail, and converged from three independent directions on the same finding (professional niche + functional artifact + expensed purchase). When independent searches agree, marginal search value has collapsed. Effort redirects from *which family* to *which profession* — narrower and more decision-relevant.
+
+→ Rule **R7**: a project is not the Mission; every opportunity enters as a CANDIDATE; counterfactual test at every commitment point; score channel and product independently; stop searching when expected value of further search drops below testing the best candidate.
+
+---
+
 ## Editorial memory
 
 *Owner feedback from the Human Editorial Gate is recorded here so the same correction is never needed twice (brief §6). Empty until H2.*
