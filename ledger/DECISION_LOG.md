@@ -264,6 +264,30 @@ Unresolved `[U]`: Simily (reported ~$0.02/view ≈5× Vocal, but **also reported
 
 ---
 
+## D0014 — 2026-08-15 — Mission M-A CONCLUDED as a successful negative outcome
+
+**Owner instruction:** conclude the Class A mission formally rather than stretching it until it produces a positive opportunity. Do not continue into Class C by default — charter it separately and make it compete.
+
+**The failure this stopped.** I had proposed "continue via Class C," which would have carried a newly discovered family forward on M-A's momentum, inheriting authority it never earned. That is mission-stretching: it destroys precisely the value a cheap negative creates. Named as **R10**.
+
+**M-A concluded. The answer: NO.** Class A — platforms compensating creators directly from their own audience — is systematically closed to disclosed AI-generated work in 2026. Seven verified closed **[P]** (Medium, AlphaNovel, Wattpad, Publish0x, Reedsy, beehiiv, literary magazines); three dead (HubPages, Quora Partner, Kindle Vella); **exactly two verified open**, both defeated by our constraints — Vocal (Vocal+ $9.99/mo, ~16,700 reads/mo to net $100, Stripe hard-block) and Tapas (1,000-subscriber gate). Residue is work-for-hire (AnyStories cluster), contract-hazardous (GoodNovel/Stary), or unverifiable (Simily).
+
+**Mission cost: $0.00 cash · ~0 Owner hours · ~30 searches · no software · no irreversible commitments.** A whole opportunity family priced without spending capital or Owner time.
+
+**Recorded as structural, not fashion.** Platforms paying creators from their own audience bear the cost of every marginal item, so zero-marginal-cost supply is an existential threat and they barred it. Retail marketplaces bear no such cost — the buyer pays per copy — which is why that class stayed open. The finding reverses only if *who bears marginal cost* changes. The watchlist therefore watches for that, not for individual tag rules.
+
+**Deliverables:** `missions/M-A_CLOSEOUT.md` (formal closeout) · `missions/WATCHLIST.md` (residue, quarterly, ≤3 searches, next 2026-11-15) · `missions/M-C_CHARTER.md` (Class C as an unchartered candidate, scope and success criteria written from scratch, with the discouraging evidence stated up front) · `missions/M1_OPPORTUNITY_FAMILIES.md` (six families compared).
+
+**Recommendation from the comparison: charter M-P (professional/compliance information products) next, hold M-C as fallback.** M-P is the only family where we have a *demonstrated* edge — primary-source research speed on fast-changing rules, evidenced by three documented corrections to widely-repeated errors and by surfacing a dated statutory obligation most affected professionals have not read. It shares M-C's channel economics without inheriting its fatal dependence on catalogue scale, and its buyers expense purchases, which fixes exactly what killed A0001.
+
+**Counter-argument recorded, not buried:** M-P is regulatory-adjacent (raises R5 duty of care), and it looks attractive partly because the AB 723 research already exists — the sunk-cost pull R7 warns about. The distinction I am relying on: the case rests on a **capability we demonstrated**, not an **artifact we possess**. If the capability claim is wrong, M-P should lose.
+
+**Nothing is chartered by this decision.** No production is authorised.
+
+→ Rule **R10**: missions conclude; a cheap negative is a successful outcome; discovery is not authorisation; distinguish an artifact we hold from a capability we demonstrated.
+
+---
+
 ## Editorial memory
 
 *Owner feedback from the Human Editorial Gate is recorded here so the same correction is never needed twice (brief §6). Empty until H2.*

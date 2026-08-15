@@ -43,15 +43,21 @@ Build and validate a lawful, compliant, sustainable AI-powered **publishing** bu
 
 ## 4. CURRENT STAGE
 
-**Stage 3.5 — Shortlist complete; Stage 6 experiment selection under revision after a scope-integrity check.**
+**Mission M-A: CONCLUDED 2026-08-15 — negative finding, recorded as a successful outcome.** See `missions/M-A_CLOSEOUT.md`.
 
-Stages: Discovery ✅ → Screening ✅ → Shortlist ✅ → Content-Market Research ✅ (partial) → Platform × Content Matrix ✅ → **Experiment Selection (being corrected)** → Production/Test ⏸ → SCALE/HOLD/KILL.
+All stages ran to completion: Discovery ✅ → Screening ✅ → Shortlist ✅ → Content-Market Research ✅ → Platform × Content Matrix ✅ → Experiment Selection ✅ → **Concluded before production.**
 
-**No production is authorised right now.** A0001 is HOLD, A0002 is PAUSED/out-of-scope, JOB-0003 is not issued.
+**Now between missions.** No mission is chartered. **No production is authorised.** A0001 HOLD · A0002 out-of-scope · JOB-0003 never issued.
 
-## 5. THE CENTRAL FINDING (this is the most important thing in the file)
+Next decision is a **comparison, not momentum**: `missions/M1_OPPORTUNITY_FAMILIES.md`.
 
-**Class A — the exact model this experiment exists to test — is close to systematically closed to disclosed AI-generated content in 2026.**
+## 5. THE CENTRAL FINDING — M-A's delivered answer
+
+**Class A — the exact model this experiment existed to test — is systematically closed to disclosed AI-generated content in 2026.** Seven platforms verified closed, three dead, exactly two verified open (both defeated by our constraints), residue out-of-scope or unverifiable.
+
+**Mission cost: $0.00 cash · ~0 Owner hours · ~30 searches · no software · no irreversible commitments.**
+
+**Why it is structural, not fashion:** platforms paying creators from their own audience bear the cost of every marginal item, so zero-marginal-cost supply threatens them existentially and they barred it. Retail marketplaces bear no such cost — the buyer pays per copy — which is why that class stayed open. **Economics predicted policy.** The finding reverses only if *who bears marginal cost* changes, not if sentiment does.
 
 | Class A platform | Position | Grade |
 |---|---|---|
@@ -74,21 +80,20 @@ Stages: Discovery ✅ → Screening ✅ → Shortlist ✅ → Content-Market Res
 
 **This is a finding, not a research failure — and it is the answer the experiment was built to produce.**
 
-## 6. OPPORTUNITY PORTFOLIO
+## 6. MISSION PORTFOLIO
 
-`DISCOVERED → SCREENING → VALIDATING → EXPERIMENT → SCALE / HOLD / KILL`
+| ID | Family | Status |
+|---|---|---|
+| **M-A** | Class A — platforms paying creators from their own audience | **CONCLUDED — negative.** Watchlist only |
+| **M-C** | Class C — retail publishing marketplaces | **CANDIDATE** — charter written, **not chartered** |
+| **M-P** | Professional / compliance information products | **CANDIDATE — currently recommended next** |
+| **M-S** | AI-assisted services (freelance) | CANDIDATE — strongest buyer intent, fails autonomy |
+| **M-T** | Functional templates/tools | CANDIDATE — no distribution |
+| **M-B** | Audience-first | CANDIDATE — right destination, wrong start |
 
-| ID | Candidate | Class | State |
-|---|---|---|---|
-| P-KDP | Amazon KDP wide/non-exclusive | **C** | **VALIDATING** — primary income candidate |
-| P-RR | Royal Road serial | **B** | **ACQUISITION PROBE** — pays nothing; not an income experiment |
-| P-VOC | Vocal Media | **A** | HOLD — only verified-open Class A; economics fail at our scale; Stripe hard-block |
-| P-TAP | Tapas | **A** | SCREENING — open with tag; 1,000-sub gate |
-| P-SIM | Simily | **A** | SCREENING — best reported rate; liveness and AI policy both `[U]` |
-| P-D2D | Draft2Digital wide retail | **C** | HOLD — $20 + $12/yr; gated on an asset proving itself |
-| P-SUB | Substack | B/infra | HOLD — no cold-start distribution |
-| A0001 | AI-disclosure handbook | C | **HOLD** — failed counterfactual test |
-| A0002 | AB 723 workbook | OUT | **PAUSED** — out of scope, in register O4 |
+**Class A residue → `missions/WATCHLIST.md`** (Vocal, Tapas, Simily, GoodNovel cluster). Quarterly, ≤3 searches, next review **2026-11-15**.
+
+**Assets preserved as free inputs, not as reasons to continue:** A0001 (~9,000-word handbook, cover, full package) · A0002 research (AB 723) · platform matrix · compliance policy.
 
 ## 7. HUMAN GATES
 
@@ -116,36 +121,21 @@ D0001 per-read category deprioritised · D0002 Vocal `UNKNOWN` (later corrected)
 | 6 | Reported assumed work as validated | **R6** |
 | 7 | Let a project become the Mission | **R7** |
 | 8 | Widened the scope boundary and called it rigour | **R8** |
-| 9 | **Let "easy to start" substitute for "fits the model"** | **R9** |
+| 9 | Let "easy to start" substitute for "fits the model" | **R9** |
+| 10 | **Nearly stretched a mission into a new family rather than concluding it** | **R10** |
 
 **Root cause of the original drift (Owner-confirmed):** *incorrect mission abstraction in cycle one* — generalising "Vocal" to "AI writing income" within the first few tool calls. **Not** a memory or context-length failure. Any future post-mortem should check abstraction before blaming context.
 
 ## 10. NEXT ACTIONS
 
-1. **Owner:** answer **H1**. Nothing else is required from the Owner right now.
-2. **Owner decision proposed, not enacted:** `docs/SCOPE_INTEGRITY_CHECK.md` §4 — with Class A now conclusively mapped as near-closed, does this experiment conclude on that finding, or continue via Class C?
-3. **Agent:** re-run the counterfactual test on E2 before any production. It is genre-corrected but **not authorised** — see the open tension below.
+**M-A asks nothing further.** The mission is closed and requires no Owner action.
 
-### Class A residue — RESOLVED 2026-08-15
+1. **Agent:** draft an **M-P charter** (professional/compliance information products) with scope and success criteria from scratch, matching `missions/M-C_CHARTER.md` in rigour.
+2. **Agent:** run the counterfactual test across **M-P vs M-C**, then charter exactly one and keep the other as documented fallback.
+3. **Owner (unchanged, non-urgent until a mission is chartered):** **H1** — country of tax residence, existing KDP account, payout rails. Binding on any marketplace route, so worth resolving regardless of which family wins.
+4. **Optional 30-second Owner check:** is `simily.co` live and paying? Unverifiable from this environment (watchlist W3).
 
-| Candidate | Resolution |
-|---|---|
-| **AnyStories / NovelSnack / Readink** | **OUT of scope** — work-for-hire ghostwriting: writers take a supplied outline, 10 chapters × 1,500 words/week at $40/chapter. Selling labour, not publishing own content. Writer Beware "Bad Contract Alert" covers all three as one group **[R]** |
-| **Simily** | **`[U]` — unverifiable from here.** Only signal is a 2023 report of profile and earnings pages returning 404. Held open per R1 (`UNKNOWN` is never evidence against), not invested in. **A 30-second check the Owner could do**: is simily.co live and paying? |
-| GoodNovel / Bravonovel / NovelCat / Stary | AI policy `[U]`; exclusive digital rights typical; Writer Beware alert. Not pursued on contract risk alone |
-| Listverse · NewsBreak | `[U]`, low ceiling, not ranking-relevant |
-
-**Conclusion: no viable open Class A venue exists for us.** Vocal is open but economically unviable and Stripe-gated; Tapas is open but audience-gated.
-
-### Open tension on E2 (must be resolved before production)
-
-Stage 4 genre research corrected E2 from a 65–100pp Short Read to a genre-correct **60–80k word** cozy mystery — a Short Read would have violated the form's central reader expectation. But the correction does not fix the economics:
-
-- **~80% of authors with 1–3 books earn under $100/month**; catalogue size is the strongest income predictor.
-- Cozy mystery runs on **series read-through**, which a single title cannot produce.
-- So E2 has **low expected revenue** and **high expected information value** (does disclosed-AI fiction achieve organic discovery where the AI policy is neutral?), at **substantially higher production cost** than the version it replaced.
-
-Under R4, an information-value justification is only legitimate when the revenue expectation is stated honestly. It now is. Under R7, the raised cost demands a fresh counterfactual test at the commitment point — which has **not** been run and is the gate on production.
+**Standing rule:** no production until a mission is chartered on its own merits. Being "already here" carries no weight (R10).
 
 ## 11. KEY FILES
 
@@ -154,7 +144,11 @@ Under R4, an information-value justification is only legitimate when the revenue
 | `PROJECT_STATE.md` | **This file — start here** |
 | `OPERATING_RULES.md` | R1–R9 decision rules |
 | `ledger/DECISION_LOG.md` | Every decision, reasoning, rejected alternatives |
-| `docs/SCOPE_INTEGRITY_CHECK.md` | A/B/C classification; proposed scope decision |
+| `missions/M-A_CLOSEOUT.md` | **Concluded mission — the negative finding and its evidence** |
+| `missions/M1_OPPORTUNITY_FAMILIES.md` | **Family comparison — where capital goes next** |
+| `missions/M-C_CHARTER.md` | Class C candidate charter (not chartered) |
+| `missions/WATCHLIST.md` | Class A residue, quarterly, ≤3 searches |
+| `docs/SCOPE_INTEGRITY_CHECK.md` | A/B/C classification; scope decision |
 | `docs/PLATFORM_LANDSCAPE_V2.md` | 38 screened candidates, shortlist |
 | `docs/PLATFORM_CONTENT_MATRIX.md` | Stages 4–6 |
 | `docs/OUT_OF_SCOPE_REGISTER.md` | Parked findings (incl. A0002) |

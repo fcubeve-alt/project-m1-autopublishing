@@ -57,20 +57,32 @@ assets/                      Content assets
 
 ## Current status
 
+**Mission M-A: CONCLUDED 2026-08-15 — negative finding, recorded as a success.**
+
+The question was whether AI-written content can earn on third-party platforms that pay creators **directly from their own audience** (the Vocal Media pattern). The answer, on evidence, is **no** — not in 2026, not at scale, not without an existing audience.
+
+| | |
+|---|---|
+| Verified **closed** | Medium · AlphaNovel · Wattpad · Publish0x · Reedsy contests · beehiiv · literary magazines |
+| Dead / closed to new entrants | HubPages · Quora Partner · Kindle Vella |
+| Verified **open** | **Two.** Vocal (earnings behind a $9.99/mo subscription; ~16,700 reads/mo to net $100; hard-blocked without Stripe) and Tapas (1,000-subscriber gate) |
+| **Mission cost** | **$0.00 cash · ~0 Owner hours · ~30 searches · no software · nothing irreversible** |
+
+**Why it is structural:** platforms paying creators from their own audience bear the cost of every marginal item, so zero-marginal-cost supply threatens them and they barred it. Retail marketplaces bear no such cost — the buyer pays per copy — which is why that class stayed open. **Economics predicted policy.**
+
+### Now between missions
+
+No mission is chartered. No production is authorised. Class C (retail marketplaces) was **discovered** during M-A, and discovery is not authorisation — it has a charter document and must compete against five other families in [`missions/M1_OPPORTUNITY_FAMILIES.md`].
+
+**Current recommendation:** charter **M-P** (professional/compliance information products) next — the one family where we have a demonstrated rather than hypothesised edge — with M-C as documented fallback.
+
 | Item | State |
 |---|---|
-| Phase 0 deliverables | ✅ Complete |
-| Reviewer challenge round 1 | ✅ 5 corrections accepted, 1 conclusion defended with evidence |
-| Operating rules v1.1 | ✅ Seven rules, each traced to a specific failure |
-| **Opportunity portfolio** | ✅ **Open** — 10 candidates, states tracked |
-| Channel (Amazon KDP, wide/non-exclusive) | ✅ **Decision** — survives quantified comparison and re-test |
-| **P1 — profession-specific compliance workbook** | 🟢 **VALIDATING** — now leads. Niche selection pending |
-| **A0001 — general handbook, $6.99 ebook** | 🟠 **HOLD** — failed the counterfactual test. No longer plan of record |
-| Cover + manuscript (A0001) | ✅ Complete; research carries forward to P1 at $0 |
-| Owner payout setup (H1) | 🔴 **Blocked — awaiting country of tax residence.** Product-independent; needed for any KDP route |
-| M1-A first sale recorded | ⏳ Pending candidate selection |
-| M1-B cash received | ⏳ ~60–90 days after first sale |
+| M-A | ✅ Concluded — negative, cheap, documented |
+| Class A residue | 👁 Watchlist, quarterly, ≤3 searches, next 2026-11-15 |
+| M-C / M-P / M-S / M-T / M-B | 🟡 Candidates — none chartered |
+| Assets (A0001 manuscript + cover, AB 723 research) | 📦 Preserved as free inputs, **not** reasons to continue |
+| Owner gate H1 (country of tax residence) | 🔴 Open — binding on any marketplace route, non-urgent until a mission is chartered |
+| Revenue / spend | **$0.00 / $0.00** |
 
-**Honest status:** the **channel** is decided on evidence and survived re-testing. The **product** did not. A0001 was demoted from the plan of record after failing the counterfactual test — it is an explanation priced for consumers, when the evidence says buyers pay premium for *tools* in professional niches they can expense. Its research transfers to P1 at zero marginal cost, which is a forward-looking reason, not a sunk-cost one.
-
-See [`docs/OPPORTUNITY_PORTFOLIO.md`](docs/OPPORTUNITY_PORTFOLIO.md) for all candidates and the stopping rule.
+**The operating principle this project now runs on:** the purpose of autonomous research is not to make every mission produce a business. It is to discover the truth cheaply enough that capital can move to better opportunities.
