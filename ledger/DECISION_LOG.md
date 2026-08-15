@@ -100,6 +100,26 @@ Also upgraded from `[Reported]` to `[Official]`: YouTube's realism threshold and
 
 ---
 
+## D0009 — 2026-08-15 — Hold length at ~8,150 words; cut price to $6.99; state length in the description
+
+**Decision:** do not pad A0001 to the 12,000–18,000 word target set in JOB-0001. Ship Edition 1 at ~8,150 words, reduce list price from $9.99 to **$6.99**, and disclose the length in the book description.
+
+**Rationale.** JOB-0001's own prohibited-patterns list forbids padding and identifies word-count inflation as the most recognisable AI-writing tell. Writing 5,000 words of filler to hit a self-imposed target would have violated the asset's editorial standard in order to satisfy a number I chose myself. The target was wrong; the standard was right.
+
+The manuscript is dense rather than short: 69 `[Official]` claims, 16 `[Reported]`, 20 `[Unknown]` across 8,150 words. For a lookup-driven reference, claim density is the relevant quality measure, not length.
+
+**But length still has a commercial cost.** ~8,150 words is roughly 40 pages, which is thin at $9.99 for an unknown author. The risk is not lost margin — it is one-star reviews complaining about length, which would damage the asset permanently and cost far more than $1.40 per sale.
+
+**Economics of the change:** $6.99 × 70% = **$4.89 net per sale** (versus $6.99 at $9.99). Break-even against the higher price needs ~1.43× the unit volume — a threshold a better-matched price and lower refund risk should clear comfortably for a first title with no author reputation.
+
+**Also:** the description now states the length and format explicitly. Surprising a buyer is what produces refunds and bad reviews; telling them in advance converts length from a complaint into a positioning statement.
+
+**JOB-0001 target corrected** to 8,000–12,000 words for reference-class assets, so the error is not repeated.
+
+**Expansion candidates recorded for Edition 2** (genuine gaps, not filler): Tapas / Inkitt / Dreame / Webnovel author-side AI policies; stock image platforms; Substack and beehiiv positions; Google's stance on AI content in search; Apple Books and Kobo. Each is a real reader need and would be added on evidence, not to reach a word count.
+
+---
+
 ## Editorial memory
 
 *Owner feedback from the Human Editorial Gate is recorded here so the same correction is never needed twice (brief §6). Empty until H2.*

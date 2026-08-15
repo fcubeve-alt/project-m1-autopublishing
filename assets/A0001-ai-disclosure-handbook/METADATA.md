@@ -16,7 +16,7 @@ The Owner should not need to author anything below. Everything is ready to paste
 | **Edition** | August 2026 Edition |
 | **Author** | `UNKNOWN` — Owner decides. Real name or a consistent publishing name. See note below |
 | **Language** | English |
-| **List price** | **$9.99 USD** (70% royalty band, $2.99–$12.99 as of 2026-07-07) |
+| **List price** | **$6.99 USD** (70% royalty band, $2.99–$12.99 as of 2026-07-07) → **$4.89 net per sale** |
 | **Royalty option** | **70%** |
 | **KDP Select** | **NO — do not enroll.** Non-exclusive by decision D0003 |
 | **Territories** | All |
@@ -92,6 +92,8 @@ Deliberately weighted toward **specific, recent, high-intent phrases** rather th
 > **Every claim carries its effective date and its source**, marked Official, Reported, or Unknown. Where the answer is genuinely unsettled, this book says so instead of guessing — because a compliance guide that pretends to certainty it does not have is worse than no guide at all.
 >
 > This is not legal advice. It is the reference you read before deciding whether you need any.
+>
+> **A note on length:** this is a dense reference of roughly 8,000 words — about 40 pages — not a padded business book. It is built to be looked things up in, and priced accordingly.
 >
 > *August 2026 Edition. Compiled 15 August 2026.*
 
