@@ -201,6 +201,30 @@ Search is not free, and an unbounded search is a failure mode with the same cost
 
 ---
 
+## R9 — Classify by monetisation class before ranking. Operational convenience is not economic fit
+
+**The failure this prevents (committed in C1):** I promoted a Royal Road serial to *primary experiment* because it needed no KYC, was unblocked by H1, and returned signal in days. All true. But **Royal Road does not pay authors** — it is an audience-acquisition platform. I let "easy to start" substitute for "fits the money-making model," and would have reported a learning experiment as progress toward revenue.
+
+**The rule — label every candidate before ranking it:**
+
+| Class | Test |
+|---|---|
+| **A** | Does the platform pay me **from an audience it already owns**? |
+| **B** | Do I have to **leave the platform** to get paid? |
+| **C** | Does a **buyer make a purchase decision**? |
+| **OUT** | Is the product something other than written content? |
+
+Then:
+
+1. **State the class in every ranking table.** A candidate whose class is unstated is unranked.
+2. **Class B may never be counted as an income experiment.** It can be a legitimate acquisition or learning probe — label it that way explicitly, and never let it satisfy a revenue objective.
+3. **Convenience is a tiebreaker, never a promoter.** No KYC, fast signal, low cost — all valuable, none of them evidence of economic fit. If convenience is doing the ranking work, the ranking is wrong.
+4. **When the mission names a seed example, the seed's class is the mission's centre of gravity.** Moving to an adjacent class is a scope decision that must be surfaced to the Owner, not absorbed silently.
+
+**Diagnostic heuristic worth keeping:** a platform's economics predict its AI policy. Platforms paying creators from their own audience bear the cost of every marginal piece of content, so unlimited zero-marginal-cost supply threatens them directly — and by 2026 they have largely barred or de-monetised it. Retail marketplaces bear no such cost and stayed open. **When screening a new platform, ask who pays for the marginal item; that predicts the AI rule before you read it.**
+
+---
+
 ## R6 — Report status honestly, especially about my own work
 
 - Distinguish **validated** from **assumed** from **probe** in every status report.

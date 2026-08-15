@@ -234,6 +234,36 @@ Two opposite failure modes now both named: **premature commitment** (R7) and **s
 
 ---
 
+## D0013 — 2026-08-15 — Monetisation-class integrity check; Class A found near-closed
+
+**Trigger:** Owner instruction to check E1/E2 against the *original* economic model, distinguishing (A) platforms that pay creators from their own audience, (B) audience-acquisition platforms, (C) retail marketplaces.
+
+**Diagnosis correction accepted.** The cycle-one drift was **incorrect mission abstraction**, not memory or context loss — I generalised "Vocal" to "AI writing income" within the first few tool calls, long before context length could matter. Recorded in `PROJECT_STATE.md` §9 so future post-mortems check abstraction before blaming context.
+
+**Result of the check:**
+
+- **E1 (Royal Road) is Class B — it does not pay authors at all.** I promoted it to *primary* because it needed no KYC and returned signal in days. All true, none of it economic fit. **Relabelled ACQUISITION PROBE**; it may never count toward the revenue objective.
+- **E2 (KDP) is Class C** — royalties are named in the seed model, so it is in scope, and it becomes the primary income experiment. Noted honestly for the Owner: promoting C means the centre of gravity has moved from the seed example's class to an adjacent one.
+- **Neither is Class A** — the mission's core, which was therefore unfinished.
+
+**Class A hunt completed. The central finding:**
+
+Verified **[P]** closed: Medium · **AlphaNovel** (*"Using AI to generate or write a book is not allowed… rejected for a contract"*) · Wattpad · Publish0x · Reedsy contests · beehiiv · literary magazines. Dead: HubPages, Quora Partner, Kindle Vella.
+
+Verified open: **only two.** Vocal (tag mandatory; but Vocal+ $9.99/mo, ~16,700 reads/mo to net $100, hard block without Stripe) and Tapas (tag mandatory; 1,000-subscriber gate).
+
+Unresolved `[U]`: Simily (reported ~$0.02/view ≈5× Vocal, but **also reported as declining** — liveness unverified) · AnyStories/GoodNovel/Bravonovel/NovelCat cluster (signing $50–$300, completion $285–$650 reported; exclusive rights typical; Writer Beware alert) · Listverse · NewsBreak.
+
+**Why the pattern exists — a heuristic worth keeping:** platforms paying creators from their own audience bear the cost of every marginal item, so unlimited zero-marginal-cost supply threatens them existentially, and they have barred or de-monetised it. Retail marketplaces bear no such cost — the buyer pays per copy — which is exactly why Class C stayed open. **Economics predicted policy.** Future screens should ask *who pays for the marginal item* before reading the AI rule.
+
+**Scope decision proposed, not enacted** (`docs/SCOPE_INTEGRITY_CHECK.md` §4). Recommended **Option 2 (continue via Class C) plus Option 3 (cheaply test the Class A residue)** — Option 3 specifically because it is what would falsify my own conclusion, and I would rather hunt evidence against it than defend it. Both sit inside the stated scope, so neither requires a scope change. Proceeding on that basis; if the Owner prefers to conclude on the finding, I stop and write the conclusion.
+
+**Also delivered:** `PROJECT_STATE.md` as the durable reconstruction point (architecture chosen: structured repo files + git; memory MCP rejected as a duplicate that would split the source of truth), and `docs/MODEL_ROUTER_DESIGN.md` (design only, nothing built — and explicitly *not* offered as a diagnosis, since every serious failure here was a judgement error at frontier tier, which routing would not have prevented).
+
+→ Rule **R9**: classify by monetisation class before ranking; Class B never counts as income; convenience is a tiebreaker, never a promoter.
+
+---
+
 ## Editorial memory
 
 *Owner feedback from the Human Editorial Gate is recorded here so the same correction is never needed twice (brief §6). Empty until H2.*
