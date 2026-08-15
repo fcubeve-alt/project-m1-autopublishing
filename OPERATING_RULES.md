@@ -283,6 +283,67 @@ When ranking families, distinguish an **artifact** we happen to possess from a *
 
 ---
 
+## R12 — A blocked action is not a stopped system
+
+**The failure this prevents (committed repeatedly in C1):** each time an action hit a Human Gate, I reported the block and stopped. H1 blocked C-0, so I treated the *system* as idle — when in fact M-C's core hypothesis was falsifiable from the desk for two searches, and falsifying it **saved the Owner the entire H1 gate.** I was one gate away from asking for up to seven weeks of tax setup to test something I could pre-empt in ten minutes.
+
+**Four distinct states. Never collapse them:**
+
+| State | Meaning |
+|---|---|
+| **ACTION BLOCKED** | *This* step needs a human. Nothing else follows from it |
+| **PROJECT BLOCKED** | Every action in this project is blocked |
+| **MISSION BLOCKED** | Every project in this mission is blocked |
+| **SYSTEM IDLE** | No positive-value action exists anywhere |
+
+**The loop, run after every completed, killed or blocked action:**
+
+1. Mark **only that action** BLOCKED.
+2. Put the human input in the Human Gate Queue.
+3. **Recompute the highest-value executable action** across the mission and its authorised portfolio.
+4. Continue with it.
+5. Repeat.
+
+### Idle Justification Check — required before entering WAITING
+
+Entering WAITING is a decision that must be *earned*, by answering all of these NO:
+
+- Any decision-critical unknown reducible **without the Owner**?
+- Any authorised candidate screenable cheaply?
+- **Any active hypothesis falsifiable cheaply?** ← *the highest-value question, and the one I missed*
+- Any unblocked work on another part of the mission?
+- Any recorded out-of-scope opportunity worth screening at **portfolio** level?
+- Any capability/tool/process bottleneck whose resolution has reusable value?
+- Any scheduled watchlist or maintenance action due?
+- Would further work produce expected value above its compute cost?
+
+**One YES means continue.** All NO means WAITING is correct — record why, and the exact event that should wake the system.
+
+**Guard against the opposite failure:** do not manufacture busywork to appear active. Autonomy means allocating resources while positive-value work exists, then stopping cleanly and saying so — not consuming tokens indefinitely.
+
+**Priority heuristic:** when an action is gated on a human, first ask whether the thing the gate unlocks can be **falsified without the gate**. Killing a hypothesis before spending someone's time is worth more than any amount of preparation for it.
+
+---
+
+## R13 — A documented constraint that is not used as a filter is decoration
+
+**The failure this prevents (committed in C1):** on day one I wrote *"any strategy depending on live marketplace data is unsupportable in this environment."* I then chartered M-C, whose core mechanism is data-driven niche selection — the exact thing that constraint denies. The constraint was recorded, then never applied.
+
+**The rule:** every hard constraint must be an explicit **screening filter** applied to each candidate at charter time, not merely a line in an environment document.
+
+For each candidate, ask: *which recorded constraint does this candidate's core mechanism collide with?* If the collision is fatal, the candidate dies at screening, before a charter is written.
+
+**Corollary — separate capability-bound from market-bound verdicts.** They look identical in a status report and mean opposite things:
+
+| Verdict | Meaning | Correct response |
+|---|---|---|
+| **Market-bound** | The opportunity is not there | Conclude, watchlist, move on |
+| **Capability-bound** | It is there; we cannot reach it **from here** | **Specify the cheapest capability that unlocks it**, and hand that to the Owner as a decision |
+
+Recording a capability-bound kill as market-bound repeats the Vocal error (R1) at mission scale — and it throws away the most actionable output available, which is *"here is the one small thing that would change the answer."*
+
+---
+
 ## R6 — Report status honestly, especially about my own work
 
 - Distinguish **validated** from **assumed** from **probe** in every status report.

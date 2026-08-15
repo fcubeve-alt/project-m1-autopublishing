@@ -288,6 +288,33 @@ Unresolved `[U]`: Simily (reported ~$0.02/view ≈5× Vocal, but **also reported
 
 ---
 
+## D0015 — 2026-08-15 — M-C killed capability-bound; system enters justified WAITING
+
+**Trigger:** Owner correction — a blocked action is not a stopped system. I had treated "H1 blocks C-0" as grounds to stop, without checking whether anything else was executable.
+
+**What the corrected loop found immediately.** Running the Idle Justification Check surfaced the question I had skipped: *can any active hypothesis be falsified cheaply?* M-C's core hypothesis could — for two searches, without any Owner time. **Doing so saved the Owner the entire H1 gate** (up to 7 weeks for a US TIN plus an upload) to observe an outcome that was predictable from the desk.
+
+**M-C KILLED — capability-bound, not market-bound.**
+
+- New titles receive almost no organic visibility: *"the algorithm rewards momentum, not existence"* — sales need reviews, reviews need sales **[R]**.
+- **I hunted counter-evidence and found it:** winnable niches are real and identifiable — first page averaging under ~100 ratings, or most recent publish date 2+ years old, signals demand with no active publisher. Themed sub-niches are often invisible on page one while buyers search for them **[R]**.
+- **The escape route requires exactly the capability we verified we lack.** Assessing a niche means reading review counts, publish dates and BSR off Amazon's first page — unobtainable here (egress-blocked; scraping barred by our own policy).
+- Therefore niche selection would be a **guess** against a base rate where ~80% of small-catalogue authors earn under $100/month.
+
+**Recorded explicitly as capability-bound so it is not mistaken for a market verdict** (R1 — the Vocal error at mission scale). The market entry point exists; we cannot locate it from this environment.
+
+**Self-observation:** `STRATEGIC_REVIEW.md` §P4 recorded on day one that *"any strategy depending on live marketplace data is unsupportable in this environment."* I then chartered a mission whose core mechanism is data-driven niche selection. **A documented constraint that is not applied as a screening filter is decoration** → rule **R13**.
+
+**M-B screened out** the same way: audience-first requires sustained human community engagement (Royal Road mandates human comments, reviews and PMs), failing the 2–3h/month attention constraint.
+
+**Highest-leverage output produced:** `missions/CAPABILITY_UNLOCK.md` — a ready-to-run, ~20–30 minute procedure for the Owner to supply first-page Amazon data for candidate terms, with the **decision rule fixed in advance** so it can return a genuine "no." It asks the Owner to be a data source, not a strategist.
+
+**Idle Justification Check run and all eight answers NO ⇒ WAITING entered as an earned decision, not a default.** Six wake conditions recorded (W-1…W-6), with W-1 explicitly framed as an offer rather than an obligation.
+
+→ Rules **R12** (a blocked action is not a stopped system; four distinct states; falsify before spending someone's time) and **R13** (constraints must be filters; separate capability-bound from market-bound verdicts).
+
+---
+
 ## Editorial memory
 
 *Owner feedback from the Human Editorial Gate is recorded here so the same correction is never needed twice (brief §6). Empty until H2.*

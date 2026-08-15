@@ -41,18 +41,46 @@ Build and validate a lawful, compliant, sustainable AI-powered **publishing** bu
 | Marketplace data | Unobtainable (Amazon BSR/keywords). Scraping barred by our own compliance policy |
 | Compliance | No fake identity, no CAPTCHA bypass, no deceptive AI disclosure, no policy evasion. Platforms that forbid what we are get **excluded, not worked around** |
 
-## 4. CURRENT STAGE
+## 4. CURRENT STAGE — WAITING (justified)
 
-**Two missions concluded today, both negative, both cheap. M-C is chartered and blocked at H1.**
+**Three missions concluded 2026-08-15. In-scope opportunity space is exhausted pending one capability input.**
 
-| Mission | Outcome | Cost |
+| Mission | Outcome | Type | Cost |
+|---|---|---|---|
+| **M-A** — Class A platforms | **CONCLUDED — negative** | Market-bound | $0 · ~0 Owner hrs · ~30 searches |
+| **M-P** — professional compliance products | **KILLED at P-0** | Market-bound (need met institutionally) | $0 · 0 Owner hrs · 2 searches · 0 words |
+| **M-C** — retail marketplaces | **KILLED** | **CAPABILITY-BOUND** | $0 · 0 Owner hrs · 2 searches · 0 words |
+| **M-B** — audience-first | **SCREENED OUT** | Fails attention constraint | 0 searches |
+
+**Critically: M-C's kill saved the Owner the H1 gate.** Falsifying it from the desk cost 2 searches; running C-0 would have cost up to 7 weeks of tax setup plus an upload to observe a predictable outcome.
+
+### Idle Justification Check — run 2026-08-15, result: **WAITING is correct**
+
+| Question | Answer |
+|---|---|
+| Decision-critical unknowns reducible without the Owner? | **No** — the binding unknown is Amazon first-page data, verified unobtainable here |
+| Authorised candidates screenable cheaply? | **No** — M-B screened out today; M-S/M-T are out of scope and parked |
+| Any active hypothesis falsifiable cheaply? | **No** — all three in-scope hypotheses now resolved |
+| Unblocked work elsewhere in the Mission? | **No** — Class A closed, Class B not income, Class C capability-blocked |
+| Out-of-scope opportunity to screen at portfolio level? | **No** — recorded; promoting one requires an Owner scope decision |
+| Capability bottleneck with reusable value? | **Was YES → now resolved.** `missions/CAPABILITY_UNLOCK.md` written |
+| Scheduled watchlist/maintenance due? | **No** — next review 2026-11-15 |
+| Further work EV > compute cost? | **No** — remaining work would be busywork |
+
+**All NO ⇒ WAITING is earned, not defaulted.**
+
+### Wake conditions — the exact events that resume autonomous operation
+
+| # | Event | Resumes |
 |---|---|---|
-| **M-A** — Class A platforms | **CONCLUDED — negative.** Class A systematically closed to disclosed AI work | $0, ~0 Owner hrs, ~30 searches |
-| **M-P** — professional compliance products | **KILLED at P-0.** Need met institutionally; no distinct reachability | $0, 0 Owner hrs, **2 searches, 0 words** |
-| **M-C** — retail marketplaces | **CHARTERED** by M-P's pre-committed trigger | Blocked at H1 |
+| **W-1** | **Owner returns Amazon first-page data** for ≥1 candidate term (`CAPABILITY_UNLOCK.md`) | M-C reopens with a screened niche; H1 becomes worth answering |
+| **W-2** | Owner answers **H1** | Does *not* by itself revive M-C — the niche-selection gap is the binding constraint, not payout |
+| **W-3** | Owner grants a **scope change** admitting an out-of-scope family (services, templates) | Portfolio screening resumes |
+| **W-4** | Environment gains **Amazon-domain egress** | M-C reopens immediately, no Owner time needed |
+| **W-5** | **2026-11-15** — scheduled watchlist review | ≤3 searches on Class A residue |
+| **W-6** | Owner reports `simily.co` is live and paying | Watchlist W3 resolves; may reopen a Class A candidate |
 
-**No production is authorised.** A0001 HOLD · A0002 out-of-scope · no writing job issued.
-M-C must re-pass the counterfactual test at its production commitment point (R7) — winning by default is not the same as being justified.
+**Nothing is pending on the Owner as an obligation.** W-1 is an offer, not a request — declining is reasonable and costs nothing already spent.
 
 ## 5. THE CENTRAL FINDING — M-A's delivered answer
 
@@ -88,11 +116,11 @@ M-C must re-pass the counterfactual test at its production commitment point (R7)
 | ID | Family | Status |
 |---|---|---|
 | **M-A** | Class A — platforms paying creators from their own audience | **CONCLUDED — negative.** Watchlist only |
-| **M-C** | Class C — retail publishing marketplaces | **CHARTERED 2026-08-15** — per M-P's pre-committed trigger. Blocked at H1 |
+| **M-C** | Class C — retail publishing marketplaces | **KILLED 2026-08-15 — CAPABILITY-BOUND.** Market entry point exists; we cannot locate it from here. Reopens on one page of data |
 | **M-P** | Professional / compliance information products | **KILLED at P-0, 2026-08-15** — 2 searches, 0 words. Need met institutionally |
 | **M-S** | AI-assisted services (freelance) | CANDIDATE — strongest buyer intent, fails autonomy |
 | **M-T** | Functional templates/tools | CANDIDATE — no distribution |
-| **M-B** | Audience-first | CANDIDATE — right destination, wrong start |
+| **M-B** | Audience-first | **SCREENED OUT 2026-08-15** — requires sustained human community engagement (Royal Road mandates human comments/PMs); fails the 2–3h/month attention constraint |
 
 **Class A residue → `missions/WATCHLIST.md`** (Vocal, Tapas, Simily, GoodNovel cluster). Quarterly, ≤3 searches, next review **2026-11-15**.
 

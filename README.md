@@ -60,30 +60,35 @@ assets/                      Content assets (preserved, not active)
 - **Sunk work is never a reason to continue.**
 - No fake identity, no CAPTCHA bypass, no deceptive AI disclosure, no policy evasion. Platforms that forbid what we are get excluded, not worked around.
 
-## Current status
+## Current status — WAITING (earned, not defaulted)
 
-**Two missions concluded 2026-08-15. Both negative. Both cheap. That is the system working.**
+**Three missions concluded 2026-08-15. Total spend $0.00. Total Owner time consumed: ~0 hours.**
 
-| Mission | Question | Outcome | Cost |
+| Mission | Question | Outcome | Type |
 |---|---|---|---|
-| **M-A** | Can AI writing earn on platforms that pay creators from their own audience? *(the Vocal pattern)* | **NO** — 7 verified closed, 3 dead, 2 open but defeated by their own economics | $0 · ~0 Owner hrs · ~30 searches |
-| **M-P** | Will exposed professionals pay for a dated, primary-sourced compliance reference? | **NO** — killed at its own first test | $0 · 0 Owner hrs · **2 searches · 0 words** |
-| **M-C** | Can a no-audience publisher achieve organic marketplace discovery? | **CHARTERED** by M-P's pre-committed trigger | Blocked at H1 |
+| **M-A** | Can AI writing earn on platforms that pay creators from their own audience? | **NO** — 7 verified closed, 3 dead, 2 open but defeated by their own economics | Market-bound |
+| **M-P** | Will exposed professionals pay for a primary-sourced compliance reference? | **NO** — need already met by free regulators, mandatory CE and employer subsidy | Market-bound |
+| **M-C** | Can a no-audience publisher achieve organic marketplace discovery? | **NO, from here** — winnable niches exist; identifying one needs Amazon first-page data this environment cannot obtain | **Capability-bound** |
 
-**M-A's finding is structural:** platforms paying creators from their own audience bear the cost of every marginal item, so zero-marginal-cost supply threatens them and they barred it. Retail marketplaces bear no such cost — the buyer pays per copy. **Economics predicted policy.**
+**The distinction in that last row is the most useful output of the project.** M-C is not a dead market — it is a reachable market we cannot see from this room. Which means one small input changes the answer.
 
-**M-P's finding is sharper still:** need, budget and reportedly *criminal* exposure were all verified — and the market was still zero, because compliance knowledge arrives via a free regulator, mandatory state-approved education, and employer subsidy. **A need already met institutionally is not a market.**
+### The single highest-leverage action available
 
-### State
+[`missions/CAPABILITY_UNLOCK.md`](missions/CAPABILITY_UNLOCK.md) — **~20–30 minutes**, no tools, no account: open Amazon, search 1–3 candidate terms, and paste back the first ten results with their review counts and publish dates. The decision rule is fixed in advance, so the data can return a genuine "no."
 
-| Item | State |
+It asks the Owner to be a **data source, not a strategist**. Declining is entirely reasonable — the evidence says the median outcome in this family is failure even *with* good niche selection.
+
+### Wake conditions
+
+| # | Event |
 |---|---|
-| M-A / M-P | ✅ Concluded — negative, documented, nothing discarded |
-| M-C | 📋 Chartered · 🔴 blocked at H1 · must re-pass the counterfactual test before production |
-| Class A residue | 👁 Watchlist — quarterly, ≤3 searches, next 2026-11-15 |
-| M-S / M-T / M-B | 🟡 Candidates, unchartered |
-| Assets (A0001 manuscript + cover, AB 723 research) | 📦 Preserved as free inputs, **not** reasons to continue |
-| **Owner gate H1** | 🔴 **Now binding on everything** — country of tax residence, KDP account, payout rails |
-| Revenue / spend | **$0.00 / $0.00** |
+| **W-1** | Owner returns Amazon first-page data → M-C reopens with a screened niche |
+| **W-2** | Owner answers H1 → *does not by itself revive M-C*; niche selection is the binding constraint, not payout |
+| **W-3** | Owner grants a scope change admitting an out-of-scope family |
+| **W-4** | Environment gains Amazon-domain egress → M-C reopens with no Owner time at all |
+| **W-5** | 2026-11-15 — scheduled watchlist review |
+| **W-6** | Owner confirms `simily.co` is live and paying |
 
-**The operating principle:** the purpose of autonomous research is not to make every mission produce a business. It is to discover the truth cheaply enough that capital can move to better opportunities. Two families have now been priced for the cost of about thirty searches.
+**Nothing is pending on the Owner as an obligation.**
+
+**The operating principle:** the purpose of autonomous research is not to make every mission produce a business. It is to discover the truth cheaply enough that capital can move to better opportunities. Three families priced, one capability gap identified, nothing spent, nothing discarded.
