@@ -337,6 +337,34 @@ Wrongly pursuing a bad opportunity produces corrective evidence. Wrongly *closin
 
 ---
 
+## D0017 — 2026-08-15 — M-C downgraded to PROVISIONAL KILL; audit A-002 commissioned; two self-identified errors
+
+**Trigger:** Owner instruction to audit the M-C kill as a second case, separating market / mission / channel / strategy / experiment hypotheses, and to stop narrow evidence generalising into a mission-level verdict.
+
+**Status changed:** M-C `KILLED` → **`PROVISIONAL KILL — PENDING INDEPENDENT AUDIT`**.
+
+**Two errors I believe I made, stated before the auditor reports rather than after:**
+
+**1. Level propagation.** My evidence — *"a brand new book with zero reviews gets almost no organic visibility"* — describes exactly one configuration: **one unknown author, one new title, zero promotion, organic surface only.** That is an **experiment-level (L5)** observation. I applied the kill at **mission/channel level (L2/L3)**. The propagation was never independently supported. This is structurally the *same* error as generalising Medium to the whole Class A category (R1) — I fixed it at platform scale and then repeated it at mission scale.
+
+Why it matters practically: L4/L5 remedies are cheap and abundant — series structure, category selection, launch sequencing, cross-promotion, list-building. If the falsification stops at L5, then M-C is not dead; **one naive execution of it is dead**, and killing the mission discards every remedy that would have worked.
+
+**2. An untested assertion doing load-bearing work.** I proved only that **Amazon domains are unreachable from this container** (`curl` → 000). I then asserted that **no compliant route exists anywhere** — and that assertion, not the tested fact, is what converted "we lack data" into "the mission is dead."
+
+Worse, my own records contradict it: `DEVELOPMENT_ENVIRONMENT_PREFLIGHT.md` §6a records **GitHub Actions as an AVAILABLE remote execution path with full internet access**, which I dismissed on the grounds that the data is "barred by platform terms, not network reach." That conflates *scraping is barred* with *no compliant route exists*. Unexamined: Amazon's Product Advertising API, third-party data APIs (Keepa, Rainforest, Bookstat, Publisher Rocket), Google Books API, public bibliographic sources, published bestseller lists, and whether KDP surfaces category data to account holders once H1 clears. **If any is viable, the capability-bound kill collapses.**
+
+**3. Decision-grade thresholds from secondary sources.** The "<100 ratings on page one" and "2+ years since most recent publish" heuristics came from practitioner blogs and were used as if decision-grade. And I never searched for the obvious counter-hypothesis: whether Amazon gives new releases a **temporary visibility window** — which, if real, directly contradicts "the algorithm rewards momentum, not existence."
+
+**Audit A-002 commissioned** as an independent agent with the five-level framework (`audit/A-002_HYPOTHESIS_LEVELS.md`), instructed to determine exactly which level the evidence falsifies, to test the capability assertion route by route, to verify the discovery heuristics, and to hunt counterexamples.
+
+**Running in parallel with A-001** rather than sequentially — the two claims are independent, so parallel execution costs nothing in rigour and returns both verdicts sooner.
+
+**Pre-committed response** is unchanged from `audit/AUDIT_CHARTER.md` §5 and applies to A-002 as written. If the verdict is REJECT or INSUFFICIENT, the kill is **withdrawn, not softened**, and I do not argue.
+
+→ Charter §8 added: every negative conclusion must state which of L1–L5 its evidence actually reaches.
+
+---
+
 ## Editorial memory
 
 *Owner feedback from the Human Editorial Gate is recorded here so the same correction is never needed twice (brief §6). Empty until H2.*

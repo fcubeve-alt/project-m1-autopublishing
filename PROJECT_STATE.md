@@ -49,7 +49,7 @@ Build and validate a lawful, compliant, sustainable AI-powered **publishing** bu
 |---|---|---|---|
 | **M-A** — Class A platforms | **⚠️ PENDING INDEPENDENT AUDIT** (was CONCLUDED — negative) | Market-bound *(claim under audit)* | $0 · ~0 Owner hrs · ~30 searches |
 | **M-P** — professional compliance products | **KILLED at P-0** | Market-bound (need met institutionally) | $0 · 0 Owner hrs · 2 searches · 0 words |
-| **M-C** — retail marketplaces | **KILLED** | **CAPABILITY-BOUND** | $0 · 0 Owner hrs · 2 searches · 0 words |
+| **M-C** — retail marketplaces | **⚠️ PROVISIONAL KILL — PENDING INDEPENDENT AUDIT** | Claimed capability-bound *(under audit)* | $0 · 0 Owner hrs · 2 searches · 0 words |
 | **M-B** — audience-first | **SCREENED OUT** | Fails attention constraint | 0 searches |
 
 **Critically: M-C's kill saved the Owner the H1 gate.** Falsifying it from the desk cost 2 searches; running C-0 would have cost up to 7 weeks of tax setup plus an upload to observe a predictable outcome.
@@ -116,7 +116,7 @@ Build and validate a lawful, compliant, sustainable AI-powered **publishing** bu
 | ID | Family | Status |
 |---|---|---|
 | **M-A** | Class A — platforms paying creators from their own audience | **⚠️ PENDING INDEPENDENT AUDIT** — conclusion not treated as settled until a verdict is issued |
-| **M-C** | Class C — retail publishing marketplaces | **KILLED 2026-08-15 — CAPABILITY-BOUND.** Market entry point exists; we cannot locate it from here. Reopens on one page of data |
+| **M-C** | Class C — retail publishing marketplaces | **⚠️ PROVISIONAL KILL — PENDING INDEPENDENT AUDIT (A-002).** Kill not treated as settled; may have confused experiment-level evidence with mission-level conclusion |
 | **M-P** | Professional / compliance information products | **KILLED at P-0, 2026-08-15** — 2 searches, 0 words. Need met institutionally |
 | **M-S** | AI-assisted services (freelance) | CANDIDATE — strongest buyer intent, fails autonomy |
 | **M-T** | Functional templates/tools | CANDIDATE — no distribution |

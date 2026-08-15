@@ -82,3 +82,22 @@ The Auditor must not be the Business Brain re-reading its own work. Independence
 | Audit | Subject | Status | Verdict |
 |---|---|---|---|
 | **A-001** | M-A — "Class A is closed or economically unattractive" | **IN PROGRESS** (opened 2026-08-15) | *pending* |
+| **A-002** | M-C — "retail marketplaces are capability-blocked, mission dead" | **IN PROGRESS** (opened 2026-08-15) | *pending* |
+
+## 8. Level discipline (added after A-002 was commissioned)
+
+A-002 exposed a failure mode that A-001's framing did not cover: **a falsification at a narrow level propagating upward into a verdict on the whole enterprise.**
+
+Every future negative conclusion must state **which level** the evidence reaches:
+
+| Level | Claim | Remedy if falsified |
+|---|---|---|
+| **L1 Market** | A market exists at all | Abandon |
+| **L2 Mission** | This mission's economic model can work | Owner scope decision |
+| **L3 Channel** | This specific platform works for us | Change channel |
+| **L4 Strategy** | This approach to discovery/distribution works | Change strategy |
+| **L5 Experiment** | This specific configuration works | Change the experiment |
+
+**Evidence reaches the level it actually tested, and no further.** Since L4/L5 remedies are cheap and abundant, mis-attributing an L5 falsification to L2 does not merely mislabel the finding — it silently discards every remedy that would have worked.
+
+**Self-identified in advance of the audit:** the M-C evidence describes one configuration — *one unknown author, one new title, zero promotion, organic-only* — which is L5. The kill was applied at L2/L3. I do not think that propagation was independently supported, and I have said so in the audit brief rather than waiting to be caught.
