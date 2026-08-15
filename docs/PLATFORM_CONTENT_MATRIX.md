@@ -114,8 +114,41 @@ H1 ────┴─────────► E2 KDP Short Read          (nee
 
 E1 is deliberately placed on the unblocked path so the experiment programme is not hostage to a human gate that may take up to seven weeks.
 
+---
+
+## Stage 4 addendum (2026-08-15) — E2 was internally inconsistent, and is revised
+
+Completing genre-level content research on cozy mystery **before** writing surfaced a contradiction in E2 as specified.
+
+**Verified genre conventions [R]:**
+
+| Convention | Detail |
+|---|---|
+| **Length** | **60,000–80,000 words (200–300 pages)** — the expected shape of the form |
+| Violence | Off-page |
+| Language / sex | Minimal profanity; non-explicit |
+| Sleuth | Amateur, frequently female; **the hobby or occupation is what hooks the reader** |
+| Reader promise | Comfort, a puzzle, a community, order restored |
+| Series | Read-through is the economic engine — readers follow a sleuth for 10, 20, even 30 books; individual entries often work as standalones |
+| Saturation | **Culinary cozies are over-saturated by indie authors.** Craft/hobby and animal-assisted subniches retain lower competition |
+| Market timing | 2026 described as a cozy resurgence — "safe suspense" |
+
+**The contradiction:** E2 specified a **Short Read (65–100 pages)** on the strength of ~3.6× effective price-per-page. But that economics belongs to *Short Reads categories*, and **cozy mystery is a novel-length genre**. A 20k-word cozy would break the form's central reader expectation and earn exactly the reviews that destroy a new author's first title. The two halves of E2 were optimising against each other, and I did not notice when selecting it.
+
+**E2 revised:** full-length cozy mystery, **60–80k words**, **craft/hobby or animal-assisted** subgenre (explicitly *not* culinary), written as a genre-correct series opener that also stands alone.
+
+**The harder problem this exposes — recorded, not hidden.** Revising the length does not fix the economics. Earlier verified evidence says **~80% of authors with 1–3 books earn under $100/month, and catalogue size is the strongest predictor of income.** Series read-through is the cozy engine, and a *single* title cannot produce read-through. So E2, honestly assessed:
+
+- **Expected revenue: low.** A lone opener in a series-driven genre is structurally weak, regardless of quality.
+- **Expected information value: high.** It tests whether disclosed-AI fiction can achieve organic discovery on the one channel where the AI policy is neutral — and that answer governs every subsequent decision.
+- **Production cost: substantially larger** than the Short Read it replaced. That raises the bar for proceeding, and the counterfactual test must be re-run before committing, not after.
+
+**Status: E2 is genre-corrected but NOT authorised for production.** Under R7 the next commitment point requires the counterfactual test, and under R4 an information-value justification only holds if the revenue expectation is stated honestly — which it now is.
+
+---
+
 ## Compute economics
 
-Stage 4 budget was 6–10 searches; **4 used.** Stopping because the matrix resolved on the first pass — the platform/format/genre fit was unambiguous once Royal Road's no-KYC property and the Short Reads price-per-page figure were on the table. Remaining budget carries to Stage 7 diagnosis, where it will be worth more.
+Stage 4 budget was 6–10 searches; **6 used** (4 initial + 2 genre-level). Stopping because the matrix resolved on the first pass — the platform/format/genre fit was unambiguous once Royal Road's no-KYC property and the Short Reads price-per-page figure were on the table. Remaining budget carries to Stage 7 diagnosis, where it will be worth more.
 
 **Next action:** issue JOB-0003 for E1 and write the opening arc. No further platform research.

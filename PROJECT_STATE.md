@@ -123,9 +123,29 @@ D0001 per-read category deprioritised · D0002 Vocal `UNKNOWN` (later corrected)
 ## 10. NEXT ACTIONS
 
 1. **Owner:** answer **H1**. Nothing else is required from the Owner right now.
-2. **Agent:** resolve `[U]` on Simily (liveness + AI policy) and the AnyStories/Stary cluster AI policy — the last Class A unknowns that could change the ranking.
-3. **Agent:** hold production. Do not issue JOB-0003 until experiment selection is re-settled against the class framework.
-4. **Owner decision proposed, not enacted:** see `docs/SCOPE_INTEGRITY_CHECK.md` §4 — if Class A is genuinely near-closed, the Owner must choose whether this experiment concludes with that finding, or continues via Class C.
+2. **Owner decision proposed, not enacted:** `docs/SCOPE_INTEGRITY_CHECK.md` §4 — with Class A now conclusively mapped as near-closed, does this experiment conclude on that finding, or continue via Class C?
+3. **Agent:** re-run the counterfactual test on E2 before any production. It is genre-corrected but **not authorised** — see the open tension below.
+
+### Class A residue — RESOLVED 2026-08-15
+
+| Candidate | Resolution |
+|---|---|
+| **AnyStories / NovelSnack / Readink** | **OUT of scope** — work-for-hire ghostwriting: writers take a supplied outline, 10 chapters × 1,500 words/week at $40/chapter. Selling labour, not publishing own content. Writer Beware "Bad Contract Alert" covers all three as one group **[R]** |
+| **Simily** | **`[U]` — unverifiable from here.** Only signal is a 2023 report of profile and earnings pages returning 404. Held open per R1 (`UNKNOWN` is never evidence against), not invested in. **A 30-second check the Owner could do**: is simily.co live and paying? |
+| GoodNovel / Bravonovel / NovelCat / Stary | AI policy `[U]`; exclusive digital rights typical; Writer Beware alert. Not pursued on contract risk alone |
+| Listverse · NewsBreak | `[U]`, low ceiling, not ranking-relevant |
+
+**Conclusion: no viable open Class A venue exists for us.** Vocal is open but economically unviable and Stripe-gated; Tapas is open but audience-gated.
+
+### Open tension on E2 (must be resolved before production)
+
+Stage 4 genre research corrected E2 from a 65–100pp Short Read to a genre-correct **60–80k word** cozy mystery — a Short Read would have violated the form's central reader expectation. But the correction does not fix the economics:
+
+- **~80% of authors with 1–3 books earn under $100/month**; catalogue size is the strongest income predictor.
+- Cozy mystery runs on **series read-through**, which a single title cannot produce.
+- So E2 has **low expected revenue** and **high expected information value** (does disclosed-AI fiction achieve organic discovery where the AI policy is neutral?), at **substantially higher production cost** than the version it replaced.
+
+Under R4, an information-value justification is only legitimate when the revenue expectation is stated honestly. It now is. Under R7, the raised cost demands a fresh counterfactual test at the commitment point — which has **not** been run and is the gate on production.
 
 ## 11. KEY FILES
 
