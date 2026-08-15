@@ -2,7 +2,7 @@
 
 An AI-operated research and publishing operation. The AI owns research, strategy, opportunity selection, content, compliance, measurement and iteration. The Owner supplies only what is genuinely human-bound: identity, payment authority, and editorial approval.
 
-**Revenue to date:** $0.00 · **Committed cost to date:** $0.00 · **Missions concluded:** 2 (both negative, both cheap)
+**Revenue:** $0.00 · **Spend:** $0.00 · **Owner time consumed:** ~0 hours · **Missions concluded:** 3 (all negative, all cheap)
 
 ---
 
@@ -11,7 +11,8 @@ An AI-operated research and publishing operation. The AI owns research, strategy
 | If you want to... | Read |
 |---|---|
 | Reconstruct the whole project from scratch | **[`PROJECT_STATE.md`](PROJECT_STATE.md)** ← start here |
-| See the concluded missions and their answers | **[`missions/M-A_CLOSEOUT.md`](missions/M-A_CLOSEOUT.md)** · **[`missions/M-P_CLOSEOUT.md`](missions/M-P_CLOSEOUT.md)** |
+| See the concluded missions and their answers | [`M-A`](missions/M-A_CLOSEOUT.md) · [`M-P`](missions/M-P_CLOSEOUT.md) · [`M-C`](missions/M-C_CLOSEOUT.md) |
+| **Do the one thing that reopens the project** | **[`missions/CAPABILITY_UNLOCK.md`](missions/CAPABILITY_UNLOCK.md)** |
 | See where capital should go next | **[`missions/M1_OPPORTUNITY_FAMILIES.md`](missions/M1_OPPORTUNITY_FAMILIES.md)** |
 | See the decision rules learned so far | [`OPERATING_RULES.md`](OPERATING_RULES.md) |
 | See the full platform evidence base | [`docs/PLATFORM_LANDSCAPE_V2.md`](docs/PLATFORM_LANDSCAPE_V2.md) |
@@ -20,19 +21,21 @@ An AI-operated research and publishing operation. The AI owns research, strategy
 
 ## The one-paragraph version
 
-This project has run two missions to completion and concluded both with **negative findings, delivered for $0.00 and roughly zero hours of Owner time.** The first asked whether AI-written content can earn on platforms that pay creators out of their own audience — the Vocal Media pattern. The second asked whether professionals with legal exposure would pay for a primary-sourced compliance reference. Both answers are **no**, and both are evidenced.
+This project has run three missions to completion and concluded all three with **negative findings, delivered for $0.00 and roughly zero hours of Owner time.** Two were market-bound — the opportunity genuinely is not there. The third was **capability-bound**: the opportunity *is* there, and this environment cannot see it. That third distinction is the project's most useful output, because it converts a dead end into a single, cheap, specific decision.
 
-That is the deliverable. Two opportunity families were priced without spending capital, and the reasoning, evidence and residue are documented so neither answer has to be rediscovered.
+Three opportunity families priced without spending capital. Nothing built, nothing discarded, and every answer documented so none of them has to be rediscovered.
 
 ## Repository map
 
 ```
 PROJECT_STATE.md             Single source of truth - read this first
-OPERATING_RULES.md           R1-R11, each traced to a specific failure
+OPERATING_RULES.md           R1-R13, each traced to a specific failure
 missions/
   M-A_CLOSEOUT.md              Class A concluded: question, answer, evidence, cost
   M-P_CLOSEOUT.md              Killed at its own first test, for 2 searches
-  M-C_CHARTER.md               Class C - chartered, blocked at H1
+  M-C_CLOSEOUT.md              Killed CAPABILITY-bound - the key distinction
+  CAPABILITY_UNLOCK.md         ~20-30 min of Owner data that reopens M-C
+  M-C_CHARTER.md               Class C charter
   M-C_EXPERIMENT_DESIGN.md     The cheapest way to test M-C's core question
   M1_OPPORTUNITY_FAMILIES.md   Six candidate families compared
   CHARTER_DECISION.md          M-P vs M-C counterfactual test
