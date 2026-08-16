@@ -53,7 +53,7 @@ seven claims are unverified. There is more executable work than budget.
 |---|---|---|---|
 | **M-A** — Class A platforms | **🔴 REOPENED — CONCLUSION WITHDRAWN.** Audit A-001 verdict: REJECT | Negative finding **withdrawn** | $0 · ~0 Owner hrs · ~30 searches |
 | **M-P** — professional compliance products | **KILLED at P-0** (stands, contamination-checked) | Market-bound (need met institutionally) | $0 · 0 Owner hrs · 2 searches · 0 words |
-| **M-C** — retail marketplaces | **⚠️ PROVISIONAL KILL — PENDING INDEPENDENT AUDIT (A-002)** | Claimed capability-bound *(under audit)* | $0 · 0 Owner hrs · 2 searches · 0 words |
+| **M-C** — retail marketplaces | **🔴 REOPENED — KILL WITHDRAWN.** Audit A-002 verdict: **REJECT CONCLUSION** | Claimed capability-bound; **premise false** | $0 · 0 Owner hrs · 2 searches · 0 words |
 | **M-B** — audience-first | **SCREENED OUT** (stands) | Fails attention constraint | 0 searches |
 
 ### The withdrawn WAITING claim
@@ -134,7 +134,7 @@ on the critical path while audit remediation is in progress.
 | ID | Family | Status |
 |---|---|---|
 | **M-A** | Class A — platforms paying creators from their own audience | **🔴 REOPENED.** A-001 = REJECT CONCLUSION. Closeout withdrawn; Vocal, Simily, Ream, Pratilipi all live candidates again |
-| **M-C** | Class C — retail publishing marketplaces | **⚠️ PROVISIONAL KILL — PENDING INDEPENDENT AUDIT (A-002).** Kill not treated as settled; may have confused experiment-level evidence with mission-level conclusion |
+| **M-C** | Class C — retail publishing marketplaces | **🔴 REOPENED 2026-08-16.** A-002 = REJECT CONCLUSION. It did confuse experiment-level evidence with a mission-level conclusion — evidence reaches **L5 weakly / L4 as prior**, kill applied at **L2/L3** — and the capability premise was false besides. **Reopened ≠ attractive:** declining on economics remains available and needs none of the remediation |
 | **M-P** | Professional / compliance information products | **KILLED at P-0, 2026-08-15** — 2 searches, 0 words. Need met institutionally |
 | **M-S** | AI-assisted services (freelance) | CANDIDATE — strongest buyer intent, fails autonomy |
 | **M-T** | Functional templates/tools | CANDIDATE — no distribution |
@@ -195,10 +195,31 @@ and stated "M-A asks nothing further." M-A is reopened; that is no longer true.
 4. 🔄 **A-002 re-run commissioned** as an independent agent per Charter §2, instructed to record
    findings incrementally so a mid-run termination cannot again destroy all work.
 
-### Open
+### Also done this session
 
-5. **A-002 verdict** — M-C stays `PROVISIONAL KILL` and may not be relied on either way until a
-   verdict is issued (Charter §4).
+5. ✅ **A-002 complete — `REJECT CONCLUSION`.** M-C's kill withdrawn, mission reopened, closeout
+   banner-marked, `audit/A-002_POSTMORTEM.md` written and **R16** added per the pre-committed
+   protocol. The re-run hit the same search limit but the incremental-write instruction preserved
+   331 report lines and 19 evidence rows, against zero from the first attempt.
+
+### Open — the A-002 remediation backlog (auditor's priority order, now the mission backlog)
+
+5a. **Withdraw the capability-bound framing** in preflight §6a — ✅ done (lines 111/113 corrected
+    and banner-marked).
+5b. **Verify whether the Creators API retains `SalesRank`** — PA-API was deprecated 2026-05-15. If
+    the successor dropped the field, the official-BSR finding weakens to a historical one.
+5c. **Cost the unblocked routes** — Google Books with a free API key (reachable today, but
+    anonymous quota is zero); Keepa/Rainforest via GitHub Actions.
+5d. **Verify whether Keepa's / Rainforest's own collection is Amazon-ToS-compliant.** Unverified,
+    and **the strongest ground on which a rebuilt kill could stand.**
+5e. **Re-derive or abandon the niche heuristics.** Not decision-grade in either direction.
+5f. **Account for the seven unexamined channels** — Leanpub and Everand first, as most
+    structurally different. Per R16.4, unexamined must be *recorded*, not silent.
+5g. **Test GitHub Actions runner egress** — preflight grades it INFERRED; the auditor did not test
+    it either.
+
+**Do not re-close M-C on capability grounds without a route-by-route negative (R16.5).** Closing it
+on **economics** remains available to the Owner at any time and needs none of the above.
 6. **Resume M-A research** on the corrected economics: **Simily ($20/1k — ~5.3× Vocal)**,
    Vocal free tier ($3.80/1k), **Ream** (permits AI, never searched), **Pratilipi** (never
    searched; AI policy `UNKNOWN`), Vocal Challenges (a payment route never examined).

@@ -420,6 +420,53 @@ R9's "cost structure predicts AI policy" **survived independent testing** — it
 
 ---
 
+## R16 — A kill must fire its own trigger, at the level its evidence reaches
+
+**The failure this prevents (committed on M-C, caught by audit A-002):** M-C was chartered with a
+pre-committed kill trigger — *~0 impressions after **two** distinct metadata/category configurations
+over 30 days*. **Zero configurations were run.** The mission was killed anyway, as
+`CAPABILITY-BOUND`, on evidence about one channel out of eight chartered, using a mechanism
+(*niche selection*) that appears for the first time in the kill document rather than in the charter,
+whose central question was **discovery**. The kill document was internally coherent, which is
+exactly why nothing flagged it.
+
+**The rule — a closure is invalid unless all four hold, each shown with evidence:**
+
+1. **The trigger fired.** Name the charter's pre-committed kill criterion, quote it, and show the
+   observation that satisfied it. *"Blocked before the test could run"* is **not** the trigger
+   firing — a mission blocked at a gate is `BLOCKED`, never `KILLED`. If the trigger cannot be run,
+   the honest statuses are `BLOCKED`, `PAUSED`, or `DECLINED ON ECONOMICS` — never a capability death.
+2. **The mechanism matches the charter.** If the thing being killed is not the thing that was
+   chartered, the substitution must be justified in its own right, in writing, before the kill.
+3. **The evidence reaches the level of the claim** (Charter §8, L1–L5). State the level explicitly,
+   and state which levels it does **not** reach. Evidence about one channel closes one channel.
+   Evidence about one configuration closes one configuration.
+4. **Every chartered channel is accounted for.** Not researched — *accounted for*. Say for each
+   whether the kill's reasoning applies, or record it as unexamined. Seven silent channels is not
+   a conclusion.
+
+**On capability-bound closures specifically — the strongest claim available, so the highest bar:**
+
+- A capability death asserts **impossibility**, not unattractiveness. It requires a **route-by-route
+  negative**, each route tested, not one blocked host generalised into a universal.
+- **"X is barred" never implies "no route exists."** Scraping being barred says nothing about
+  official APIs, licensed data products, remote execution, or public aggregate signals. This
+  specific conflation is what destroyed the M-C kill.
+- Before writing a capability death, run the R2 ladder **and then act on what it finds.** Discovering
+  a path (GitHub Actions) and dismissing it in the next sentence satisfies R2's letter and defeats
+  its purpose.
+- **Prefer the weaker true claim.** *"Declined on economics"* is nearly always available, needs no
+  impossibility proof, is honest, and stays revisable. Per Charter §1, a bad bet declined is
+  recoverable; a good family closed as impossible is never revisited, because nothing ever
+  contradicts it.
+
+**Why this rule and not a wider one:** R1 already forbids treating absent evidence as negative, but
+it is written about *options and platforms* — so it was never felt to apply to a *data input*. R16
+is the same error shape in the vocabulary of missions and closures, because the shape recurred the
+moment the vocabulary changed.
+
+---
+
 ## Standing checklist before committing a cycle's resources
 
 - [ ] R1 — every option verified on its own evidence; no `UNKNOWN` used as a negative
@@ -428,3 +475,14 @@ R9's "cost structure predicts AI policy" **survived independent testing** — it
 - [ ] R4 — purchase-intent evidence stated separately from need; if absent, labelled a probe
 - [ ] R5 — facts, interpretation and recommendation visually separated
 - [ ] R6 — status honest about what is validated vs assumed
+
+## Standing checklist before closing or killing a mission
+
+Per R15b an unevidenced checklist is not a control — name the evidence discharging each item.
+
+- [ ] **R16.1** — the charter's pre-committed trigger is quoted, and the observation that fired it shown
+- [ ] **R16.2** — the killed mechanism is the chartered mechanism, or the substitution is justified in writing
+- [ ] **R16.3** — the L1–L5 level is stated, including the levels the evidence does **not** reach
+- [ ] **R16.4** — every chartered channel accounted for: reasoning applies, or recorded unexamined
+- [ ] **R16.5** — if capability-bound: a route-by-route negative, each route tested, no universal from one blocked host
+- [ ] **R14** — independent audit obtained before the closure is relied on downstream

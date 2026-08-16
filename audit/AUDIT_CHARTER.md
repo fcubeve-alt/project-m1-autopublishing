@@ -82,7 +82,7 @@ The Auditor must not be the Business Brain re-reading its own work. Independence
 | Audit | Subject | Status | Verdict |
 |---|---|---|---|
 | **A-001** | M-A — "Class A is closed or economically unattractive" | **COMPLETE** 2026-08-15 | **REJECT CONCLUSION** — closeout withdrawn, mission reopened, post-mortem in `A-001_POSTMORTEM.md` |
-| **A-002** | M-C — "retail marketplaces are capability-blocked, mission dead" | **⚠️ INCOMPLETE — MUST RE-RUN.** Terminated early by session limit before independent research began | *none — no verdict issued* |
+| **A-002** | M-C — "retail marketplaces are capability-blocked, mission dead" | **COMPLETE** 2026-08-16 (re-run; the first attempt terminated before research began) | **REJECT CONCLUSION** — all three clauses fail. Evidence reaches **L5 weakly / L4 as prior**; kill was applied at **L2/L3**. Closeout withdrawn, M-C reopened, post-mortem in `A-002_POSTMORTEM.md`. **15 gaps recorded in report §6** |
 
 ## 8. Level discipline (added after A-002 was commissioned)
 

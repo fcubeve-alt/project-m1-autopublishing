@@ -1,8 +1,55 @@
+> # ⛔ WITHDRAWN BY AUDIT A-002 — 2026-08-16
+>
+> **Verdict: `REJECT CONCLUSION`.** This closeout is **withdrawn, not deleted** — retained as a
+> record of the error and its cause, per the pre-committed protocol in `audit/AUDIT_CHARTER.md` §5.
+>
+> **Do not cite this document. Do not rebuild on it.** M-C is **REOPENED**.
+>
+> All three clauses of the kill failed, for different reasons:
+>
+> | Clause | Status |
+> |---|---|
+> | "retail marketplaces are capability-blocked" | **False as stated** — Amazon hosts are blocked from this container; the marketplace *class* is not, and **seven of the eight chartered channels were never examined at all** |
+> | "no compliant autonomous route exists for marketplace data" | **Falsified by direct test in this environment.** Also: Amazon publishes BSR as a documented API field, Keepa/Rainforest sell the data as products, and `Book Trends Data` is a public demand signal |
+> | "therefore the mission is dead" | **Non sequitur.** The mechanism whose loss justified the kill — *niche selection* — appears for the first time **in this document**, not in the charter, whose central question is **discovery** |
+>
+> **Level finding:** the evidence reaches **L5 weakly**, and **L4 as a directional prior only**.
+> It does **not** reach L3, L2 or L1. The kill was applied at **L2/L3**.
+>
+> **The charter's own kill criterion never fired.** It required ~0 impressions after **two**
+> distinct metadata/category configurations over 30 days. **Zero were run.**
+>
+> ### What survives — a REJECT must not erase this
+>
+> - **KDP's own reports genuinely are private to the account holder.** No competitor BSR or
+>   first-page review data there. This document was right about that route.
+> - **PA-API / Creators API eligibility genuinely is gated** on qualifying referral sales — a real
+>   chicken-and-egg for an account with no audience, not a formality.
+> - **Scraping is correctly ruled out and stays ruled out.** `COMPLIANCE_POLICY.md` is not the
+>   error. The error is treating *"scraping is barred"* as synonymous with *"no compliant route exists."*
+> - **Pessimism about the naive configuration is well-founded.** The base rates here are real.
+>
+> ### What the verdict does NOT say
+>
+> **It is not a finding that M-C is attractive.** `M1_OPPORTUNITY_FAMILIES.md` §50 — *open but
+> crowded, median outcome failure, structurally dependent on catalogue scale* — is untouched and
+> may still be correct. **Rejecting a kill's reasoning is not endorsing the mission.**
+>
+> What changes is the *kind* of decision. A capability-bound death is a permanent closure justified
+> by an impossibility. What the evidence supports is an **Owner scope decision on economics** —
+> which remains available at any time and needs none of the remediation work. Per Charter §1:
+> a bad bet declined is recoverable; a good family closed as "capability-blocked" is never
+> revisited, because nothing ever contradicts it.
+>
+> Full reasoning: `audit/A-002_AUDIT_REPORT.md` · evidence: `audit/A-002_EVIDENCE_MATRIX.csv`
+
 # MISSION CLOSEOUT — M-C: AI Publishing Marketplaces
 
-**Status: KILLED — 2026-08-15. Killed *before* consuming the Owner's H1 gate.**
+**Status: ~~KILLED — 2026-08-15~~ → WITHDRAWN BY AUDIT, MISSION REOPENED 2026-08-16.**
 **Cost: 2 searches. Zero words. Zero Owner hours.**
-**Kill type: CAPABILITY-BOUND, not market-bound.** This distinction is the whole finding.
+**~~Kill type: CAPABILITY-BOUND, not market-bound. This distinction is the whole finding.~~**
+— ⛔ The capability premise is false. The distinction was indeed the whole finding, and it was
+the wrong one.
 
 ---
 
