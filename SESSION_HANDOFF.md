@@ -1,11 +1,25 @@
 # SESSION HANDOFF
 
-**Written:** 2026-08-16 · **Branch:** `claude/ai-publishing-business-a3o9om` · **Last commit at handoff:** `62a3343`
+**Written:** 2026-08-16 · **Branch:** `claude/ai-publishing-business-a3o9om`
+**Updated:** 2026-08-16 (session 2) · **Sections 1–8 revised — read the update banners**
 
 > **This is an operational handoff, not a project summary.** For the project itself, read `PROJECT_STATE.md`.
 > Purpose: let a fresh session resume without the Owner re-explaining anything, and without repeating work already done.
 >
-> ⚠️ **`PROJECT_STATE.md` §4 still reads "CURRENT STAGE — WAITING". That is stale.** Audit A-001 invalidated the Idle Justification Check that produced it. The true current stage is **§1 below**. Correcting §4 is next session's first write.
+> ✅ **RESOLVED.** `PROJECT_STATE.md` §4 previously read "CURRENT STAGE — WAITING" and was stale.
+> It now reads **`ACTIVE — AUDIT REMEDIATION`**, with the invalidated Idle Justification Check
+> retained and marked withdrawn. §9, §10 and §11 were refreshed at the same time.
+>
+> ## ⚡ Session-2 summary — what changed since this file was written
+>
+> | | |
+> |---|---|
+> | **Search limit** | ✅ **Reset and retested — `WebSearch` works.** The one live environmental constraint is gone |
+> | **V1–V7** | ✅ **All verified** — `audit/V1-V7_VERIFICATION.md`. Five confirmed, one split, one partial |
+> | **A-002** | ✅ **COMPLETE — `REJECT CONCLUSION`.** M-C reopened, closeout withdrawn, post-mortem written, **R16** added |
+> | **Biggest economic finding** | **Simily pays $20/1k reads — ~5.3× Vocal.** 5,000 reads to $100 vs ~26,300 |
+> | **H1** | **No longer a class-wide gate.** Payout rails are platform-specific; H1 is off the critical path |
+> | **Open** | The A-002 remediation backlog — `PROJECT_STATE.md` §10, items 5b–5g |
 
 ---
 
@@ -55,12 +69,12 @@ The project's single most consequential finding — that Class A is systematical
 | ID | Status | Next move |
 |---|---|---|
 | **M-A** — Class A platforms | 🔴 **REOPENED** — conclusion withdrawn | Resume research with corrected Vocal economics + the coverage gaps A-001 found |
-| **M-C** — retail marketplaces | ⚠️ **PROVISIONAL KILL — PENDING A-002** | Re-run A-002. Do not act on the kill either way until a verdict exists |
+| **M-C** — retail marketplaces | 🔴 **REOPENED** — A-002 = REJECT CONCLUSION | Work the remediation backlog (`PROJECT_STATE.md` §10, 5b–5g). **Reopened ≠ attractive** — declining on economics stays available |
 | **M-P** — professional products | ☠️ **KILLED at P-0** (stands) | None |
 | **M-B** — audience-first | **SCREENED OUT** (stands) | None |
 | **M-S / M-T** | **OUT OF SCOPE**, parked | Requires an Owner scope change to revive |
 | **A-001** | ✅ **COMPLETE** — `REJECT CONCLUSION` | Protocol executed; external claims still pending (§6) |
-| **A-002** | ❌ **INCOMPLETE — MUST RE-RUN** | See §5 |
+| **A-002** | ✅ **COMPLETE** 2026-08-16 — `REJECT CONCLUSION` | Protocol executed. **15 gaps recorded** in report §6 |
 
 ---
 
@@ -152,7 +166,29 @@ The project's single most consequential finding — that Class A is systematical
 
 ---
 
-## 8. Next actions, in priority order
+## 8. Next actions — ⚡ REVISED 2026-08-16
+
+> **Items 1–3 of the original list are DONE.** Search retested, A-002 re-run to a verdict, V1–V7
+> verified. The current backlog is:
+>
+> 1. **A-002 remediation** — `PROJECT_STATE.md` §10, items **5b–5g**. Highest value: **5d**, whether
+>    Keepa's/Rainforest's own collection is Amazon-ToS-compliant, because it is the strongest ground
+>    on which a rebuilt M-C kill could stand.
+> 2. **Resume M-A on the corrected economics** — **Simily ($20/1k, Tipalti, $10 minimum)** is now the
+>    best verified per-read candidate in the class; then **Ream** (permits AI, never searched),
+>    **Pratilipi** (never searched), Vocal Challenges (a payment route never examined).
+> 3. **Close the residual unknowns** in `audit/V1-V7_VERIFICATION.md` — **Simily's and Pratilipi's AI
+>    policies** first, since both are otherwise live candidates held `UNRATED` under R1.
+> 4. **Apply R16's closing checklist** to any future closure, and retroactively to
+>    `missions/M-P_CLOSEOUT.md` alongside R15b's evidenced-checklist requirement.
+> 5. **Run the R3 comparison gate** before committing resources anywhere — the matrix now has
+>    per-claim grades and five new candidates, so a real comparison is possible for the first time.
+>
+> **Standing:** the search budget is **shared with subagents**. Both A-002 attempts died on it. Spend
+> Brain searches sparingly while an audit is running, and always instruct agents to write findings
+> incrementally — that instruction is the only reason the second attempt produced anything.
+
+### Original list (items 1–3 now discharged)
 
 1. **Test whether the search budget has reset** — one cheap search. Everything below depends on it. If still limited, do file-only work: correct `PROJECT_STATE.md` §4 (see §9) and apply R15's evidenced-checklist requirement retroactively to `missions/M-P_CLOSEOUT.md`.
 2. **Re-run audit A-002 on M-C** — the Owner asked for it explicitly and it failed environmentally. Spawn a fresh independent auditor against `audit/A-002_HYPOTHESIS_LEVELS.md` + `audit/AUDIT_CHARTER.md`. **Instruct it to record findings incrementally** so a mid-run termination leaves usable partial work — the exact failure mode that lost the first run.
