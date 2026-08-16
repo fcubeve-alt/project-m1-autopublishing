@@ -1,3 +1,12 @@
+> # ⛔ WITHDRAWN — 2026-08-15
+>
+> **This closeout was REJECTED by independent audit A-001 and is no longer the project's finding.**
+> It is retained, not deleted, so the error and its cause stay in the record (`audit/AUDIT_CHARTER.md` §5).
+>
+> **Do not cite anything below as a conclusion.** See `audit/M-A_AUDIT_REPORT.md` and `audit/A-001_POSTMORTEM.md`.
+>
+> **The decisive error, confirmed from my own files:** the rejection of Vocal — the mission's seed platform — rested on "read earnings are Vocal+ only." My own `docs/PLATFORM_RULES_MATRIX.csv` records, *in the same cell*, "~$3.80/1k reads **standard**." Those cannot both be true. The contradicting evidence was already in the repository, unread.
+
 # MISSION CLOSEOUT — M-A: Class A AI Publishing
 
 **Status: CONCLUDED — 2026-08-15**

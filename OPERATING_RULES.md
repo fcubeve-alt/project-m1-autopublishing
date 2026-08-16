@@ -376,6 +376,41 @@ Negative conclusions are *comfortable*. They end uncertainty, they cost nothing 
 
 ---
 
+## R15 — Evidence grades belong to claims, not to rows. And a checklist must leave a trace
+
+**The failure this prevents (caught by audit A-001):** I verified Vocal's *AI policy* against a primary source, graded the row `[P]`, and then treated the *economics* in that same row as equally verified. They were not — they were `[Reported]`, **internally self-contradictory**, and decisive. My own matrix cell read: *"read earnings are Vocal+ only ($9.99/mo); ~$3.80/1k reads standard."* Both halves, one cell, written by me, never read together.
+
+The disproof of my own conclusion was sitting in my own repository. That is worse than a research gap — the evidence was obtained, recorded, and not read.
+
+### 15a — Grade the claim, never the row
+
+- **Every material claim carries its own grade.** A `[P]` on a platform's policy says nothing about its pricing, thresholds, eligibility or payout mechanics.
+- **Verifying one attribute launders nothing.** Confidence is not transitive across attributes of the same entity.
+- **Before any claim is allowed to be decisive, check its own grade.** If a `[Reported]` claim is doing load-bearing work, it must be upgraded or the decision must wait.
+- **Run a contradiction check on your own records before concluding.** Two clauses in one cell that cannot both be true is the cheapest possible catch, and I missed it.
+
+### 15b — A control that leaves no trace is not a control
+
+**The auditor's finding, and it is the more important half:**
+
+> *A checklist that is run when it confirms and skipped when it blocks is not a control.*
+
+The standing checklist (R1–R6) existed and would have caught this. It was never run, because nothing required it to produce an artifact. A silent self-certification is skippable precisely when it is most needed — under time pressure, near a satisfying conclusion.
+
+**Therefore: every mission closeout, kill, or negative conclusion MUST contain an evidenced checklist section** — each rule named, with the specific evidence that discharges it. "I considered R1" is not evidence. *"R1: Vocal re-verified against `help.vocal.media` on <date>; free-tier rate confirmed at X"* is.
+
+**A closeout without an evidenced checklist is invalid** and may not be relied on, regardless of how good its reasoning looks.
+
+### 15c — A heuristic may never license stopping
+
+R9's "cost structure predicts AI policy" **survived independent testing** — it is a real and useful tendency. The failure was promoting a *tendency* to a *law*, and then letting the law justify ending discovery.
+
+- Heuristics **rank and prioritise**. They never **close**.
+- A closure requires per-candidate evidence, always.
+- When a heuristic and an unexamined candidate disagree, **the candidate gets examined.** The elegance of the heuristic is not evidence — and an explanation that feels satisfying is exactly the kind that survives without being checked.
+
+---
+
 ## R6 — Report status honestly, especially about my own work
 
 - Distinguish **validated** from **assumed** from **probe** in every status report.

@@ -47,7 +47,7 @@ Build and validate a lawful, compliant, sustainable AI-powered **publishing** bu
 
 | Mission | Outcome | Type | Cost |
 |---|---|---|---|
-| **M-A** — Class A platforms | **⚠️ PENDING INDEPENDENT AUDIT** (was CONCLUDED — negative) | Market-bound *(claim under audit)* | $0 · ~0 Owner hrs · ~30 searches |
+| **M-A** — Class A platforms | **🔴 REOPENED — CONCLUSION WITHDRAWN.** Audit A-001 verdict: REJECT | Negative finding **withdrawn** | $0 · ~0 Owner hrs · ~30 searches |
 | **M-P** — professional compliance products | **KILLED at P-0** | Market-bound (need met institutionally) | $0 · 0 Owner hrs · 2 searches · 0 words |
 | **M-C** — retail marketplaces | **⚠️ PROVISIONAL KILL — PENDING INDEPENDENT AUDIT** | Claimed capability-bound *(under audit)* | $0 · 0 Owner hrs · 2 searches · 0 words |
 | **M-B** — audience-first | **SCREENED OUT** | Fails attention constraint | 0 searches |
@@ -82,7 +82,11 @@ Build and validate a lawful, compliant, sustainable AI-powered **publishing** bu
 
 **Nothing is pending on the Owner as an obligation.** W-1 is an offer, not a request — declining is reasonable and costs nothing already spent.
 
-## 5. THE CENTRAL FINDING — M-A's delivered answer *(⚠️ UNDER AUDIT — see `audit/`)*
+## 5. ~~THE CENTRAL FINDING~~ — ⛔ WITHDRAWN BY AUDIT A-001
+
+> **Everything in this section is withdrawn.** Independent audit rejected it. Retained only as a record of the error. See `audit/A-001_POSTMORTEM.md`.
+
+### The withdrawn text follows
 
 **Class A — the exact model this experiment existed to test — is systematically closed to disclosed AI-generated content in 2026.** Seven platforms verified closed, three dead, exactly two verified open (both defeated by our constraints), residue out-of-scope or unverifiable.
 
@@ -115,7 +119,7 @@ Build and validate a lawful, compliant, sustainable AI-powered **publishing** bu
 
 | ID | Family | Status |
 |---|---|---|
-| **M-A** | Class A — platforms paying creators from their own audience | **⚠️ PENDING INDEPENDENT AUDIT** — conclusion not treated as settled until a verdict is issued |
+| **M-A** | Class A — platforms paying creators from their own audience | **🔴 REOPENED.** A-001 = REJECT CONCLUSION. Closeout withdrawn; Vocal, Simily, Ream, Pratilipi all live candidates again |
 | **M-C** | Class C — retail publishing marketplaces | **⚠️ PROVISIONAL KILL — PENDING INDEPENDENT AUDIT (A-002).** Kill not treated as settled; may have confused experiment-level evidence with mission-level conclusion |
 | **M-P** | Professional / compliance information products | **KILLED at P-0, 2026-08-15** — 2 searches, 0 words. Need met institutionally |
 | **M-S** | AI-assisted services (freelance) | CANDIDATE — strongest buyer intent, fails autonomy |

@@ -12,7 +12,7 @@
 
 | ID | Family | Status |
 |---|---|---|
-| **M-A** | Class A — platforms paying creators from their own audience | **CONCLUDED — negative.** Watchlist only |
+| **M-A** | Class A — platforms paying creators from their own audience | **🔴 REOPENED** — A-001 = REJECT CONCLUSION. Negative finding withdrawn |
 | **M-C** | Class C — retail publishing marketplaces | **CANDIDATE** — chartered document, not chartered mission |
 | **M-P** | Professional / compliance information products | **CANDIDATE** |
 | **M-S** | AI-assisted service delivery (freelance) | **CANDIDATE** |

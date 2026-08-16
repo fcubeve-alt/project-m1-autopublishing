@@ -1,3 +1,9 @@
+> # ⚠️ SUSPENDED — 2026-08-15
+>
+> **Audit A-001 rejected the conclusion this watchlist was derived from.** Vocal, Tapas and Simily were filed here as "residue" of a closed family. That family is **reopened**, so they are **active candidates again**, not watchlist items.
+>
+> This file is retained for its re-check triggers and cadence design, which remain useful. It is **not** the current status of these platforms.
+
 # WATCHLIST — Class A residue
 
 **Opened:** 2026-08-15 (on closing mission M-A) · **Budget: near-zero by design**
