@@ -84,7 +84,21 @@ The project's single most consequential finding — that Class A is systematical
 
 ## 6. Unresolved claims requiring external verification
 
-**All originate from the A-001 auditor. All are recorded as `PENDING VERIFICATION`, none adopted as fact.** The A-001 rejection does **not** depend on any of them — it rests on the internally-confirmed CSV contradiction.
+> ✅ **RESOLVED 2026-08-16 — all seven verified. Full report: [`audit/V1-V7_VERIFICATION.md`](audit/V1-V7_VERIFICATION.md).**
+>
+> **V1** confirmed · **V2** confirmed (Simily $20/1k = ~5.3× Vocal; caveat on root page) · **V3** split —
+> AI ban date confirmed (23 Jan 2023, covers prose), **subscriber gate false in both the Brain's and the
+> auditor's versions — there is no minimum** · **V4** confirmed, provisional · **V5** partial — platform and
+> monetisation confirmed, **AI policy still `UNKNOWN`** · **V6** confirmed, Stripe-only, a hard block for
+> Vocal alone · **V7** confirmed, **plus a Bitcoin rail the auditor omitted**.
+>
+> **Cross-cutting:** payout rails are **platform-specific** (Vocal→Stripe, Simily→Tipalti,
+> Listverse→PayPal/Bitcoin). H1 is therefore not a class-wide gate and is **off the critical path**.
+>
+> **Charter §6.2 vindicated:** the auditor was wrong on V3's gate figure. Deferring to it would have
+> imported a fresh error while feeling like a correction.
+
+**All originate from the A-001 auditor. All were recorded as `PENDING VERIFICATION`, none adopted as fact.** The A-001 rejection does **not** depend on any of them — it rests on the internally-confirmed CSV contradiction.
 
 | # | Claim | Why it matters |
 |---|---|---|

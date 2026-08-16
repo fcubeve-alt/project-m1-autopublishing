@@ -41,46 +41,60 @@ Build and validate a lawful, compliant, sustainable AI-powered **publishing** bu
 | Marketplace data | Unobtainable (Amazon BSR/keywords). Scraping barred by our own compliance policy |
 | Compliance | No fake identity, no CAPTCHA bypass, no deceptive AI disclosure, no policy evasion. Platforms that forbid what we are get **excluded, not worked around** |
 
-## 4. CURRENT STAGE — WAITING (justified)
+## 4. CURRENT STAGE — ACTIVE: AUDIT REMEDIATION
 
-**Three missions concluded 2026-08-15. In-scope opportunity space is exhausted pending one capability input.**
+**Corrected 2026-08-16.** This section previously read `WAITING (justified)`. That was stale
+and is now withdrawn — see "The withdrawn WAITING claim" below.
+
+**Not waiting, not idle, not blocked.** One mission is reopened, one audit is unfinished, and
+seven claims are unverified. There is more executable work than budget.
 
 | Mission | Outcome | Type | Cost |
 |---|---|---|---|
 | **M-A** — Class A platforms | **🔴 REOPENED — CONCLUSION WITHDRAWN.** Audit A-001 verdict: REJECT | Negative finding **withdrawn** | $0 · ~0 Owner hrs · ~30 searches |
-| **M-P** — professional compliance products | **KILLED at P-0** | Market-bound (need met institutionally) | $0 · 0 Owner hrs · 2 searches · 0 words |
-| **M-C** — retail marketplaces | **⚠️ PROVISIONAL KILL — PENDING INDEPENDENT AUDIT** | Claimed capability-bound *(under audit)* | $0 · 0 Owner hrs · 2 searches · 0 words |
-| **M-B** — audience-first | **SCREENED OUT** | Fails attention constraint | 0 searches |
+| **M-P** — professional compliance products | **KILLED at P-0** (stands, contamination-checked) | Market-bound (need met institutionally) | $0 · 0 Owner hrs · 2 searches · 0 words |
+| **M-C** — retail marketplaces | **⚠️ PROVISIONAL KILL — PENDING INDEPENDENT AUDIT (A-002)** | Claimed capability-bound *(under audit)* | $0 · 0 Owner hrs · 2 searches · 0 words |
+| **M-B** — audience-first | **SCREENED OUT** (stands) | Fails attention constraint | 0 searches |
 
-**Critically: M-C's kill saved the Owner the H1 gate.** Falsifying it from the desk cost 2 searches; running C-0 would have cost up to 7 weeks of tax setup plus an upload to observe a predictable outcome.
+### The withdrawn WAITING claim
 
-### Idle Justification Check — run 2026-08-15, result: **WAITING is correct**
+The Idle Justification Check dated 2026-08-15 returned "all NO ⇒ WAITING is earned." **Audit
+A-001 invalidated its premises**, so the check no longer supports its own conclusion. Two of
+its answers were false as written:
 
-| Question | Answer |
-|---|---|
-| Decision-critical unknowns reducible without the Owner? | **No** — the binding unknown is Amazon first-page data, verified unobtainable here |
-| Authorised candidates screenable cheaply? | **No** — M-B screened out today; M-S/M-T are out of scope and parked |
-| Any active hypothesis falsifiable cheaply? | **No** — all three in-scope hypotheses now resolved |
-| Unblocked work elsewhere in the Mission? | **No** — Class A closed, Class B not income, Class C capability-blocked |
-| Out-of-scope opportunity to screen at portfolio level? | **No** — recorded; promoting one requires an Owner scope decision |
-| Capability bottleneck with reusable value? | **Was YES → now resolved.** `missions/CAPABILITY_UNLOCK.md` written |
-| Scheduled watchlist/maintenance due? | **No** — next review 2026-11-15 |
-| Further work EV > compute cost? | **No** — remaining work would be busywork |
+| Check question | Then | Now |
+|---|---|---|
+| Decision-critical unknowns reducible without the Owner? | "No" | **Yes** — V1–V7 are all reducible by search, with no Owner input |
+| Unblocked work elsewhere in the Mission? | "No — Class A closed" | **Yes** — Class A is reopened; its conclusion is withdrawn |
 
-**All NO ⇒ WAITING is earned, not defaulted.**
+The remaining answers rested on the withdrawn Class A finding or on M-C's un-audited kill.
+**Per R12, an Idle Justification Check may not be re-run to justify waiting while §10 items
+are open.** WAITING would not be earned and must not be re-entered until A-002 reports and
+V1–V7 are resolved.
 
-### Wake conditions — the exact events that resume autonomous operation
+### Search capability — retested 2026-08-16
+
+The single live constraint at handoff was a session search limit, expected but not confirmed
+to have reset. **Retested this session: `WebSearch` works.** Handoff §8 item 1 is discharged.
+This removes the only environmental blocker on A-002 and on V1–V7.
+
+Egress is otherwise unchanged: allowlist, `WebFetch` unusable for platform domains,
+`WebSearch` with `allowed_domains` is the working research channel. **Do not re-derive this**
+(R2 — it is TESTED, not inferred).
+
+### Wake conditions — retained, but none is currently load-bearing
 
 | # | Event | Resumes |
 |---|---|---|
-| **W-1** | **Owner returns Amazon first-page data** for ≥1 candidate term (`CAPABILITY_UNLOCK.md`) | M-C reopens with a screened niche; H1 becomes worth answering |
-| **W-2** | Owner answers **H1** | Does *not* by itself revive M-C — the niche-selection gap is the binding constraint, not payout |
-| **W-3** | Owner grants a **scope change** admitting an out-of-scope family (services, templates) | Portfolio screening resumes |
-| **W-4** | Environment gains **Amazon-domain egress** | M-C reopens immediately, no Owner time needed |
-| **W-5** | **2026-11-15** — scheduled watchlist review | ≤3 searches on Class A residue |
-| **W-6** | Owner reports `simily.co` is live and paying | Watchlist W3 resolves; may reopen a Class A candidate |
+| **W-1** | **Owner returns Amazon first-page data** for ≥1 candidate term (`CAPABILITY_UNLOCK.md`) | M-C niche screen. **May be made moot by A-002 charge 2** — do not chase the Owner for it before A-002 reports |
+| **W-2** | Owner answers **H1** | Does *not* by itself revive M-C |
+| **W-3** | Owner grants a **scope change** admitting an out-of-scope family | Portfolio screening resumes |
+| **W-4** | Environment gains **Amazon-domain egress** | M-C data path opens directly |
+| **W-5** | **2026-11-15** — scheduled watchlist review | Superseded while M-A is reopened |
+| **W-6** | Owner reports `simily.co` is live and paying | **Superseded — being verified now as V2**, no Owner time needed |
 
-**Nothing is pending on the Owner as an obligation.** W-1 is an offer, not a request — declining is reasonable and costs nothing already spent.
+**Nothing is pending on the Owner as an obligation.** H1 blocks *publishing only* and is not
+on the critical path while audit remediation is in progress.
 
 ## 5. ~~THE CENTRAL FINDING~~ — ⛔ WITHDRAWN BY AUDIT A-001
 
@@ -159,21 +173,48 @@ D0001 per-read category deprioritised · D0002 Vocal `UNKNOWN` (later corrected)
 | 9 | Let "easy to start" substitute for "fits the model" | **R9** |
 | 10 | Nearly stretched a mission into a new family rather than concluding it | **R10** |
 | 11 | **Assumed a professional need with budget implied a market** | **R11** |
+| 12 | Treated a blocked action as a stopped system; entered WAITING while executable work was open | **R12** |
+| 13 | Documented a constraint without using it as a filter | **R13** |
+| 14 | Acted on a negative conclusion without independent audit — false negatives are invisible | **R14** |
+| 15 | Graded evidence by row rather than by claim; ran a checklist that left no artifact | **R15** |
 
 **Root cause of the original drift (Owner-confirmed):** *incorrect mission abstraction in cycle one* — generalising "Vocal" to "AI writing income" within the first few tool calls. **Not** a memory or context-length failure. Any future post-mortem should check abstraction before blaming context.
 
 ## 10. NEXT ACTIONS
 
-**M-A asks nothing further.** The mission is closed and requires no Owner action.
+**Rewritten 2026-08-16.** The previous version was written under the withdrawn Class A finding
+and stated "M-A asks nothing further." M-A is reopened; that is no longer true.
 
-**P-0 ran and killed M-P** for 2 searches and 0 words. **M-C is now chartered** per the pre-committed trigger.
+### Done this session
 
-1. **Owner — H1 is now the binding gate on everything.** Country of tax residence, existing KDP account, payout rails. M-C cannot test its central question (organic discovery) without publishing, and cannot publish without H1. Up to 7 weeks if a US TIN is needed.
-2. **Agent — done:** `missions/M-C_EXPERIMENT_DESIGN.md` proposes testing M-C's core question (C-0, organic discovery) with a **$0 marginal-cost probe** — listing the existing A0001 — rather than committing a 60–80k novel to learn something about metadata. Strong kill signal, weak go signal, which is the right shape for a first test.
-3. **Agent — deliberately NOT doing:** genre/format selection for a future M-C novel. That work would be performed on an experiment C-0 may kill. Deferred until C-0 returns.
-4. **Agent:** re-run the counterfactual test if C-0 passes. M-C won the charter by default when M-P's trigger fired; winning by default is not justification.
-5. **Owner — H2 question when it arrives:** C-0 proposes listing A0001, which is explicitly *not* our strongest product. Declining is legitimate; the probe then costs more but its logic is unchanged.
-6. **Optional 30-second Owner check:** is `simily.co` live and paying? Unverifiable from here (watchlist W3).
+1. ✅ **Search budget retested** — `WebSearch` works. The one live environmental constraint is gone.
+2. ✅ **§4 corrected** from stale `WAITING` to `ACTIVE — AUDIT REMEDIATION`.
+3. ✅ **V1–V7 verified** against primary sources — `audit/V1-V7_VERIFICATION.md`. Five confirmed,
+   one split, one partial. **The auditor was wrong on one claim** (Tapas subscriber gate), which
+   is why Charter §6.2 requires verifying auditors rather than deferring to them.
+4. 🔄 **A-002 re-run commissioned** as an independent agent per Charter §2, instructed to record
+   findings incrementally so a mid-run termination cannot again destroy all work.
+
+### Open
+
+5. **A-002 verdict** — M-C stays `PROVISIONAL KILL` and may not be relied on either way until a
+   verdict is issued (Charter §4).
+6. **Resume M-A research** on the corrected economics: **Simily ($20/1k — ~5.3× Vocal)**,
+   Vocal free tier ($3.80/1k), **Ream** (permits AI, never searched), **Pratilipi** (never
+   searched; AI policy `UNKNOWN`), Vocal Challenges (a payment route never examined).
+7. **Close the residual unknowns** in `V1-V7_VERIFICATION.md` — Simily and Pratilipi AI policies
+   are the highest-value of these, since both are otherwise live candidates.
+8. **Do not reinstate the withdrawn Class A finding**, in whole or in part. If Class A closes
+   again it closes on new evidence with an evidenced R15b checklist attached.
+
+### Owner
+
+9. **H1 is no longer a class-wide gate.** Verification showed payout rails are platform-specific
+   — Vocal is Stripe-only, but Simily uses Tipalti, Listverse pays via PayPal **or Bitcoin**.
+   H1 blocks *publishing on specific platforms*, not the mission, and is **off the critical path**
+   while audit remediation runs. Nothing is owed by the Owner right now.
+10. **W-1 (Amazon first-page data) must not be chased** before A-002 reports — its second charge
+    may establish a compliant data route that makes the request moot.
 
 **Standing rule:** no production until the counterfactual test is re-run at the commitment point (R7).
 
@@ -182,7 +223,14 @@ D0001 per-read category deprioritised · D0002 Vocal `UNKNOWN` (later corrected)
 | File | Contains |
 |---|---|
 | `PROJECT_STATE.md` | **This file — start here** |
-| `OPERATING_RULES.md` | R1–R9 decision rules |
+| `SESSION_HANDOFF.md` | Operational delta since this file's last update — read second |
+| `OPERATING_RULES.md` | **R1–R15** decision rules (R15 binding on every closeout) |
+| `audit/AUDIT_CHARTER.md` | Auditor function, four verdicts, pre-committed responses, L1–L5 discipline |
+| `audit/A-001_POSTMORTEM.md` | What failed in M-A, verified vs pending, contamination table |
+| `audit/A-002_HYPOTHESIS_LEVELS.md` | Brief for the M-C audit |
+| `audit/A-002_AUDIT_REPORT.md` · `A-002_EVIDENCE_MATRIX.csv` | A-002 output (in progress) |
+| `audit/V1-V7_VERIFICATION.md` | **Primary-source verification of the auditor's own claims** |
+| `audit/M-A_AUDIT_REPORT.md` · `M-A_AUDIT_MATRIX.csv` | A-001 output — external claims now verified in V1–V7 |
 | `ledger/DECISION_LOG.md` | Every decision, reasoning, rejected alternatives |
 | `missions/M-A_CLOSEOUT.md` | **Concluded mission — the negative finding and its evidence** |
 | `missions/M1_OPPORTUNITY_FAMILIES.md` | **Family comparison — where capital goes next** |
