@@ -64,7 +64,29 @@ The project's single most consequential finding — that Class A is systematical
 
 ---
 
-## 5. A-002: exact interruption point
+## 5. A-002 — RE-RUN 2026-08-16
+
+> **The re-run happened. It hit the same session search limit — and this time the work survived.**
+>
+> The fix was instructing the auditor to write findings incrementally rather than hold them for a
+> final write-up. Result: **207 lines of report and 19 evidence rows, mostly PRIMARY-grade**, against
+> **zero** from the first attempt. The failure mode is environmental and recurring; the mitigation
+> works and must be applied to every future agent run.
+>
+> **Status: charges 1–3 written up; NO VERDICT ISSUED** at the point of termination (report §5/§6
+> were left pending). Per Charter §4, **M-C remains `PROVISIONAL KILL — PENDING INDEPENDENT AUDIT`**
+> and may not be relied on in either direction. The Brain must not supply the verdict itself
+> (Charter §6.1). The auditor was resumed after the limit reset at 18:40 UTC to write its own §5/§6.
+>
+> **Do not re-run A-002 from scratch** — unlike the first attempt, there is now substantial evidence
+> to resume from. Read `audit/A-002_AUDIT_REPORT.md` and `audit/A-002_EVIDENCE_MATRIX.csv` first.
+>
+> ⚠️ **Charter §6.2 applies to these findings too.** One has already been checked and came back
+> *more qualified than the auditor stated*: `googleapis.com` is reachable from this container, but
+> anonymous quota is zero and `openlibrary.org` is blocked. See `docs/DEVELOPMENT_ENVIRONMENT_PREFLIGHT.md`
+> §6a. Verify each finding before acting on it.
+
+### The original interruption point (first attempt, retained for the record)
 
 **The A-002 agent terminated for an environmental reason, not a substantive one.** It hit the session search limit. **No verdict was issued. Nothing it produced may be treated as a finding.**
 
