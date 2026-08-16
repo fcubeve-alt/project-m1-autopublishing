@@ -109,8 +109,31 @@ Required by `OPERATING_RULES.md` R2. Every verdict marked **TESTED** or **INFERR
 | MCP servers | **AVAILABLE — separate network path** | **TESTED** — GitHub MCP functioned |
 | **GitHub Actions as remote execution** | **AVAILABLE — UNUSED** | **TESTED** (GitHub reachable) + **INFERRED** (runner internet access is standard) |
 | Amazon marketplace data (BSR, keywords) | **UNAVAILABLE** | **TESTED** — `kdp.amazon.com` blocked. Note: scraping would breach Amazon's terms and is barred by `COMPLIANCE_POLICY.md` regardless of reachability |
+| **`googleapis.com` — Google Books API** | **REACHABLE, but not usable anonymously** | **TESTED 2026-08-16** — returns a well-formed API error, not a network failure, so the host is on the allowlist. **However** the response is HTTP 429 with `quota_limit_value: 0` for the default per-project quota, i.e. **anonymous quota is zero**. An API key would be required before any data can actually be retrieved. **Reachability confirmed; data access NOT demonstrated** |
+| `openlibrary.org` | **UNAVAILABLE** | **TESTED 2026-08-16** — `000`. Book-data sources are *not* uniformly reachable; each must be tested individually |
 
 **On the GitHub Actions path — deliberately not used yet.** It could legitimately fetch public pages for research or monitoring. It is not being adopted in C1 because: (a) it is infrastructure, and `BUILD_VS_NO_BUILD.md` defers building until revenue justifies it; (b) it would not solve the binding constraint, since the marketplace data I actually lack is barred by platform terms, not by network reach. It is recorded so that a future cycle needing source-monitoring for the re-issue cadence starts from a known-available path rather than re-deriving it.
+
+> ### ⚠️ Clause (b) is under audit — 2026-08-16
+>
+> **A-002 has challenged clause (b) as a category error**, on the grounds that it conflates
+> *"scraping is barred by platform terms"* with *"no compliant route exists."* Those are
+> different claims: an official, ToS-governed API is not scraping. The audit identifies this
+> sentence as the load-bearing step of the M-C kill.
+>
+> **A-002 has not yet issued a verdict, so nothing here is settled** (Charter §4). What is
+> recorded now is only what I tested myself:
+>
+> - **`googleapis.com` is reachable from this container** — a well-formed API error, not a
+>   network failure. Clause (b)'s implicit premise that no book-data endpoint is reachable is
+>   **false as stated**.
+> - **But reachable ≠ usable.** Anonymous quota is **zero**; a key is needed before any data
+>   returns. And `openlibrary.org` is **blocked**, so reachability does not generalise across
+>   book-data sources — each needs its own test (R1's corollary, in capability form).
+>
+> I am recording this correction now because it is a **tested fact about the runtime**, which
+> R2 requires regardless of the audit's outcome. Whether it collapses the M-C kill is the
+> auditor's call, not mine.
 
 ## 7. Recommendation to the Owner
 
