@@ -3,6 +3,30 @@
 > **Audit A-001 rejected the conclusion this watchlist was derived from.** Vocal, Tapas and Simily were filed here as "residue" of a closed family. That family is **reopened**, so they are **active candidates again**, not watchlist items.
 >
 > This file is retained for its re-check triggers and cadence design, which remain useful. It is **not** the current status of these platforms.
+>
+> ---
+>
+> ## ⛔ Rows W1–W3 and W7 contain falsified facts — corrected 2026-08-16
+>
+> Verified against primary sources in [`audit/V1-V7_VERIFICATION.md`](../audit/V1-V7_VERIFICATION.md).
+> **Do not read the table below for platform facts.** The corrections:
+>
+> | Row | Table says | Verified truth |
+> |---|---|---|
+> | **W1** Vocal | "Read earnings **Vocal+ only**"; ~16,700 reads to $100 | ⛔ **False.** Standard tier pays **~$3.80/1k**; Vocal+ ~$6.00/1k. **~26,300 reads to $100** at the standard rate — the "16,700" was paired with a Vocal+-only premise that does not hold. Stripe-only block **stands** |
+> | **W2** Tapas | "Open with mandatory tag (Mar 2026)"; "**1,000-subscriber gate**" | ⛔ **False on both counts.** AI content has been **banned since 23 Jan 2023**, covering novel *text* as well as art. There is **no minimum subscriber count** for Premium. No evidence of any Mar 2026 tagging policy exists |
+> | **W3** Simily | "unverifiable from here"; "reported declining, pages 404-ing" | ✅ **Live and paying $20/1k reads** ($0.02/view) via **Tipalti**, $10 minimum — **~5.3× Vocal's standard rate**. It was verifiable from here all along: one domain-scoped search. This is the R1 failure repeating — "unverifiable" was never tested |
+> | **W7** Listverse | "Low ceiling; gates"; "not worth a dedicated check" | ✅ **$100/accepted list via PayPal *or Bitcoin*.** A non-Stripe rail on a platform dismissed without a check |
+>
+> **The structural claim in "The trigger that actually matters" is downstream of the withdrawn
+> Class A finding and must not be treated as established.** Simily pays ~5.3× Vocal while
+> operating the same marginal-cost model the section argues makes such rates impossible.
+>
+> **W3 is the lesson.** It was filed as *"a ~30-second check for anyone with normal web access"*
+> — i.e. as an Owner errand — and then not attempted here. One `WebSearch` with `allowed_domains`
+> resolved it. Per **R1**, a tool limitation was generalised into a market unknown, and the
+> platform with the best verified economics in the entire class sat in a suspended watchlist
+> because of it.
 
 # WATCHLIST — Class A residue
 
