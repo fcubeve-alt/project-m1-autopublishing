@@ -4,7 +4,8 @@
 **Conclusion under audit:** "Retail marketplaces are capability-blocked; live marketplace data cannot be obtained through any compliant autonomous route, therefore the mission is dead."
 **Auditor:** Independent Decision Auditor (fresh context, adversarial mandate)
 **Audit opened:** 2026-08-16
-**Status:** IN PROGRESS — written incrementally
+**Audit closed:** 2026-08-16
+**Status:** COMPLETE — verdict issued (§5). Coverage limits recorded in §6.
 
 ---
 
@@ -55,7 +56,45 @@ That dismissal is a **category error stated in one sentence**: it treats "scrapi
 
 ## 2. CHARGE 1 — Level propagation (L1–L5)
 
-*(pending)*
+The brief asks which level the M-C evidence actually reaches, and requires that I say plainly, level by level, which levels it does **not** reach.
+
+### 2.1 Level-by-level determination
+
+**L1 — Market ("a market exists for AI-written books sold through retail marketplaces").**
+**NOT REACHED. No negative finding whatsoever.** The Brain agrees and said so unprompted (`M-C_CLOSEOUT.md` §6: "This is not a market verdict, and it must not be recorded as one"). Its own §3 affirmatively evidences an entry point, and the charter's §3 records 3.5M+ self-published ISBN titles in 2025 at +38.7% YoY. Nothing in the record argues against L1, and I found nothing against it either. **Credit where due: the Brain did not commit the L1 error, and explicitly guarded against it.**
+
+**L2 — Mission ("AI-written content can earn via third-party retail publishing platforms").**
+**NOT REACHED.** Three independent reasons, each sufficient on its own:
+- The mission charters **eight** channels (§1.2A); evidence was gathered on one. Seven remain wholly untested — including Leanpub and Everand, whose discovery models are structurally unlike Amazon's.
+- The decisive premise ("no compliant route exists") is **false by direct test** (§3.1). A premise that fails cannot carry a conclusion at any level.
+- The kill is *capability*-shaped, not *economics*-shaped. Even a fully-established "we cannot obtain Amazon BSR" says nothing about whether AI-written content can earn royalties — which is what L2 asserts. **The kill and the L2 claim are about different things.**
+
+**L3 — Channel ("Amazon KDP specifically is a viable channel for us").**
+**NOT REACHED as a viability negative.** What *is* established at L3 is narrower and should be stated precisely, because it is real: *one method of acquiring one class of competitive data for this one channel is currently blocked from this environment.* `kdp.amazon.com` returns `000`; `api.keepa.com` returns `000`; PA-API/Creators is gated behind qualifying referral sales the account cannot have; KDP's own reports are genuinely private to the account holder. **That is a true and non-trivial L3 friction finding, and it is the Brain's strongest work in this file.**
+
+But friction in data acquisition is not channel non-viability. KDP publishing itself was never attempted; `Book Trends Data` is displayed publicly on search and detail pages (§4.5); and purchasable routes exist that the preflight's own GitHub Actions path was recorded to serve. **"I cannot conveniently measure this channel" is not "this channel does not work."** Conflating them is the same error the closeout §6 correctly names about Vocal — committed one section earlier in the same document.
+
+**L4 — Strategy ("organic discovery with zero promotion is a viable discovery strategy").**
+**PARTIALLY REACHED — as a directional prior, not a falsification.** This is the highest level the evidence honestly touches. Several converging facts point the same way: 78% of self-published authors cite discoverability as their biggest challenge [R, charter §3]; ~80% of 1–3-book authors earn under $100/month [R]; and the practitioner consensus that conversion, not existence, sustains visibility (§4.1iii). A zero-promotion organic-only strategy is a weak strategy, and the Brain was right to be pessimistic about it.
+
+It is **not falsified**, because the same literature says new listings *are* served sampled impressions in a cold-start window (§4.1iii), Amazon's own docs say a single sale moves rank materially in a low-volume category (§4.1i), and Amazon runs dedicated New Releases surfaces where a new title competes only against a new-release cohort (§4.1ii). And critically, **L4's remedies are untried and cheap** — New Releases cohort targeting, a #1 New Release badge in a narrow category, series read-through, and above all the email list that the charter's *own* evidence identifies as separating high earners from low (96% vs 53%). None was attempted or costed.
+
+**L5 — Experiment ("one unknown author, one new title, zero promotion, organic-only achieves non-trivial impressions").**
+**REACHED — weakly.** This is where the evidence actually lives, and the brief's advance self-diagnosis was correct. Even here the finding is a pessimistic prior rather than a falsification: the evidence is secondary, uncited, and contested by same-grade sources at the exact metric C-0 measures (impressions). And the pre-committed L5 test was never run — `M-C_EXPERIMENT_DESIGN.md` records C-0 as *blocked at H1*, not falsified, and the charter's kill trigger required two metadata configurations over 30 days; zero were run (§1.2C).
+
+### 2.2 Summary table
+
+| Level | Claim | Negative finding supported? |
+|---|---|---|
+| **L1 Market** | A market exists | **No — not reached.** Brain agrees; evidence points the other way |
+| **L2 Mission** | AI content can earn via retail royalties | **No — not reached.** 1 of 8 channels; premise false; wrong subject matter |
+| **L3 Channel** | Amazon KDP works for us | **No — not reached** as viability. Only "one data-acquisition method is blocked," which is true |
+| **L4 Strategy** | Zero-promotion organic discovery works | **Partially** — a sound directional prior; not a falsification. Remedies untried |
+| **L5 Experiment** | This exact naive configuration gets impressions | **Yes, weakly** — pessimistic prior from contested secondary sources; test never run |
+
+### 2.3 The propagation verdict
+
+Evidence reaching L5, and touching L4 as a prior, was applied as a kill at **L2/L3**. That propagation is **not independently supported** — it is contradicted at L3 and L2 by findings in Charges 2 and 3. Per the brief's own instruction: *only one naive execution of M-C is dead, and even that was never actually tested.* The correct output was a **changed experiment plus a data-acquisition task**, not a closed mission.
 
 ---
 
@@ -198,10 +237,95 @@ So possessing the data would not have converted "a coin flip into a screened bet
 
 ## 5. Verdict
 
-*(pending)*
+# REJECT CONCLUSION
+
+### 5.1 Why this and not INSUFFICIENT EVIDENCE
+
+The distinction in the charter (§4) is that INSUFFICIENT EVIDENCE means the conclusion *may be right but is not adequately supported*, while REJECT means *the evidence contradicts it*. This is the second case, because I hold an affirmative counterexample rather than a gap.
+
+The conclusion under audit has three clauses. **All three fail, and they fail for different reasons** — this is not one flaw amplified.
+
+**Clause 1 — "retail marketplaces are capability-blocked."** False as stated. Amazon marketplace hosts are blocked from this container; retail-publishing *marketplaces* as a class are not, and seven of the mission's eight chartered channels were never examined for reachability, data availability, or anything else.
+
+**Clause 2 — "live marketplace data cannot be obtained through any compliant autonomous route."** This is a **universal** claim, and it is **falsified by direct test inside the audited environment**. `https://www.googleapis.com/books/v1/volumes` returns a well-formed Google Books API JSON response from this container — a per-day quota refusal on the anonymous shared project, not an egress block. An official, free, first-party book-data API answers from the machine the Brain declared incapable. That single result is decisive against a universal negative. It is reinforced by three primary findings the Brain never sought: Amazon **publishes BSR as a documented API field** (`BrowseNodeInfo.WebsiteSalesRank`), so rank data is not withheld by policy at all; Keepa and Rainforest sell this data openly as products; and `Book Trends Data` is a public demand signal Amazon renders on search and detail pages.
+
+**Clause 3 — "therefore the mission is dead."** A non sequitur even if clauses 1 and 2 had held. The mechanism whose loss justified the kill (*niche selection*) is named for the first time **in the kill document**, not in the charter, whose central question is discovery and whose own evidence identifies catalogue size and email-list ownership as the strongest income correlates — neither of which needs BSR. And the decision thresholds the missing data would have fed are uncalibrated folklore, one of which (§4.3) is asserted with the **opposite sign** by the same class of source the Brain drew it from. Possessing the data would not have converted a coin flip into a screened bet.
+
+### 5.2 What survives, and must survive
+
+I was instructed not to sharpen this for effect, and there is real work here that a REJECT must not erase:
+
+- **KDP's own reports genuinely are private to the account holder.** Dashboard, Sales & Royalties, Historical and Month-to-Date cover only your own orders, royalties and KENP reads. There is no competitor BSR or first-page review data there. The Brain would have been right about this route, had it checked it.
+- **PA-API / Creators API eligibility genuinely is gated** on qualifying referral sales (10 in 30 days for Creators), with access revoked after 30 consecutive days without them. For an account with no audience this is a real chicken-and-egg, not a formality. The official-BSR finding is therefore a *partial* refutation and I have labelled it as one throughout.
+- **Scraping is correctly ruled out** and should stay ruled out. `COMPLIANCE_POLICY.md` is not the error here; the error is treating "scraping is barred" as synonymous with "no compliant route exists" (preflight §6a, line 113).
+- **The pessimism about the naive configuration is well-founded.** The base rates in the charter are real and I found nothing contradicting them.
+
+### 5.3 What this verdict does NOT say
+
+**This is not a finding that M-C is attractive.** The charter's own §10 recommendation — *do not charter yet; it is open but crowded, with a median outcome of failure and a structural dependency on catalogue scale a first experiment cannot satisfy* — is untouched by this audit and may well still be correct. Rejecting a kill's reasoning is not endorsing the mission.
+
+The material difference is **which kind of decision this is**. A capability-bound death is a permanent closure justified by an impossibility. What the evidence actually supports is an **owner scope decision on economics** — M-C may be a poor use of the next unit of capital, and that is a legitimate reason not to run it. It was not, however, impossible, and it must not stay in the record as impossible. Per the charter's asymmetry (§1): a bad bet declined is recoverable; a good family closed as "capability-blocked" is never revisited, because nothing ever contradicts it.
+
+### 5.4 Level finding, stated separately as required
+
+**The evidence supports a negative finding at L5, weakly; and at L4 as a directional prior only. It does not reach L3, L2 or L1.**
+
+| Level | Negative supported? | Plainly |
+|---|---|---|
+| **L1 Market** | **NO — not reached** | Nothing in the evidence argues a market is absent; the Brain agrees and guarded against this error |
+| **L2 Mission** | **NO — not reached** | One of eight channels examined; the load-bearing premise is false; the evidence is about data access, not about whether royalties can be earned |
+| **L3 Channel** | **NO — not reached** | Supported only as "one data-acquisition method for Amazon is blocked from here" — true, and not the same as channel non-viability |
+| **L4 Strategy** | **PARTIAL — prior only** | Zero-promotion organic-only is a weak strategy; not falsified, and its cheap remedies (New Releases cohort, narrow-category launch, email list, series) are entirely untried |
+| **L5 Experiment** | **YES — weakly** | A pessimistic prior on this exact configuration, from contested secondary sources. The pre-committed test was never run and the charter's own kill trigger never fired |
+
+**The kill was applied at L2/L3. The evidence reaches L5.** This is precisely the failure mode `AUDIT_CHARTER.md` §8 was written to catch, and the Brain's advance self-diagnosis in §8 was accurate — but the problem is worse than self-diagnosed, because the capability premise that justified the propagation is itself false, not merely over-extended.
+
+### 5.5 Required work, in priority order
+
+Per the charter's INSUFFICIENT/REJECT protocol, the auditor's list becomes the backlog:
+
+1. **Withdraw the capability-bound framing.** Preflight §6a line 111 and its dismissal at line 113 should be corrected: the tested fact is that *Amazon hosts are blocked*, not that *no compliant route exists*.
+2. **Verify the Creators API data surface** — does the PA-API successor retain `SalesRank`/`WebsiteSalesRank`? (Gap; see §6.)
+3. **Cost the unblocked routes.** Google Books with a free API key (reachable today); Keepa/Rainforest via the GitHub Actions path, including the unresolved question of whether *their* collection is Amazon-ToS-compliant.
+4. **Re-derive the niche heuristics or abandon them.** They cannot be used as decision thresholds at their current grade, in either direction.
+5. **Examine the seven unexamined channels**, at minimum to record whether the kill's reasoning even applies to them. Leanpub and Everand first, as the most structurally different.
+6. **Do not re-close M-C on capability grounds** without a route-by-route negative. Closing it on *economics* remains available to the Owner at any time and needs none of the above.
+
+---
 
 ---
 
 ## 6. INCOMPLETE — what remains
 
-*(pending)*
+This audit reached a verdict, but its coverage is partial. Recorded so the record shows real coverage rather than implying completeness. **None of the gaps below would reverse the verdict** — the verdict rests on an affirmative counterexample (§3.1) plus three document-internal findings (§1.2) that no further research can undo — but several would change the *size* of the opportunity the kill discarded.
+
+**Routes examined but not resolved**
+
+1. **Amazon Creators API data surface — the most material gap.** I confirmed that PA-API 5.0 exposes `BrowseNodeInfo.WebsiteSalesRank` [PRIMARY], and that PA-API was deprecated 2026-05-15 with Creators API as successor [PRIMARY]. I did **not** confirm that the successor retains the SalesRank field. If it does not, the "Amazon officially publishes BSR" finding weakens to a historical one. This should be checked first.
+2. **Keepa product-object fields.** Confirmed the API's scope (price history, product data, offers, deals, **best seller lists**, category lookup, product search) [PRIMARY]. Did **not** confirm whether rating/review count is a field. Search returned the docs index but not the object spec.
+3. **Vendor compliance — unresolved and material.** Whether Keepa's and Rainforest's *own* data collection is compliant with Amazon's terms is **unverified**. Buying data from a vendor who scrapes is a genuinely different question from scraping, and it is the question `COMPLIANCE_POLICY.md` would actually need to answer. I record no finding. This is the strongest surviving argument the Brain could rebuild on, and it should be checked before either vendor is relied upon.
+4. **Published bestseller lists (NYT Books API and peers).** Search returned **no primary links**. Per the brief's instruction I recorded **no finding** — a tool returning nothing is a fact about the runtime, not about the market. Untested.
+5. **OpenLibrary / ISBNdb / WorldCat.** `openlibrary.org` returns `000` from this container. Not researched further; their APIs may well be reachable from a GitHub Actions runner.
+6. **Publisher Rocket and Bookstat** — named in the brief, **not examined at all**.
+7. **Google Books free-tier adequacy.** The 429 proves reachability but the call ran on the anonymous shared project. Whether a free API key's own quota is sufficient for repeated niche screening is **untested**.
+
+**Capability assumptions not tested**
+
+8. **GitHub Actions runner egress.** Preflight §6a grades this **INFERRED**, not tested, and I did not test it either. Several routes in §3.3 depend on it. The claim "a runner can reach `api.keepa.com`" is currently **unverified by anyone**, and it is load-bearing for remedies 3 in §5.5 — though not for the verdict, which rests on a route reachable from the container directly.
+
+**Charge 3 gaps**
+
+9. **Book-specific validation of the cold-start literature.** The honeymoon/cold-start sources are Amazon-seller-general and largely about physical products. Transfer to KDP and to books is **unverified**, and I have flagged it in-line rather than relying on it.
+10. **No quantitative evidence in either direction** for the niche heuristics. I established that the thresholds are uncalibrated and that the publish-date heuristic's sign is contested. I did **not** establish which sign is correct — and neither should anyone else, on this evidence.
+11. **`#1 New Release` badge mechanics** rest on Amazon Seller Forums (user-generated) [SECONDARY]. The Amazon help page `G202059240` appeared in results but was not read.
+
+**Scope not entered**
+
+12. **The seven non-Amazon channels.** I established that they were chartered and never examined — a document-internal finding sufficient for Charge 1. I did **no** independent research into any of their discovery mechanics, data availability, or AI-content policies. The claim "the kill's reasoning may not even apply to them" is an inference from scope, not a researched finding.
+13. **Whether A0001 remains a usable C-0 instrument**, and whether H1 is still blocking. Out of the brief's scope; noted because §5.5 item 6 depends on H1's status.
+
+**Method limits**
+
+14. Research ran entirely through `WebSearch` plus five `curl` reachability probes. `WebSearch` returns summarised result text; except where I quote a document directly, primary-graded claims rest on that summary of a primary URL rather than on the fetched page. Grades in the evidence matrix should be read with that caveat.
+15. The audit was interrupted once by a session search limit; §§2, 5 and 6 were written after the reset, from evidence already recorded in the matrix. No finding was reconstructed from memory.
+
