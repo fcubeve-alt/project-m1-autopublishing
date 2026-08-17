@@ -467,6 +467,79 @@ moment the vocabulary changed.
 
 ---
 
+## R17 — 搜索是采购，不是思考（落地 PATCH 011）
+
+**最高原则：省搜索，不省思考；省重复，不省反证；省成本，不牺牲重大决策质量。**
+
+- **先离线列 Claim 清单再联网。** 按决策价值排序：**P0** 可能改变 Go/Kill/Scope · **P1** 影响
+  排名与经济性 · **P2** 补充信息。合并同义查询、批量解决。**不知道要验证什么时，先推理，不联网。**
+- **Search once, reuse many times.** 所有可复用事实进 `evidence/EVIDENCE_STORE.csv`。Brain、
+  Auditor、新 Session **默认先读 Store**；换 Agent 或换 Session 不构成重搜同一事实的理由。
+  只有证据过期、冲突、来源等级不足、或重大 Kill/Go 需独立确认时才允许重搜。
+- **证据等级绑定 Claim，不绑定行、平台或来源**（R15a 的资源侧表述）。矛盾数据自动标
+  `CONFLICT`，且**不得继续用于 mission closeout**。
+- **预算按边际信息价值动态分配**，不设僵硬的「每任务 N 次」上限。发现阶段可多花；已稳定事实
+  不得反复烧。**当连续新增搜索不再改变候选排名或关键假设，即判定边际价值下降，转入分析或实验。**
+- **关闭整个机会家族的负面结论，要求额外独立验证**，即使多耗预算。
+- **Auditor 的独立 ≠ 把所有基础事实重搜一遍。** Auditor 应读 Store，把预算集中在
+  **load-bearing claims、反例、证据冲突、逻辑跳跃**上。其新发现仍须按等级验证，不因来自
+  Auditor 就自动成立。
+- **探索成本可以超过即时回报**，只要形成可复用资产（平台库、渠道库、证据库、规则库）。
+  优化目标是 **长期 Expected Economic Value / Unit of Research Cost**，不是每步即时盈利。
+- **过犹不及：** 成本优化不得让系统不敢思考、不敢反证、不敢探索。
+
+## R18 — 工具额度耗尽 ≠ 大脑停机（落地 PATCH 011 §8–9 与 PATCH 010 §9–10）
+
+**资源必须分层，任何单一资源耗尽不得自动把 Mission 标为 WAITING。**
+
+```
+MODEL_CAPACITY = AVAILABLE | LIMITED | EXHAUSTED
+SEARCH_CAPACITY = AVAILABLE | LIMITED | EXHAUSTED
+FETCH_CAPACITY = AVAILABLE | LIMITED | BLOCKED
+SUBAGENT_CAPACITY = AVAILABLE | LIMITED | EXHAUSTED
+CONTEXT_CAPACITY = HEALTHY | HIGH | ROTATE
+EXTERNAL_API_CAPACITY = AVAILABLE | BLOCKED
+CASH_BUDGET = <amount>
+SEARCH_FREE_QUEUE = <next tasks>
+```
+
+- **Search 耗尽即切 Search-Free Queue，不默认 WAITING。** 可继续：整理证据、去重、矩阵评分、
+  逻辑审核、写状态文件、生成下一批查询、候选比较、成本模型、实验设计、更新 ledger、写 handoff。
+  **只有当下一项有价值工作确实依赖新外部事实、且所有替代能力均不可用时**，才允许 WAITING。
+- **Capability Recovery Loop：** Search 不可用 → 查 Evidence Store → 查其他授权数据能力 →
+  查是否可换 Session 恢复 → 跑 Search-Free Queue → 最后才 WAIT。
+  **「某个网页打不开」不得升级为「无法研究」**；Search / Fetch / API / GitHub / 第三方源是不同能力。
+- **增量保存与断点续跑。** 长研究每完成一个小批次即保存并提交（候选 1–5、6–10、关键官方验证、
+  反证、阶段 verdict 各一次 checkpoint）。中断时**只允许损失最后一个小阶段**。
+- **Agent 状态必须有证据：** `CREATED → STARTED → RUNNING → PARTIAL_RESULT_SAVED → COMPLETED`，
+  异常为 `FAILED / BLOCKED`。**没有可验证的状态转换或产物，不得声称 Agent 正在运行或已完成。**
+
+## R19 — Session 可弃，状态不可弃（落地 PATCH 010）
+
+**本项目已真实发生过此故障，坐标见 `audit/A-002_POSTMORTEM.md` 与本节。**
+
+- **新 Session 在 Bootstrap Integrity Check 通过前，禁止开展 Mission 工作。** 顺序：
+  Repository → Remote → **Remote refs** → Target Branch → Full Commit SHA → `SESSION_HANDOFF.md`
+  → `PROJECT_STATE.md` → `OPERATING_RULES.md` → git status → Resume。
+- **必须检查远端 refs（`git ls-remote origin`），不得只依赖 `git branch -a` / `git log --all` /
+  `git fsck`。** 容器常为 shallow / single-branch fetch，这三条本地命令会一致地看不见 sibling
+  branch，并因彼此吻合而产生虚假信心。
+- **Local absence is not remote absence.** 「本地没有」推不出「远端没有」，更推不出「从未存在」。
+  任何「不存在 / 从未存在」的强结论，**必须有对应范围的远端证据**。
+- **Bootstrap 不一致即 `BOOTSTRAP_STATE_MISMATCH`：** 禁止自行重建项目、禁止重跑 Phase 0、
+  禁止重新研究。必须先查 remote URL、remote refs、目标 commit、sibling branches、handoff path。
+- **交接坐标必须直接给出，不能只藏在 handoff 文件里：**
+
+  ```
+  SESSION HANDOFF CHECKPOINT
+  Repository / Remote / Branch / Full Commit SHA / Handoff Path / Push Status: VERIFIED_REMOTE
+  ```
+- **误建的 reconstruction branch 默认不得 merge 进 authoritative branch**，其结论不自动成为项目事实。
+  本项目实例：authoritative `claude/ai-publishing-business-a3o9om` @ `53a7d10`；
+  误建 `claude/session-handoff-reconstruction-dl6gwa` @ `50e5281`，保留作诊断证据。
+
+---
+
 ## Standing checklist before committing a cycle's resources
 
 - [ ] R1 — every option verified on its own evidence; no `UNKNOWN` used as a negative
