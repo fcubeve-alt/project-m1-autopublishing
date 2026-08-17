@@ -20,6 +20,39 @@
 > | **Biggest economic finding** | **Simily pays $20/1k reads — ~5.3× Vocal.** 5,000 reads to $100 vs ~26,300 |
 > | **H1** | **No longer a class-wide gate.** Payout rails are platform-specific; H1 is off the critical path |
 > | **Open** | The A-002 remediation backlog — `PROJECT_STATE.md` §10, items 5b–5g |
+>
+> ## ⚡ 会话 2 后半段 — M-A 覆盖审计（主线）
+>
+> **PATCH 010 / 011 已落地为 R17–R19**（`OPERATING_RULES.md`），不是临时遵守。
+> **Evidence Store 已建立：`evidence/EVIDENCE_STORE.csv`，66 条 claim，按 claim 管理。**
+>
+> **覆盖审计完成** — `docs/CLASS_A_COVERAGE_AUDIT.md`。候选池 45+，严格 Class A 存活 26 个。
+> 补上了 A-001 指出的最大空白（零个非英语起源平台），并因此发现了此前完全不在池内的
+> **按字数合约**经济模式。
+>
+> **当前 Top 3（已修订）：**
+> 1. **Listverse** — $100/篇、30 天、无起付线、无合同警告；卡 7 国准入（H1）
+> 2. **循环挑战赛（Crowdpen / Strange Pilgrims）** — 免费入场、300 词起、每月循环、
+>    **不受 H1 阻塞 → 唯一可立即开跑的路径**
+> 3. **Webnovel** — 降级附条件；$4.4/千字保底、$200 提款门槛、每日 1500 字、有合同警告
+>
+> ⛔ **类级结论：四个按字数小说 App（Webnovel/Fizzo/GoodNovel/Dreame）全部有 Writer Beware
+> 合同警告。** 该类别里没有"更安全的同行"可换。
+>
+> **下一步（无需 Owner，不受 H1 阻塞）：** 验证 Crowdpen / Strange Pilgrims 的当前赛程、
+> 参赛资格与 AI 规则 → 若允许，即进入首个真实收入实验（送 H2 编辑审批后投稿）。
+>
+> ```
+> SESSION HANDOFF CHECKPOINT
+> Repository:      fcubeve-alt/project-m1-autopublishing
+> Remote:          https://github.com/fcubeve-alt/project-m1-autopublishing
+> Branch:          claude/ai-publishing-business-a3o9om   (AUTHORITATIVE)
+> Handoff Path:    SESSION_HANDOFF.md
+> Push Status:     VERIFIED_REMOTE
+> Resource State:  MODEL=AVAILABLE · SEARCH=LIMITED(重度使用) · FETCH=BLOCKED(平台域名)
+>                  SUBAGENT=AVAILABLE · CONTEXT=HIGH
+> Do NOT merge:    claude/session-handoff-reconstruction-dl6gwa @ 50e5281 (误建，仅作诊断证据)
+> ```
 
 ---
 
