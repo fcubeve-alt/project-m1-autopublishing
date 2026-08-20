@@ -54,6 +54,26 @@
 > Do NOT merge:    claude/session-handoff-reconstruction-dl6gwa @ 50e5281 (误建，仅作诊断证据)
 > ```
 
+> ## ⚡ 会话 2 终段 — 评分完成，首个资产已产出
+>
+> **`docs/CLASS_A_SCORING.md`** — 26 个存活严格 Class A 候选，13 维加权评分。
+> `UNKNOWN` 按中性 3 分（非 0），未知维度数与置信度单列。
+>
+> **两次排名被自己的验证推翻，都记录在案：**
+> 1. 「循环挑战赛」路径**不存在** —— Strange Pilgrims 公开征稿要 "very non-AI writing"
+>    （对本模式关闭）；Crowdpen 奖金约 $85 且无 2026 在跑赛事。
+> 2. **Cracked 取代 Listverse 成为 #1 可执行** —— Cracked **无国别限制**（"any part of
+>    the world"），且**邮件递创意而非成稿**，失败成本 = 一封邮件。Listverse 卡 7 国 + 需
+>    先写完 1500–2000 词成稿 + >70% 退稿率。
+>
+> **首个真实资产已产出：`assets/A0002-cracked-pitch/PITCH_PACKAGE.md`**
+> 五个选题的投稿邮件，AI 协助已在正文主动披露。
+> 🔴 **卡在 H2（Owner 编辑审批）** —— 且必须由 Owner 本人邮箱发出，我不能代发。
+>
+> **下一步:** Owner 批准 → 发出 → 记录结果。无回复或被拒同样是证据，会把 Cracked 的
+> AI 政策 `UNKNOWN` 推向真实答案。
+
+
 ---
 
 ## 1. Current mission and exact status
