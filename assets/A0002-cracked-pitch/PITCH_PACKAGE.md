@@ -1,108 +1,96 @@
-# A0002 — Cracked 投稿件（EXP-1 资产）
+# A0002 — Cracked 投稿件 **v2**
 
-**状态:** 🟡 **待 H2 编辑审批** · **平台:** Cracked · **递交方式:** 邮件至 `workshop@cracked.com`
+**状态:** 🟡 **待 H2 编辑审批** · **平台:** Cracked · **递交:** 邮件至 `workshop@cracked.com`
+**版本:** v2（v1 经自审裁决 REVISE，已归档为 `PITCH_PACKAGE_v1_SUPERSEDED.md`）
 **日期:** 2026-08-16 · **成本:** $0 · **失败成本:** 一封邮件
 
 ---
 
-## 0. 送审说明（给 Owner）
+## 0. v1 → v2 改了什么
 
-Cracked 收的是**创意，不是成稿**。所以本资产就是一封投稿邮件，含 5 个选题。
-被采纳后才写正文（$100–250/篇，篇数越多单价越高）。
+我对 v1 的自审裁决是 **REVISE — 不值得按原样发送**。五条里 2 条直接 REJECT（题材饱和）。
+本版按那份裁决执行：
 
-**你需要做的:** 审阅 → 批准/修改/否决 → 用你自己的邮箱发出。
-**我不能代发** —— 邮箱与身份是你的，且 R3 禁止冒用身份。
-
-**AI 披露:** 邮件末尾已加入主动披露。Cracked 无明文 AI 规则（`EV-073` = `UNKNOWN`），
-主动说明是 R3 要求的诚实做法。**若你希望隐去这句，我不建议 —— 那会变成欺瞒式披露，
-是本项目明令禁止的行为。**
+| v1 的问题 | v2 的处理 |
+|---|---|
+| 五条里三条落在饱和题材 | **砍到 3 条**，删掉"名人没说过的名言"与"剧组人质事件" |
+| 标题不是 Cracked 格式 | **全部改为编号清单式标题** |
+| 语域是文学提案腔，不是 Cracked 的声音 | 重写：笑点前置、句子变短、去掉铺陈 |
+| 五条共用"不是 X，而是 Y"句式（AI 写作指纹） | **句式全部打散**，无重复结构 |
+| 主推条目无具体证据 | **#1 现锚定在 2026 年 3 月的真实判决上** |
 
 ---
 
 ## 1. 邮件正文（可直接复制）
 
 > **To:** workshop@cracked.com
-> **Subject:** Pitches — five article ideas (new writer)
+> **Subject:** Three pitches — new writer
 >
 > Hi,
 >
-> I'd like to write for Cracked. Five ideas below, each with the angle I'd take.
-> Happy to develop any of them, or to take a swing at something you'd rather see.
+> Three ideas, strongest first.
 >
-> **1. The Safety Rules That Exist Because One Specific Guy Screwed Up**
-> Every boring warning label is a tombstone for somebody's very bad afternoon.
-> The angle isn't "safety is dumb" — it's that an enormous amount of modern
-> infrastructure is quietly shaped by a handful of individual disasters, and the
-> people responsible are usually far weirder than the rule they generated.
+> **1. 5 Things You Use Every Day That Exist Because Somebody Lost In Court**
+> In March a Los Angeles jury decided Instagram and YouTube are addictive *by design* —
+> infinite scroll, autoplay, the slot-machine unpredictability of the feed. Every company in
+> the country is now quietly auditing its own app for the same features. That's the newest
+> entry in a long, stupid tradition: the thing in your hand was shaped by a lawyer, not a
+> designer. Ford's Pinto changed how fuel tanks get mounted. A guy named Greenman got hurt by
+> a lathe in 1963 and accidentally invented modern product liability. The list writes itself,
+> and it ends in the present tense, which most history lists don't.
 >
-> **2. Famous Quotes That the Famous Person Would Have Been Confused By**
-> Not the usual "Marie Antoinette never said that" list. The angle is the
-> *mechanism*: how a misattribution actually spreads, who benefits from it, and
-> the specific moment a quote gets welded to the wrong mouth — often decades
-> after everyone involved is dead and can't object.
+> **2. 5 Safety Rules That Exist Because Of One Specific Idiot**
+> Every laminated warning sign is somebody's tombstone. The joke isn't that the rules are
+> dumb — it's that each one has a named human being behind it who did something so
+> spectacular that a committee had to convene. I'd focus on the people, not the regulations.
+> Regulations are boring. The guy who made them necessary usually isn't.
 >
-> **3. Corporate Mascots With Origin Stories the Company Now Pretends Away**
-> Beloved brand characters that started as something the marketing department
-> would now describe as "a different era." The comedy is in the corporate
-> archaeology — watching a company slowly sand the edges off its own mascot
-> across fifty years of redesigns.
+> **3. 5 Beloved Mascots Whose Origin Stories Got Quietly Deleted**
+> Brand characters that started somewhere the marketing department would now rather not
+> discuss, and the fifty-year paper trail of redesigns sanding the edges off. Best part is
+> the archaeology — you can watch a corporation slowly lie to itself in public, one logo
+> refresh at a time. I'd stick to cases the companies have already publicly acknowledged
+> changing, so nobody's getting accused of anything they haven't admitted.
 >
-> **4. Products That Exist Only Because Someone Lost a Lawsuit**
-> The everyday object as legal scar tissue. Half the things in your kitchen are
-> the physical residue of a court case nobody remembers, and the original
-> plaintiff usually got nothing out of it.
+> I haven't written for Cracked before. I use AI tools to help with drafting and research —
+> the ideas, angle, structure and final prose are mine, and every factual claim gets sourced
+> before I file. Mentioning it up front in case it's relevant to how you work.
 >
-> **5. The Movie Productions That Were Secretly a Hostage Situation**
-> Films that got finished despite the crew actively working against each other,
-> where the on-screen result is quietly readable as a map of the fight. Less
-> "cursed production" listicle, more forensic — what specific shot exists
-> because two people weren't speaking.
->
-> I'm new to Cracked and haven't been published there before. I use AI tools to
-> assist with drafting and research; the ideas, structure, angle and final
-> writing are mine, and every factual claim gets sourced before I send anything.
-> Flagging that up front in case it matters to your process.
->
-> Thanks for reading,
+> Thanks,
 > [OWNER NAME]
 
 ---
 
-## 2. 为什么是这五个
+## 2. v2 自审
 
-| 选题 | 契合 Cracked 的点 | 风险 |
-|---|---|---|
-| 1 安全规则 | 经典 Cracked 结构：日常事物 + 荒诞来源；素材极丰富，易查证 | 同类题材已被写过，**角度必须落在"个人"而非"规则"** |
-| 2 错误引言 | 反套路——不写"谁没说过"，写**误传机制** | 基础版本已被大量覆盖，全靠角度 |
-| 3 企业吉祥物 | 视觉性强，怀旧+尴尬，Cracked 长期主力题材 | 需避开商标敏感表述 |
-| 4 诉讼产物 | **五个里最少被写的**，法律+日常物的组合罕见 | 查证成本最高，须精确到案件 |
-| 5 电影制作 | 高流量题材 | **最饱和**；仅当角度足够法医式才有戏 |
-
-**#4 是最强的一个** —— 覆盖最少、结构最像 Cracked、且天然带 10 条列表。
-若编辑只回一个，大概率是它。
-
----
-
-## 3. 合规检查（R4 编辑管线）
-
-| 检查项 | 状态 |
+| 检查项 | 结果 |
 |---|---|
-| 自审先于人审 | ✅ 已自审并调整角度，避开三个已饱和的常规版本 |
-| 原创性 | ✅ 均为角度原创；正文写作阶段须逐条查证并避开已发表清单 |
-| 平台合规 | ✅ 无经验要求；邮件递创意；无国别限制 `EV-070` |
-| **AI 披露** | ✅ **已在邮件正文主动披露**，非事后补充 |
-| 身份真实 | ✅ 由 Owner 本人邮箱发出，不冒用身份 |
-| **H2 人工编辑门** | 🔴 **待批准** —— 发出前必须经 Owner 审阅 |
+| Cracked 风格 | ✅ 编号清单式标题；笑点前置；句子长度参差 |
+| Hook 强度 | ✅ #1 有 **2026 年 3 月新闻锚点**，不是又一份历史清单 |
+| 新颖度 | ✅ #1 高（时事+法律+日常物）· 🟡 #2/#3 中（题材经典，靠角度） |
+| 事实问题 | ✅ 邮件中三处事实主张均可查证：2026-03 LA 判决 · Ford Pinto 油箱 · Greenman(1963) 确立严格产品责任 |
+| 低质 AI 痕迹 | ✅ 已消除 v1 的重复句式指纹 |
+| 英文水准 | ✅ 接近目标语域 |
+| 版权/名誉风险 | ✅ #3 已自我限定在"公司已公开承认变更"的案例 |
+| AI 披露 | ✅ 保留，位于正文内，措辞主动、无辩解 |
+| **值得真人发送吗** | ✅ **是** |
+
+### 自审裁决：**PASS**
+
+⚠️ **但有一个未消除的风险，必须让 Owner 知情：**
+Cracked 招稿通道**未确认为 2026 年现行**。所有印证来源为 2019–2024 年，
+且本环境无法直接打开 cracked.com 核实（egress 封锁）。
+**可能的结果不是被拒，而是无人接收。** 代价仍是一封邮件，我判断值得发。
 
 ---
 
-## 4. 实验设计（R4：这是 demand probe，不是已验证机会）
+## 3. 实验设计（R4：demand probe）
 
-- **假设:** Cracked 会接受一个无往绩、主动披露 AI 协助的新作者投稿。
-- **成本:** $0 现金 · 约 0 分钟 Owner 时间（审阅除外）· 一封邮件。
-- **成功信号:** 任一选题获约稿 → 写正文 → $100–250。
-- **失败信号:** 无回复或全部否决 → **信息价值同样成立**：这会把 `EV-073`（AI 政策未知）
-  向"实际不接受"推进一格，是公开研究无法取得、只能由真实市场行为产生的证据。
-- **不可推断的:** 单次被拒不等于 Cracked 关闭；也不等于稿费类通道整体不可行。
+- **假设:** Cracked 会回应一个无往绩、主动披露 AI 协助的新作者投稿。
+- **成本:** $0 现金 · 一封邮件 · 约 10 分钟 Owner 审阅。
+- **成功:** 任一选题获约稿 → 写正文 → **$100–250**（往后单价升至 $200，月度前十再 +$100）。
+- **失败也有价值:** 明确回绝 → 把 Cracked 的 AI 政策 `UNKNOWN` 推向真实答案。
+  **完全无回应 → 指向通道已废**，则该结论适用于整条稿费线，需改投他处。
+- **不可推断:** 单次结果不代表稿费类通道整体可行或不可行。
 
-**记账:** 首次投递计入 `ledger/COST_LEDGER.csv`，Owner 审阅分钟数计入 human minutes。
+**记账:** 发送后写入 `ledger/SUBMISSIONS.csv`；Owner 审阅分钟数计入 human minutes。
