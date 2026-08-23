@@ -6,6 +6,24 @@
 
 ---
 
+> ## 🏛️ 2026-08-16 — 本项目正式定位为 Money OS · M1 执行层
+>
+> `project-m1-autopublishing` = **Money OS → M1 Digital Asset & Publishing Factory**。
+> 治理见 `MASTER_PLAN.md`；接入审计见 `M1_INTEGRATION_AUDIT.md`；
+> 最短赚钱路径见 `NEXT_REAL_REVENUE_PLAN.md`。
+>
+> **三条 Producer 线：** A 写作（Cracked 主）· B 视觉资产（四平台共享 Master Asset Factory）
+> · C 主动任务（Wirestock，暂不启动）。
+>
+> **三条事实更正**（已按 R19 验证远端与全部可访问仓库）：
+> 1. **无 Money OS 代码库可复用** —— 账号下 5 个仓库均无 kernel。"继承"只能是原则与记录结构。
+> 2. **本仓库无任何视觉资产研究** —— 该研究在上传的渠道比较总表中，不在仓库内。
+> 3. **本仓库零代码**，且这符合规范（原始任务书第 1 条即"Do NOT start by coding"）。
+>
+> **当前成功阶梯位置：L1（资产通过 QA）尚未达成** —— Cracked Pitch 自审裁决为 **REVISE**。
+
+---
+
 ## 1. MISSION (fixed — only the Owner may change this)
 
 Build and validate a lawful, compliant, sustainable AI-powered **publishing** business that generates real external revenue, then continuously improve realized net profitability and degree of autonomous operation.
