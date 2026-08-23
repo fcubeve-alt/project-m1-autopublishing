@@ -1,0 +1,2 @@
+submission_id,platform,asset_id,submitted_at,channel,status,rejection_reason,accepted_at,revenue_usd,notes
+# 三张表已建。SUBMISSIONS.csv 目前只有表头 —— 这正是当前状态的准确写照：从未提交过任何东西。

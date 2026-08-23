@@ -1,0 +1,3 @@
+asset_id,asset_family_id,producer_type,title,format,cost_usd,human_minutes,rights_status,qa_status,platform_status,created,notes
+A0001,FAM-disclosure,A_writing,AI Disclosure Handbook,manuscript+cover,0.00,0,CLEAR - original work,PASSED prior review,ON HOLD - not published anywhere,2026-08-15,~9043 words + cover. R7: possessing it is not a reason to publish it
+A0002,FAM-cracked-pitch,A_writing,Cracked pitch package v2,email pitch (3 ideas),0.00,0,CLEAR - original angles; mascot pitch self-limited to publicly acknowledged cases,PASS (self-QA v2; v1 was REVISE),PENDING_H2 - not yet sent,2026-08-16,v1 archived as PITCH_PACKAGE_v1_SUPERSEDED.md
