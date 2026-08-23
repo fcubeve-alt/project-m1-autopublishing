@@ -1,96 +1,126 @@
-# A0002 — Cracked 投稿件 **v2**
+# A0002 — Cracked 投稿件 **v3（Owner 修订版）**
 
-**状态:** 🟡 **待 H2 编辑审批** · **平台:** Cracked · **递交:** 邮件至 `workshop@cracked.com`
-**版本:** v2（v1 经自审裁决 REVISE，已归档为 `PITCH_PACKAGE_v1_SUPERSEDED.md`）
+**状态:** 🟢 **已通过 H2 编辑审批，待 Owner 发送** · **平台:** Cracked · **递交:** `workshop@cracked.com`
+**版本:** v3 = Owner 对 v2 的修订。v1/v2 已归档。
 **日期:** 2026-08-16 · **成本:** $0 · **失败成本:** 一封邮件
 
 ---
 
-## 0. v1 → v2 改了什么
+## 0. v2 → v3：Owner 修正了我的两处实质错误
 
-我对 v1 的自审裁决是 **REVISE — 不值得按原样发送**。五条里 2 条直接 REJECT（题材饱和）。
-本版按那份裁决执行：
+| 项 | 我的 v2 | Owner v3 | 判定 |
+|---|---|---|---|
+| **判决当事方** | "found Instagram and YouTube liable" | **"found Meta and Google liable"**，并加 "allegedly" | ✅ **我错了。** 被告是公司，Instagram/YouTube 是产品。对冲措辞也必要 |
+| **Ford Pinto** | "changed how fuel tanks get mounted" | 改为"最著名的产品安全案例之一" | ✅ **我错了。** 那条因果主张我查不到出处，属自行添加，已正确删除 |
+| **第 2 条标题** | "One Specific Idiot" | "One Very Specific Thing Went Horribly Wrong" | ✅ **改进。** 原版拿真实事故中的具体人取笑，有名誉风险 |
+| **第 3 条** | 角度概述 | 强调档案取证与演变过程 | ✅ 改进，进一步收窄 Rights 风险 |
+| **AI 披露** | 简短 | 扩写，明确人类复核与担责 | ✅ 保留原样 |
+| **语域** | 更接近 Cracked | 更接近专业刊物提案 | ⚠️ **取舍**：准确性收益 > 语域损失。不建议改回 |
 
-| v1 的问题 | v2 的处理 |
-|---|---|
-| 五条里三条落在饱和题材 | **砍到 3 条**，删掉"名人没说过的名言"与"剧组人质事件" |
-| 标题不是 Cracked 格式 | **全部改为编号清单式标题** |
-| 语域是文学提案腔，不是 Cracked 的声音 | 重写：笑点前置、句子变短、去掉铺陈 |
-| 五条共用"不是 X，而是 Y"句式（AI 写作指纹） | **句式全部打散**，无重复结构 |
-| 主推条目无具体证据 | **#1 现锚定在 2026 年 3 月的真实判决上** |
+**Greenman 条目已复核：** William Greenman，1963，Shopsmith 组合机床，加州确立严格产品责任 —— 表述准确。
 
 ---
 
-## 1. 邮件正文（可直接复制）
+## 1. 邮件正文（v3 · 待发送）
 
 > **To:** workshop@cracked.com
-> **Subject:** Three pitches — new writer
+> **Subject:** Three list ideas — new writer
 >
-> Hi,
+> Hi Cracked Workshop,
 >
-> Three ideas, strongest first.
+> I have three list ideas for you, strongest first.
 >
-> **1. 5 Things You Use Every Day That Exist Because Somebody Lost In Court**
-> In March a Los Angeles jury decided Instagram and YouTube are addictive *by design* —
-> infinite scroll, autoplay, the slot-machine unpredictability of the feed. Every company in
-> the country is now quietly auditing its own app for the same features. That's the newest
-> entry in a long, stupid tradition: the thing in your hand was shaped by a lawyer, not a
-> designer. Ford's Pinto changed how fuel tanks get mounted. A guy named Greenman got hurt by
-> a lathe in 1963 and accidentally invented modern product liability. The list writes itself,
-> and it ends in the present tense, which most history lists don't.
+> **1. 5 Things You Use Every Day That Were Shaped by Somebody Losing in Court**
 >
-> **2. 5 Safety Rules That Exist Because Of One Specific Idiot**
-> Every laminated warning sign is somebody's tombstone. The joke isn't that the rules are
-> dumb — it's that each one has a named human being behind it who did something so
-> spectacular that a committee had to convene. I'd focus on the people, not the regulations.
-> Regulations are boring. The guy who made them necessary usually isn't.
+> In March, a Los Angeles jury found Meta and Google liable in a landmark case over allegedly
+> addictive design features on Instagram and YouTube. Infinite scroll, autoplay, and the
+> unpredictable reward loop of the feed suddenly aren't just UX decisions — they're things a
+> jury can have opinions about.
 >
-> **3. 5 Beloved Mascots Whose Origin Stories Got Quietly Deleted**
-> Brand characters that started somewhere the marketing department would now rather not
-> discuss, and the fifty-year paper trail of redesigns sanding the edges off. Best part is
-> the archaeology — you can watch a corporation slowly lie to itself in public, one logo
-> refresh at a time. I'd stick to cases the companies have already publicly acknowledged
-> changing, so nobody's getting accused of anything they haven't admitted.
+> That's only the newest chapter in a long, weird tradition: a surprising amount of the stuff
+> we use every day was designed partly by lawyers.
 >
-> I haven't written for Cracked before. I use AI tools to help with drafting and research —
-> the ideas, angle, structure and final prose are mine, and every factual claim gets sourced
-> before I file. Mentioning it up front in case it's relevant to how you work.
+> The Ford Pinto became one of the most infamous product-safety cases in American history. In
+> 1963, a man named William Greenman was injured using a Shopsmith power tool and wound up
+> helping establish modern strict product liability in California. Cars, appliances,
+> packaging, software — sometimes the feature in front of you exists because somewhere in its
+> family tree, somebody got sued.
+>
+> The list would trace five everyday design choices back to the cases, accidents, recalls, or
+> liability fights that helped shape them. Basically: five times the legal department became
+> part of the product-design team.
+>
+> **2. 5 Safety Rules That Exist Because One Very Specific Thing Went Horribly Wrong**
+>
+> Every laminated warning sign has an origin story.
+>
+> The interesting part isn't the regulation itself — regulations are where interesting stories
+> go to die. It's the bizarrely specific accident, mistake, loophole, or catastrophe that made
+> somebody sit down afterward and write a rule so it couldn't happen again.
+>
+> I'd build each entry around one documented incident and the rule or design requirement that
+> followed, focusing on cases where the real story is stranger than the warning label it
+> produced. The joke isn't that safety rules are stupid. It's that some perfectly sensible
+> rules have absolutely insane biographies.
+>
+> **3. 5 Beloved Brand Characters Whose Backstories Quietly Disappeared**
+>
+> Brand mascots are supposed to feel immortal. Their biographies are not.
+>
+> Some familiar characters began with histories or stereotypes their owners later decided they
+> would rather not keep explaining. Over decades, the evidence gets quietly sanded away: a
+> costume changes, a biography disappears, a name gets shortened, another redesign arrives,
+> and eventually the official origin story bears very little resemblance to where the
+> character started.
+>
+> The fun part would be the corporate archaeology. Using archived advertising, old packaging,
+> company statements, and successive redesigns, each entry would show the evolution rather
+> than simply announce that something was problematic.
+>
+> I'd stick to well-documented cases where the company itself has acknowledged or publicly
+> changed the relevant history, so the piece is about watching corporations rewrite themselves
+> in public — one brand refresh at a time.
+>
+> I haven't written for Cracked before. I use AI tools as part of my research and drafting
+> workflow, including brainstorming and language assistance. I independently review the
+> material, verify factual claims against sources, and take responsibility for the final
+> submission. I'm mentioning that up front in case it matters to your editorial policy.
 >
 > Thanks,
 > [OWNER NAME]
 
 ---
 
-## 2. v2 自审
+## 2. 发送前检查清单
 
-| 检查项 | 结果 |
+| 项 | 状态 |
 |---|---|
-| Cracked 风格 | ✅ 编号清单式标题；笑点前置；句子长度参差 |
-| Hook 强度 | ✅ #1 有 **2026 年 3 月新闻锚点**，不是又一份历史清单 |
-| 新颖度 | ✅ #1 高（时事+法律+日常物）· 🟡 #2/#3 中（题材经典，靠角度） |
-| 事实问题 | ✅ 邮件中三处事实主张均可查证：2026-03 LA 判决 · Ford Pinto 油箱 · Greenman(1963) 确立严格产品责任 |
-| 低质 AI 痕迹 | ✅ 已消除 v1 的重复句式指纹 |
-| 英文水准 | ✅ 接近目标语域 |
-| 版权/名誉风险 | ✅ #3 已自我限定在"公司已公开承认变更"的案例 |
-| AI 披露 | ✅ 保留，位于正文内，措辞主动、无辩解 |
-| **值得真人发送吗** | ✅ **是** |
+| **替换 `[OWNER NAME]` 为真名** | 🔴 **未完成 —— 发送前必做** |
+| 事实主张已复核（Meta/Google 判决 · Pinto · Greenman） | ✅ |
+| AI 披露保留且主动 | ✅ **不得删减** |
+| 名誉/版权风险 | ✅ 第 2 条已去除对具体个人的嘲弄；第 3 条自限于公司已公开承认的案例 |
+| H2 编辑审批 | ✅ **Owner 已审阅并修订** |
+| 由 Owner 本人邮箱发出 | 🔴 待执行 |
 
-### 自审裁决：**PASS**
+## 3. 可选微调（不做也可发）
 
-⚠️ **但有一个未消除的风险，必须让 Owner 知情：**
-Cracked 招稿通道**未确认为 2026 年现行**。所有印证来源为 2019–2024 年，
-且本环境无法直接打开 cracked.com 核实（egress 封锁）。
-**可能的结果不是被拒，而是无人接收。** 代价仍是一封邮件，我判断值得发。
+1. 第 1 条中段压缩约 25%（Pinto 与 Greenman 合并为一句）—— 编辑日均扫读约 100 份投稿。
+2. 第 2 条末句 "some perfectly sensible rules have absolutely insane biographies" 是全文最具
+   Cracked 气质的一句，可前置。
+
+## 4. 未消除的风险（Owner 已知情）
+
+**`workshop@cracked.com` 未确认为 2026 年现行。** 所有印证来源为 2019–2024，且本环境
+egress 封锁，无法打开 cracked.com 核实。**真实失败模式可能是无人接收，而非被拒。**
+代价仍为一封邮件。
 
 ---
 
-## 3. 实验设计（R4：demand probe）
+## 5. 实验设计（R4 · demand probe）
 
-- **假设:** Cracked 会回应一个无往绩、主动披露 AI 协助的新作者投稿。
-- **成本:** $0 现金 · 一封邮件 · 约 10 分钟 Owner 审阅。
-- **成功:** 任一选题获约稿 → 写正文 → **$100–250**（往后单价升至 $200，月度前十再 +$100）。
-- **失败也有价值:** 明确回绝 → 把 Cracked 的 AI 政策 `UNKNOWN` 推向真实答案。
-  **完全无回应 → 指向通道已废**，则该结论适用于整条稿费线，需改投他处。
-- **不可推断:** 单次结果不代表稿费类通道整体可行或不可行。
+- **成功:** 任一选题获约稿 → $100–250（后续升至 $200，月度前十再 +$100）
+- **明确回绝:** 把 Cracked 的 AI 政策 `UNKNOWN` 推向真实答案
+- **完全无回应:** 指向通道已废，该结论适用于整条稿费线，需改投他处
+- **不可推断:** 单次结果不代表稿费类通道整体可行或不可行
 
-**记账:** 发送后写入 `ledger/SUBMISSIONS.csv`；Owner 审阅分钟数计入 human minutes。
+**发送后写入 `ledger/SUBMISSIONS.csv`。**
