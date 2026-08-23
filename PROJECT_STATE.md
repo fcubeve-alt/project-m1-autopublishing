@@ -20,7 +20,30 @@
 > 2. **本仓库无任何视觉资产研究** —— 该研究在上传的渠道比较总表中，不在仓库内。
 > 3. **本仓库零代码**，且这符合规范（原始任务书第 1 条即"Do NOT start by coding"）。
 >
-> **当前成功阶梯位置：L1（资产通过 QA）尚未达成** —— Cracked Pitch 自审裁决为 **REVISE**。
+> **成功阶梯：L1 已达成**（Cracked Pitch v3 经 Owner 修订并通过 H2，待发送）。L2 差一封邮件。
+>
+> ### 视觉线 Policy Freshness Check 完成 — 2026-08-16
+>
+> **四个平台全部接受 AI 生成内容，各自逐一取自官方来源，无跨平台推断。**
+> 这与写作线相反：那里 AI 政策是主要障碍，这里**不是**。
+>
+> | 平台 | AI 政策 | 强制披露方式 | 提现门槛 | 状态 |
+> |---|---|---|---|---|
+> | **Adobe Stock** | ✅ 接受 | 勾选"Created using generative AI tools"+虚构人物/财产 | **$25**（最低）**但首笔销售需满 45 天** | `POLICY_VERIFIED_ACCOUNT_GATE` |
+> | **Freepik** | ✅ 接受 | AI 按钮或 `_ai_generated` 标签，**并须提交 prompt 与模型** | 累积 25USD/50EUR；Payoneer 50 / PayPal 100 出账，**约 2 个月账期** | `POLICY_VERIFIED_ACCOUNT_GATE` |
+> | **Vecteezy** | ✅ 接受 | **标题与关键词中都须含 "AI generated"** | **UNKNOWN**（唯一未解项） | `POLICY_VERIFIED_ACCOUNT_GATE` |
+> | **Creative Fabrica** | ✅ 接受 | 上传至 AI-Generated 分类并关联 CF Spark 档案 | **$100**（银行转账需 $120） | ⛔ `BLOCKED_BY_STORE_PREREQUISITE` |
+>
+> ⛔ **改变执行顺序的发现：Creative Fabrica 只接受"已在别处经营网店"的设计师申请**，
+> Behance/Dribbble 作品集明确不算。**我们没有其他网店，所以它不能排第一**，
+> 必须排在 Adobe / Freepik / Vecteezy 之后。
+>
+> **共同约束（各平台独立确认）：** 禁止在 prompt/标题/关键词中使用艺术家、真人或虚构角色姓名；
+> 真人肖像需 model release；商标词会导致侵权不可售；Freepik 与 Vecteezy 均明文反对
+> 同一 prompt 的批量变体灌库。
+>
+> **Owner Gate：** 四个平台的注册、身份、**税表（W-8BEN 等）**、支付账户均须 Owner 本人完成。
+> 未开户前不生产图片、不写 Adapter。
 
 ---
 
