@@ -1,0 +1,31 @@
+# Money OS Project Registry — the single authoritative project list.
+# Projects do not need to know this file exists.
+projects:
+  - project_id: m1-autopublishing
+    name: M1 Digital Asset & Publishing Factory
+    integration_level: L2
+    status: ACTIVE
+    source: ../../../.moneyos
+    repo: fcubeve-alt/project-m1-autopublishing
+    note: First L2 client. Validates the contract.
+
+  - project_id: monetools-tax
+    name: Monetools / monetools.com tax tools
+    integration_level: L0
+    status: ACTIVE
+    source: null
+    repo: Monetools/Monetools
+    note: >-
+      Second architectural reference. L0 = registry only, integrates nothing today.
+      Runs fully standalone. Compatibility analysed in docs/COMPATIBILITY_MONETOOLS.md.
+      NOT audited directly - see that document for the evidence limit.
+
+  - project_id: pearl-bridal
+    name: Pearl Bridal Jewelry
+    integration_level: L0
+    status: UNKNOWN
+    source: null
+    repo: null
+    note: >-
+      External future client. No evidence available in any repository or document.
+      Deliberately NOT mapped onto LUVYMIA or any existing project name.

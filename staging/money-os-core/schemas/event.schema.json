@@ -1,0 +1,39 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://moneyos.local/schemas/event.schema.json",
+  "title": "Event",
+  "type": "object",
+  "required": [
+    "id",
+    "type",
+    "recorded_at"
+  ],
+  "additionalProperties": true,
+  "properties": {
+    "contract_version": {
+      "type": "string"
+    },
+    "recorded_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "id": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string"
+    },
+    "work_item_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "payload": {
+      "type": [
+        "object",
+        "null"
+      ]
+    }
+  }
+}

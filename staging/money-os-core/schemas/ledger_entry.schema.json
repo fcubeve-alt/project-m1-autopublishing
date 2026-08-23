@@ -1,0 +1,107 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://moneyos.local/schemas/ledger_entry.schema.json",
+  "title": "LedgerEntry",
+  "type": "object",
+  "required": [
+    "id",
+    "direction",
+    "date",
+    "net_usd",
+    "recorded_at"
+  ],
+  "additionalProperties": true,
+  "properties": {
+    "contract_version": {
+      "type": "string"
+    },
+    "recorded_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "id": {
+      "type": "string"
+    },
+    "direction": {
+      "enum": [
+        "REVENUE",
+        "COST"
+      ]
+    },
+    "date": {
+      "type": "string",
+      "format": "date"
+    },
+    "category": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "counterparty": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "work_item_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "gross_usd": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "fees_usd": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "net_usd": {
+      "type": "number"
+    },
+    "cash_received_usd": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "cash_received_at": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date-time"
+    },
+    "human_minutes": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "minimum": 0
+    },
+    "native_amount": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "native_currency": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "note": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  }
+}

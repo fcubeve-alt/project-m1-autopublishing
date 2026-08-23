@@ -1,0 +1,62 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://moneyos.local/schemas/project.schema.json",
+  "title": "Project",
+  "type": "object",
+  "required": [
+    "contract_version",
+    "project_id",
+    "name",
+    "integration_level",
+    "status",
+    "recorded_at"
+  ],
+  "additionalProperties": true,
+  "properties": {
+    "contract_version": {
+      "type": "string"
+    },
+    "recorded_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "project_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "name": {
+      "type": "string"
+    },
+    "integration_level": {
+      "enum": [
+        "L0",
+        "L1",
+        "L2"
+      ]
+    },
+    "status": {
+      "enum": [
+        "ACTIVE",
+        "PAUSED",
+        "BLOCKED",
+        "CLOSED"
+      ]
+    },
+    "base_currency": {
+      "type": "string",
+      "default": "USD"
+    },
+    "repo_url": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "owner_contact": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  }
+}

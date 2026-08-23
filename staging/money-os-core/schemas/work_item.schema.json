@@ -1,0 +1,107 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://moneyos.local/schemas/work_item.schema.json",
+  "title": "WorkItem",
+  "type": "object",
+  "required": [
+    "id",
+    "kind",
+    "title",
+    "status",
+    "recorded_at"
+  ],
+  "additionalProperties": true,
+  "properties": {
+    "contract_version": {
+      "type": "string"
+    },
+    "recorded_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "id": {
+      "type": "string"
+    },
+    "kind": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "status": {
+      "enum": [
+        "PROPOSED",
+        "ACTIVE",
+        "BLOCKED",
+        "DONE",
+        "ABANDONED"
+      ]
+    },
+    "blocked_by": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "enum": [
+        "HUMAN_APPROVAL",
+        "HUMAN_ACTION",
+        "EXTERNAL_PARTY",
+        "POLICY_UNKNOWN",
+        "ELIGIBILITY",
+        "PREREQUISITE",
+        "CAPABILITY",
+        "FUNDS",
+        null
+      ]
+    },
+    "blocked_detail": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "expected_value_usd": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "expected_cost_usd": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "human_minutes_spent": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "minimum": 0
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "status": {
+            "const": "BLOCKED"
+          }
+        },
+        "required": [
+          "status"
+        ]
+      },
+      "then": {
+        "required": [
+          "blocked_by"
+        ],
+        "properties": {
+          "blocked_by": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  ]
+}

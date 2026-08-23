@@ -1,0 +1,80 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://moneyos.local/schemas/approval.schema.json",
+  "title": "Approval",
+  "type": "object",
+  "required": [
+    "id",
+    "gate_type",
+    "request",
+    "decision",
+    "recorded_at"
+  ],
+  "additionalProperties": true,
+  "properties": {
+    "contract_version": {
+      "type": "string"
+    },
+    "recorded_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "id": {
+      "type": "string"
+    },
+    "work_item_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "gate_type": {
+      "enum": [
+        "SPEND",
+        "IRREVERSIBLE",
+        "IDENTITY_KYC",
+        "LEGAL_CONTRACT",
+        "EXTERNAL_COMMUNICATION",
+        "PUBLISH",
+        "POLICY_UNCLEAR",
+        "IP_RISK"
+      ]
+    },
+    "request": {
+      "type": "string"
+    },
+    "risk_note": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "amount_usd": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "decision": {
+      "enum": [
+        "PENDING",
+        "APPROVED",
+        "REJECTED",
+        "WITHDRAWN"
+      ]
+    },
+    "decided_by": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "decided_at": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date-time"
+    }
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://moneyos.local/schemas/decision.schema.json",
+  "title": "Decision",
+  "type": "object",
+  "required": [
+    "id",
+    "title",
+    "choice",
+    "recorded_at"
+  ],
+  "additionalProperties": true,
+  "properties": {
+    "contract_version": {
+      "type": "string"
+    },
+    "recorded_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "id": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "choice": {
+      "type": "string"
+    },
+    "rejected_alternatives": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "rationale": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "evidence_refs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "reversible": {
+      "type": [
+        "boolean",
+        "null"
+      ]
+    },
+    "outcome": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "outcome_recorded_at": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date-time"
+    }
+  }
+}
