@@ -24,6 +24,7 @@ STATUS_MAP = {
     "BLOCKED_BY_STORE_PREREQUISITE":   ("BLOCKED", "PREREQUISITE"),
     "POLICY_UNVERIFIED":               ("BLOCKED", "POLICY_UNKNOWN"),
     "READY_TO_START_AFTER_FIRST_GATE": ("BLOCKED", "PREREQUISITE"),
+    "SUBMITTED_AWAITING_EXTERNAL":     ("BLOCKED", "EXTERNAL_PARTY"),
 }
 
 
@@ -110,7 +111,8 @@ def export():
          "risk_note": "Gates Listverse submission access and Vocal publishing", "decision": "PENDING"},
         {"id": "APR-H2", "work_item_id": "OPP-001", "gate_type": "EXTERNAL_COMMUNICATION",
          "request": "Approve and send Cracked pitch from Owner mailbox (H2)",
-         "risk_note": "Represents Owner identity externally; irreversible once sent", "decision": "PENDING"},
+         "risk_note": "Represents Owner identity externally; irreversible once sent",
+         "decision": "APPROVED", "decided_by": "Owner", "decided_at": "2026-08-17T00:00:00Z"},
     ]:
         a["amount_usd"] = 0.0
         contract.emit(OUTBOX, "approval", a)
