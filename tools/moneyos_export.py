@@ -25,6 +25,7 @@ STATUS_MAP = {
     "POLICY_UNVERIFIED":               ("BLOCKED", "POLICY_UNKNOWN"),
     "READY_TO_START_AFTER_FIRST_GATE": ("BLOCKED", "PREREQUISITE"),
     "SUBMITTED_AWAITING_EXTERNAL":     ("BLOCKED", "EXTERNAL_PARTY"),
+    "KILLED_BY_H1":                    ("ABANDONED", None),
 }
 
 
@@ -108,7 +109,8 @@ def export():
     for a in [
         {"id": "APR-H1", "work_item_id": "OPP-002", "gate_type": "IDENTITY_KYC",
          "request": "Owner country of tax residence / payout rails (H1)",
-         "risk_note": "Gates Listverse submission access and Vocal publishing", "decision": "PENDING"},
+         "risk_note": "Answered: mainland China. Killed Listverse (7-country rule) and Vocal (Stripe unavailable). Opened Chinese-origin novel apps as the natural payment fit",
+         "decision": "APPROVED", "decided_by": "Owner", "decided_at": "2026-08-27T00:00:00Z"},
         {"id": "APR-H2", "work_item_id": "OPP-001", "gate_type": "EXTERNAL_COMMUNICATION",
          "request": "Approve and send Cracked pitch from Owner mailbox (H2)",
          "risk_note": "Represents Owner identity externally; irreversible once sent",
